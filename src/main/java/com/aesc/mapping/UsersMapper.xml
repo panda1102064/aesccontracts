@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<!-- namespace的值就是dao接口的完整路径，就这个demo而言namespace 就是usersDao.java的完整路径-->
+<mapper namespace="com.aesc.dao.UsersDao">
+	<resultMap id="user" type="com.aesc.pojo.Users">
+		<result column="userid" property="userid" jdbcType="INTEGER" />
+		<result column="username" property="username" jdbcType="VARCHAR" />
+		<result column="password" property="password" jdbcType="VARCHAR" />
+		<result column="age" property="age" jdbcType="INTEGER" />
+		<result column="sex" property="sex" jdbcType="VARCHAR" />
+		<result column="telephone" property="telephone" jdbcType="VARCHAR" />
+		<result column="departments" property="departments" jdbcType="VARCHAR" />
+		<result column="birthday" property="birthday" jdbcType="DATE" />
+		<result column="positions" property="positions" jdbcType="VARCHAR" />
+		<result column="createtime" property="createtime" jdbcType="TIMESTAMP" />
+		<result column="status" property="status" jdbcType="INTEGER" />
+	</resultMap>
+
+	<select id="getUsers" resultMap="user">
+		SELECT username,password,departments,telephone FROM users WHERE username = #{username,jdbcType=VARCHAR} AND `status`=1
+	</select>
+	
+	<select id="queryUserInfo" resultMap="user">
+		SELECT username,password,age,sex,telephone,departments,birthday,positions,createtime,status FROM users WHERE username = #{username,jdbcType=VARCHAR} AND `status`=1
+	</select>
+	
+	<update id="updateUserInfo">
+		UPDATE  
+			`users`
+		SET
+			password = #{password,jdbcType=VARCHAR},
+			telephone = #{telephone,jdbcType=VARCHAR}
+		WHERE 
+			username = #{username,jdbcType=VARCHAR}
+	</update>
+	<insert id="addUsers" parameterType="com.aesc.pojo.Users">
+		INSERT INTO users (
+	userid               ,
+	username             ,
+	password             ,
+	age                  ,
+	sex                  ,
+	telephone            ,
+	departments          ,
+	birthday             ,
+	positions            ,
+	createtime   ,
+	status      
+	
+	)                  
+	VALUES             
+	(                  
+	#{userid               ,      jdbcType=INTEGER},
+	#{username             ,      jdbcType=VARCHAR},
+	#{password             ,      jdbcType=VARCHAR},
+	#{age                  ,      jdbcType=INTEGER},
+	#{sex                  ,      jdbcType=VARCHAR},
+	#{telephone            ,      jdbcType=VARCHAR},
+	#{departments         ,      jdbcType=VARCHAR},
+	#{birthday             ,      jdbcType=DATE},
+	#{positions            ,      jdbcType=VARCHAR},
+	#{createtime           ,      jdbcType=TIMESTAMP},
+	#{status               ,      jdbcType=INTEGER}
+	)
+	
+	</insert>
+	
+	
+	
+</mapper>

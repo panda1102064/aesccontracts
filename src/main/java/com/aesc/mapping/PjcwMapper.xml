@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.aesc.dao.PjcwDao">
+	<resultMap type="com.aesc.pojo.Pjcw" id="pjcw">
+		<result column="contract_id" property="contract_id" jdbcType="INTEGER" />
+		<result column="contract_serial" property="contract_serial" jdbcType="VARCHAR" />
+		<result column="merchant_name" property="merchant_name" jdbcType="VARCHAR" />
+		<result column="car_num" property="car_num" jdbcType="VARCHAR" />
+		<result column="purpose" property="purpose" jdbcType="VARCHAR" />
+		<result column="car_serial" property="car_serial" jdbcType="VARCHAR" />
+		<result column="car_serial1" property="car_serial1" jdbcType="VARCHAR" />
+		<result column="year_start" property="year_start" jdbcType="VARCHAR" />
+		<result column="month_start" property="month_start" jdbcType="VARCHAR" />
+		<result column="day_start" property="day_start" jdbcType="VARCHAR" />
+		<result column="year_end" property="year_end" jdbcType="VARCHAR" />
+		<result column="month_end" property="month_end" jdbcType="VARCHAR" />
+		<result column="day_end" property="day_end" jdbcType="VARCHAR" />
+		<result column="rent" property="rent" jdbcType="VARCHAR" />
+		<result column="total" property="total" jdbcType="VARCHAR" />
+		<result column="upper" property="upper" jdbcType="VARCHAR" />
+		<result column="payment1" property="payment1" jdbcType="VARCHAR" />
+		<result column="payment2" property="payment2" jdbcType="VARCHAR" />
+		<result column="payment3" property="payment3" jdbcType="VARCHAR" />
+		<result column="cash_deposit" property="cash_deposit" jdbcType="VARCHAR" />
+		<result column="remark" property="remark" jdbcType="VARCHAR" />
+		<result column="first_agent " property="first_agent" jdbcType="VARCHAR" />
+		<result column="first_date" property="first_date" jdbcType="DATE" />
+		<result column="second_sign " property="second_sign" jdbcType="VARCHAR" />
+		<result column="second_agent" property="second_agent" jdbcType="VARCHAR" />
+		<result column="phone" property="phone" jdbcType="VARCHAR" />
+		<result column="second_date " property="second_date" jdbcType="DATE" />
+		<result  column="username" property="username" jdbcType="VARCHAR" />
+		<result column="status" property= "status" jdbcType="VARCHAR" />
+	</resultMap>
+<!-- 查询所有合同信息 -->
+	 <!-- <sql id="inc">
+		contract_serial, merchant_name, second_agent,phone,second_date
+	</sql>  -->
+	<select id="queryPjcw" resultMap="pjcw" >
+		select 
+		<!-- <include refid="inc"/> -->
+		contract_id,contract_serial, merchant_name,phone,first_date,username
+		 from pjcw_contract
+	</select>
+	<!-- 通过id查询合同详情信息 -->
+	<select id="queryPjcwListById" resultMap="pjcw" >
+	select * from pjcw_contract where contract_id = #{contract_id,jdbcType=INTEGER}
+	</select>
+	<!-- 添加合同信息 -->
+	<insert id="savePjcw" parameterType="com.aesc.pojo.Pjcw">
+		insert into pjcw_contract (
+		contract_id      ,
+		contract_serial  ,
+		merchant_name    ,
+		car_num          ,
+		purpose          ,
+		car_serial       ,
+		car_serial1      ,
+		year_start       ,
+		month_start      ,
+		day_start        ,
+		year_end         ,
+		month_end        ,
+		day_end          ,
+		rent             ,
+		total            ,
+		upper            ,
+		payment1            ,
+		payment2            ,
+		payment3            ,
+		cash_deposit     ,
+		remark           ,
+		first_agent      ,
+		first_date       ,
+		second_sign      ,
+		second_agent     ,
+		phone            ,
+		second_date      ,
+		username         ,
+		status           
+		)
+		values		
+		(
+		#{contract_id      ,jdbcType=INTEGER},
+		#{contract_serial  ,jdbcType=VARCHAR},
+		#{merchant_name    ,jdbcType=VARCHAR},
+		#{car_num          ,jdbcType=VARCHAR},
+		#{purpose          ,jdbcType=VARCHAR},
+		#{car_serial       ,jdbcType=VARCHAR},
+		#{car_serial1      ,jdbcType=VARCHAR},
+		#{year_start       ,jdbcType=VARCHAR},
+		#{month_start      ,jdbcType=VARCHAR},
+		#{day_start        ,jdbcType=VARCHAR},
+		#{year_end         ,jdbcType=VARCHAR},
+		#{month_end        ,jdbcType=VARCHAR},
+		#{day_end          ,jdbcType=VARCHAR},
+		#{rent             ,jdbcType=VARCHAR},
+		#{total            ,jdbcType=VARCHAR},
+		#{upper            ,jdbcType=VARCHAR},
+		#{payment1         ,jdbcType=VARCHAR},
+		#{payment2         ,jdbcType=VARCHAR},
+		#{payment3         ,jdbcType=VARCHAR},
+		#{cash_deposit     ,jdbcType=VARCHAR},
+		#{remark           ,jdbcType=VARCHAR},
+		#{first_agent      ,jdbcType=VARCHAR},
+		#{first_date       ,jdbcType=DATE},
+		#{second_sign      ,jdbcType=VARCHAR},
+		#{second_agent     ,jdbcType=VARCHAR},
+		#{phone            ,jdbcType=VARCHAR},
+		#{second_date      ,jdbcType=DATE},
+		#{username         ,jdbcType=VARCHAR},
+		#{status           ,jdbcType=VARCHAR}
+		)
+	</insert>
+	
+	<update id="updatePjcw">
+	UPDATE
+		pjcw_contract
+	SET
+contract_serial       = #{contract_serial  ,jdbcType=VARCHAR},   
+merchant_name         = #{merchant_name    ,jdbcType=VARCHAR},   
+car_num               = #{car_num          ,jdbcType=VARCHAR},   
+purpose               = #{purpose          ,jdbcType=VARCHAR},   
+car_serial            = #{car_serial       ,jdbcType=VARCHAR},   
+car_serial1           = #{car_serial1      ,jdbcType=VARCHAR},   
+year_start            = #{year_start       ,jdbcType=VARCHAR},   
+month_start           = #{month_start      ,jdbcType=VARCHAR},   
+day_start             = #{day_start        ,jdbcType=VARCHAR},   
+year_end              = #{year_end         ,jdbcType=VARCHAR},   
+month_end             = #{month_end        ,jdbcType=VARCHAR},   
+day_end               = #{day_end          ,jdbcType=VARCHAR},   
+rent                  = #{rent             ,jdbcType=VARCHAR},   
+total                 = #{total            ,jdbcType=VARCHAR},   
+upper                 = #{upper            ,jdbcType=VARCHAR},   
+payment1              = #{payment1         ,jdbcType=VARCHAR},
+payment2              = #{payment2         ,jdbcType=VARCHAR},
+payment3              = #{payment3         ,jdbcType=VARCHAR},
+cash_deposit          = #{cash_deposit     ,jdbcType=VARCHAR},   
+remark                = #{remark           ,jdbcType=VARCHAR},   
+first_agent           = #{first_agent      ,jdbcType=VARCHAR},   
+first_date            = #{first_date       ,jdbcType=DATE},      
+second_sign           = #{second_sign      ,jdbcType=VARCHAR},   
+second_agent          = #{second_agent     ,jdbcType=VARCHAR},   
+phone                 = #{phone            ,jdbcType=VARCHAR},   
+second_date           = #{second_date      ,jdbcType=DATE},      
+username              = #{username         ,jdbcType=VARCHAR},   
+status                = #{status           ,jdbcType=VARCHAR}    
+	WHERE
+contract_id                = #{contract_id           ,jdbcType=INTEGER}    
+	</update>
+</mapper>

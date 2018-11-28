@@ -1,0 +1,19 @@
+/* 打印 CSS
+-------------------------------------------------- */    
+@media print{
+    .Noprint{
+    display:none;
+    } 
+    .PageNext{
+    page-break-after:always;
+    } 
+    .PageBefore{
+    page-break-before:always;
+    } 
+}
+
+@page {
+	size:A4;
+}
+
+

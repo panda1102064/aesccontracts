@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.aesc.dao.ShiChangBuGuangGaoDao">
+<resultMap type="com.aesc.pojo.ShiChangBuGuangGaoHeTong" id="gg">
+    <result  column="contract_id" property="contract_id" jdbcType="INTEGER" />
+    <result  column="contract_serial" property="contract_serial" jdbcType="VARCHAR" />
+    <result  column="first2" property="first2" jdbcType="VARCHAR" />
+    <result  column="address" property="address" jdbcType="VARCHAR" />
+    <result  column="first_agent2" property="first_agent2" jdbcType="VARCHAR" />
+    <result  column="phone" property="phone" jdbcType="VARCHAR" />
+    <result  column="banks" property="banks" jdbcType="VARCHAR" />
+    <result  column="bank_account" property="bank_account" jdbcType="VARCHAR" />
+    <result  column="second_agent2" property="second_agent2" jdbcType="VARCHAR" />
+    <result  column="publish_content" property="publish_content" jdbcType="VARCHAR" />
+    <result  column="year_start" property="year_start" jdbcType="VARCHAR" />
+    <result  column="month_start" property="month_start" jdbcType="VARCHAR" />
+    <result  column="day_start" property="day_start" jdbcType="VARCHAR" />
+    <result  column="year_end" property="year_end" jdbcType="VARCHAR" />
+    <result  column="month_end" property="month_end" jdbcType="VARCHAR" />
+    <result  column="day_end" property="day_end" jdbcType="VARCHAR" />
+    <result  column="tatolfee" property="tatolfee" jdbcType="VARCHAR" />
+    <result  column="uppers2" property="uppers2" jdbcType="VARCHAR" />
+    <result  column="includefee" property="includefee" jdbcType="VARCHAR" />
+    <result  column="total_media" property="total_media" jdbcType="VARCHAR" />
+    <result  column="uppers3" property="uppers3" jdbcType="VARCHAR" />
+    <result  column="remark" property="remark" jdbcType="VARCHAR" />
+    <result  column="first3" property="first3" jdbcType="VARCHAR" />
+    <result  column="first_agent3" property="first_agent3" jdbcType="VARCHAR" />
+    <result  column="firstdate" property="firstdate" jdbcType="VARCHAR" />
+    <result  column="second_agent3" property="second_agent3" jdbcType="VARCHAR" />
+    <result  column="seconddate" property="seconddate" jdbcType="VARCHAR" />
+    <result  column="username" property="username" jdbcType="VARCHAR" />
+    <result  column="status" property="status" jdbcType="VARCHAR" />
+</resultMap> 
+      <select id="getPrkId"  resultType="int" >
+            select LAST_INSERT_ID();
+      </select>
+      
+      <select id="queryGght" resultMap="gg">
+            select 
+            contract_id,
+            contract_serial, 
+            first2,
+            firstdate,
+            username
+            from guanggao_contract
+      </select>
+        
+      <select id="queryGghtById" resultMap="gg">
+          select * from guanggao_contract where contract_id = #{contract_id,jdbcType=INTEGER}
+      </select> 
+    <insert id="savegght" parameterType="com.aesc.pojo.ShiChangBuGuangGaoHeTong">
+    insert into guanggao_contract (
+        contract_id    ,
+        contract_serial,
+        first2         ,
+        address        ,
+        first_agent2   ,
+        phone          ,
+        banks          ,
+        bank_account   ,
+        second_agent2  ,
+        publish_content ,
+        year_start     ,
+        month_start    ,
+        day_start      ,
+        year_end       ,
+        month_end      ,
+        day_end        ,
+        tatolfee       ,
+        uppers2        ,
+        includefee     ,
+        total_media,
+        uppers3    ,
+        remark     ,
+        first3         ,
+        first_agent3   ,
+        firstdate      ,
+        second_agent3  ,
+        seconddate     ,
+        username       ,
+        status                 
+            )
+    values(
+        #{contract_id    ,jdbcType=INTEGER},
+        #{contract_serial,jdbcType=VARCHAR},
+        #{first2         ,jdbcType=VARCHAR},
+        #{address        ,jdbcType=VARCHAR},
+        #{first_agent2   ,jdbcType=VARCHAR},
+        #{phone          ,jdbcType=VARCHAR},
+        #{banks          ,jdbcType=VARCHAR},
+        #{bank_account   ,jdbcType=VARCHAR},
+        #{second_agent2  ,jdbcType=VARCHAR},
+        #{publish_content ,jdbcType=VARCHAR},
+        #{year_start     ,jdbcType=VARCHAR},
+        #{month_start    ,jdbcType=VARCHAR},
+        #{day_start      ,jdbcType=VARCHAR},
+        #{year_end       ,jdbcType=VARCHAR},
+        #{month_end      ,jdbcType=VARCHAR},
+        #{day_end        ,jdbcType=VARCHAR},
+        #{tatolfee       ,jdbcType=VARCHAR},
+        #{uppers2        ,jdbcType=VARCHAR},
+        #{includefee     ,jdbcType=VARCHAR},
+        #{total_media    ,jdbcType=VARCHAR}, 
+        #{uppers3        ,jdbcType=VARCHAR}, 
+        #{remark         ,jdbcType=VARCHAR}, 
+        #{first3         ,jdbcType=VARCHAR},
+        #{first_agent3   ,jdbcType=VARCHAR},
+        #{firstdate      ,jdbcType=VARCHAR},
+        #{second_agent3  ,jdbcType=VARCHAR},
+        #{seconddate     ,jdbcType=VARCHAR},
+        #{username       ,jdbcType=VARCHAR},
+        #{status         ,jdbcType=VARCHAR}     
+    )   
+    </insert>          
+</mapper>
+        
+        
+        
+        
+        
+        
+        
+        

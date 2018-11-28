@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.aesc.dao.ShiChangBuZhanWeiDao">
+<resultMap type="com.aesc.pojo.ShiChangBuZhanWeiHeTongTimes" id="zwt">
+    <result  column="time_id" property="time_id" jdbcType="INTEGER" />
+    <result  column="pay_year" property="pay_year" jdbcType="VARCHAR" />
+    <result  column="pay_month" property="pay_month" jdbcType="VARCHAR" />
+    <result  column="pay_day" property="pay_day" jdbcType="VARCHAR" />
+    <result  column="percents" property="percents" jdbcType="VARCHAR" />
+    <result  column="amounts" property="amounts" jdbcType="VARCHAR" />
+    <result  column="pay_upper" property="pay_upper" jdbcType="VARCHAR" />
+    <result  column="contract_id" property="contract_id" jdbcType="INTEGER" />
+</resultMap> 
+        <select id="queryZwhtTimeById" resultMap="zwt">
+            select * from zhanwei_times where contract_id = #{contract_id,jdbcType=INTEGER}
+        </select> 
+    <insert id="saveHtime" parameterType="com.aesc.pojo.ShiChangBuZhanWeiHeTongTimes">
+    insert into  zhanwei_times (
+        time_id    ,
+        pay_year   ,
+        pay_month  ,
+        pay_day    ,
+        percents   ,
+        amounts    ,
+        pay_upper  ,
+        contract_id
+            )
+    values
+    (
+        #{time_id    ,jdbcType=INTEGER},
+        #{pay_year   ,jdbcType=VARCHAR},
+        #{pay_month  ,jdbcType=VARCHAR},
+        #{pay_day    ,jdbcType=VARCHAR},
+        #{percents   ,jdbcType=VARCHAR},
+        #{amounts    ,jdbcType=VARCHAR},
+        #{pay_upper  ,jdbcType=VARCHAR},
+        #{contract_id,jdbcType=INTEGER}
+    )   
+    </insert>          
+</mapper>
+        
+        
+        
+        
+        
+        
+        
+        

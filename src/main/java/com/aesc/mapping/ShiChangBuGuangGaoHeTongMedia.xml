@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.aesc.dao.ShiChangBuGuangGaoDao">
+<resultMap type="com.aesc.pojo.ShiChangBuGuangGaoHeTongMedia" id="medias">
+    <result  column="media_id" property="media_id" jdbcType="INTEGER" />
+    <result  column="media_serial" property="media_serial" jdbcType="VARCHAR" />
+    <result  column="location" property="location" jdbcType="VARCHAR" />
+    <result  column="media_type" property="media_type" jdbcType="VARCHAR" />
+    <result  column="media_specification" property="media_specification" jdbcType="VARCHAR" />
+    <result  column="media_number" property="media_number" jdbcType="VARCHAR" />
+    <result  column="release_time" property="release_time" jdbcType="VARCHAR" />
+    <result  column="release_fee" property="release_fee" jdbcType="VARCHAR" />
+    <result  column="production_cost" property="production_cost" jdbcType="VARCHAR" />
+    <result  column="contract_id" property="contract_id" jdbcType="INTEGER" />
+</resultMap> 
+        <select id="queryGgMediaById" resultMap="medias">
+            select * from guanggao_media_rent_tables where contract_id = #{contract_id,jdbcType=INTEGER}
+        </select>  
+    <insert id="saveggMedia" parameterType="com.aesc.pojo.ShiChangBuGuangGaoHeTongMedia">
+    insert into  guanggao_media_rent_tables (
+        media_id    ,
+        media_serial   ,
+        location  ,
+        media_type    ,
+        media_specification   ,
+        media_number    ,
+        release_time  ,
+        release_fee  ,
+        production_cost  ,
+        contract_id
+            )
+    values
+    (
+        #{media_id    ,jdbcType=INTEGER},
+        #{media_serial   ,jdbcType=VARCHAR},
+        #{location  ,jdbcType=VARCHAR},
+        #{media_type    ,jdbcType=VARCHAR},
+        #{media_specification   ,jdbcType=VARCHAR},
+        #{media_number    ,jdbcType=VARCHAR},
+        #{release_time  ,jdbcType=VARCHAR},
+        #{release_fee  ,jdbcType=VARCHAR},
+        #{production_cost  ,jdbcType=VARCHAR},
+        #{contract_id,jdbcType=INTEGER}
+    )   
+    </insert>          
+</mapper>
+        
+        
+        
+        
+        
+        
+        
+        
