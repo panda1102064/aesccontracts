@@ -112,7 +112,7 @@ public class EscController {
 	  boolean flag = escService.updateEsc(esc);
 	  boolean flag2 = escService.updateEscDate(escDate);
 	  String msg = flag && flag2 ? "修改成功，请核查！若有误，可再次修改！" : "修改失败，请详细检查！";
-	  List<EscDate> escList = escService.transverterEscList(escDate);
+	  List<EscDate> escList = escService.transvertEscList(escDate);
     model.addAttribute("msg",msg);
 	  model.addAttribute("aesc",esc);
 	  model.addAttribute("escList",escList);

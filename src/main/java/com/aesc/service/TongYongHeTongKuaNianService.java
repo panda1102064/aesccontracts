@@ -24,4 +24,7 @@ public interface TongYongHeTongKuaNianService {
 
   boolean updateTongYongHeTongKuaNianDate(TongYongHeTongKuaNianDate tongYongHeTongKuaNianDate);
 
+  List<TongYongHeTongKuaNianDate> transvertTongYongHeTongKuaNianDateList(
+      TongYongHeTongKuaNianDate tongYongHeTongKuaNianDate);
+
 }

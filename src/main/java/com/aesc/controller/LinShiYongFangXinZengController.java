@@ -49,13 +49,8 @@ public class LinShiYongFangXinZengController {
   //执行保存操作
   @RequestMapping("/saveLsyf_xz")
   public String redirectSaveLsyf_xz(LinShiYongFangXinZeng lsyf_xz,LinShiYongFangXinZengDate lsyf_xzDate ){
-   //try {
       linShiYongFangXinZengService.saveLsyf_xz(lsyf_xz);
       linShiYongFangXinZengService.saveLsyf_xzDate(lsyf_xzDate);
-      /* } catch (DataIntegrityViolationException e) {
-      return "manager/error";
-    }
-    */
     return "contracts/linShiYongFangXinZeng/luRuLinShiYongFangXinZeng";
   }
   
@@ -66,7 +61,6 @@ public class LinShiYongFangXinZengController {
     lsyf_xz = linShiYongFangXinZengService.queryLinShiYongFangXinZeng();
     model.addAttribute("lsyf_xz", lsyf_xz);
   return new ModelAndView("contracts/linShiYongFangXinZeng/queryLinShiYongFangXinZeng");
-    //return new ModelAndView("contracts/lsyf_wwgf/queryLsyf_wwgf");
   }
   
   //通过ID查询合同信息

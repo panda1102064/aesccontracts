@@ -90,7 +90,7 @@ public class TongYongHeTongKuaNianController {
     boolean flag = tongYongHeTongKuaNianService.updateTongYongHeTongKuaNian(tongYongHeTongKuaNian);
     boolean flag2 = tongYongHeTongKuaNianService.updateTongYongHeTongKuaNianDate(tongYongHeTongKuaNianDate);
     String msg = flag && flag2 ? "修改成功，请核查！若有误，可再次修改！" : "修改失败，请详细检查！";
-    List<TongYongHeTongKuaNianDate> tongYongHeTongKuaNianList = tongYongHeTongKuaNianService.transverterTongYongHeTongKuaNianDateList(tongYongHeTongKuaNianDate);
+    List<TongYongHeTongKuaNianDate> tongYongHeTongKuaNianList = tongYongHeTongKuaNianService.transvertTongYongHeTongKuaNianDateList(tongYongHeTongKuaNianDate);
     model.addAttribute("msg",msg);
     model.addAttribute("aesc", tongYongHeTongKuaNian);
     model.addAttribute("tongYongHeTongKuaNianList", tongYongHeTongKuaNianList);

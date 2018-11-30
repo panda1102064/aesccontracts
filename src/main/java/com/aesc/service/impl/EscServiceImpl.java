@@ -83,7 +83,6 @@ public class EscServiceImpl implements EscService {
     if(escDate == null){
       return null;
     }else{
-      String[] date_id = escDate.getDate_id().split(",");
       String[] yearStr = escDate.getYear_str().split(",");
       String[] monthStr = escDate.getMonth_str().split(",");
       String[] dayStr = escDate.getDay_str().split(",");
@@ -94,7 +93,6 @@ public class EscServiceImpl implements EscService {
       String[] total = escDate.getTotal().split(",");
       for (int i = 0; i < yearStr.length; i++) {
         EscDate esc = new EscDate();
-        esc.setDate_id(date_id[i]);
         esc.setContract_id(escId);
         esc.setYear_str(yearStr[i]);
         esc.setMonth_str(monthStr[i]);
@@ -151,5 +149,36 @@ public class EscServiceImpl implements EscService {
     }
     return true;
   }
-  
+
+  @Override
+  public List<EscDate> transvertEscList(EscDate escDate) {
+    List<EscDate> list = new ArrayList<EscDate>();
+    if(escDate == null){
+      return null;
+    }else{
+      String[] date_id = escDate.getDate_id().split(",");
+      String[] yearStr = escDate.getYear_str().split(",");
+      String[] monthStr = escDate.getMonth_str().split(",");
+      String[] dayStr = escDate.getDay_str().split(",");
+      String[] yearEnd = escDate.getYear_ed().split(",");
+      String[] monthEnd = escDate.getMonth_ed().split(",");
+      String[] dayEnd = escDate.getDay_ed().split(",");
+      String[] price = escDate.getPrice().split(",");
+      String[] total = escDate.getTotal().split(",");
+      for (int i = 0; i < yearStr.length; i++) {
+        EscDate esc = new EscDate();
+        esc.setDate_id(date_id[i]);
+        esc.setYear_str(yearStr[i]);
+        esc.setMonth_str(monthStr[i]);
+        esc.setDay_str(dayStr[i]);
+        esc.setYear_ed(yearEnd[i]);
+        esc.setMonth_ed(monthEnd[i]);
+        esc.setDay_ed(dayEnd[i]);
+        esc.setPrice(price[i]);
+        esc.setTotal(total[i]);
+        list.add(esc);
+      }
+    }
+    return list;
+  }
 }

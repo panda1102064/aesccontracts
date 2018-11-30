@@ -46,9 +46,5 @@ public interface LinShiYongFangXinZengDao {
 
   boolean updateLsyf_xz_Date(LinShiYongFangXinZengDate lsyfxz);
 
-      
-    
-  
-
 }
   

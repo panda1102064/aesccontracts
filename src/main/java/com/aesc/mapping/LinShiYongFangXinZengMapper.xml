@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.aesc.dao.LinShiYongFangXinZengDao">
+<resultMap type="com.aesc.pojo.LinShiYongFangXinZeng" id="LinShiYongFangXinZeng">
+	<result  column="contract_id" property="contract_id"   jdbcType="INTEGER"/>
+	<result  column="contract_serial" property="contract_serial"   jdbcType="VARCHAR"/>
+	<result  column="merchant_name" property="merchant_name"   jdbcType="VARCHAR"/>
+	<result  column="address" property="address"   jdbcType="VARCHAR"/>
+	<result  column="area1" property="area1"   jdbcType="VARCHAR"/>
+	<result  column="area2" property="area2"   jdbcType="VARCHAR"/>
+	<result  column="rental_location" property="rental_location"   jdbcType="VARCHAR"/>
+	<result  column="building_area" property="building_area"   jdbcType="VARCHAR"/>
+	<result  column="expires" property="expires"   jdbcType="VARCHAR"/>
+	<result  column="year_start" property="year_start"   jdbcType="VARCHAR"/>
+	<result  column="month_start" property="month_start"   jdbcType="VARCHAR"/>
+	<result  column="day_start" property="day_start"   jdbcType="VARCHAR"/>
+	<result  column="year_end" property="year_end"   jdbcType="VARCHAR"/>
+	<result  column="month_end" property="month_end"   jdbcType="VARCHAR"/>
+	<result  column="day_end" property="day_end"   jdbcType="VARCHAR"/>
+	<result  column="transfer_year" property="transfer_year"   jdbcType="VARCHAR"/>
+	<result  column="transfer_month" property="transfer_month"   jdbcType="VARCHAR"/>
+	<result  column="transfer_day" property="transfer_day"   jdbcType="VARCHAR"/>
+	<result  column="charge_year1" property="charge_year1"   jdbcType="VARCHAR"/>
+	<result  column="charge_month1" property="charge_month1"   jdbcType="VARCHAR"/>
+	<result  column="charge_day1" property="charge_day1"   jdbcType="VARCHAR"/>
+	<result  column="cash_deposit" property="cash_deposit"   jdbcType="VARCHAR"/>
+	<result  column="upper1" property="upper1"   jdbcType="VARCHAR"/>
+	<result  column="area4" property="area4"   jdbcType="VARCHAR"/>
+	<result  column="management_fee1" property="management_fee1"   jdbcType="VARCHAR"/>
+	<result  column="management_fee2" property="management_fee2"   jdbcType="VARCHAR"/>
+	<result  column="power_rate" property="power_rate"   jdbcType="VARCHAR"/>
+	<result  column="water_rate" property="water_rate"   jdbcType="VARCHAR"/>
+	<result  column="payment1" property="payment1"   jdbcType="VARCHAR"/>
+	<result  column="payment2" property="payment2"   jdbcType="VARCHAR"/>
+	<result  column="payment3" property="payment3"   jdbcType="VARCHAR"/>
+	<result  column="payment4" property="payment4"   jdbcType="VARCHAR"/>
+	<result  column="payment5" property="payment5"   jdbcType="VARCHAR"/>
+	<result  column="charge_year2" property="charge_year2"   jdbcType="VARCHAR"/>
+	<result  column="charge_month2" property="charge_month2"   jdbcType="VARCHAR"/>
+	<result  column="charge_day2" property="charge_day2"   jdbcType="VARCHAR"/>
+	<result  column="purpose" property="purpose"   jdbcType="VARCHAR"/>
+	<result  column="remark" property="remark"   jdbcType="VARCHAR"/>
+	<result  column="first_agent" property="first_agent"   jdbcType="VARCHAR"/>
+	<result  column="first_date" property="first_date"   jdbcType="DATE"/>
+	<result  column="second_sign" property="second_sign"   jdbcType="VARCHAR"/>
+	<result  column="second_agent" property="second_agent"   jdbcType="VARCHAR"/>
+	<result  column="phone" property="phone"   jdbcType="VARCHAR"/>
+	<result  column="second_date" property="second_date"   jdbcType="DATE"/>
+	<result  column="confirmation_signatory" property="confirmation_signatory"   jdbcType="VARCHAR"/>
+	<result  column="confirmation_year" property="confirmation_year"   jdbcType="VARCHAR"/>
+	<result  column="confirmation_month" property="confirmation_month"   jdbcType="VARCHAR"/>
+	<result  column="confirmation_day" property="confirmation_day"   jdbcType="VARCHAR"/>
+	<result  column="status" property="status"   jdbcType="VARCHAR"/>
+	<result column="username" property="username" jdbcType="VARCHAR" />
+</resultMap> 
+	<select id="queryLsyf_wwgf" resultMap="LinShiYongFangXinZeng">
+		select contract_id,contract_serial, merchant_name,phone,first_date,username from lsyf_wwgf_contract where status = 1
+	</select>
+		
+		<select id="queryLsyf_wwgfById" resultMap="LinShiYongFangXinZeng">
+			select * from lsyf_wwgf_contract where contract_id = #{contract_id,jdbcType=INTEGER}
+		</select>
+	<insert id="saveLsyf_xz" parameterType="com.aesc.pojo.LinShiYongFangXinZeng">
+	insert into lsyf_wwgf_contract (
+		contract_id          ,
+		contract_serial      ,
+		merchant_name        ,
+		address              ,
+		area1                ,
+		area2                ,
+		rental_location      ,
+		building_area        ,
+		expires              ,
+		year_start           ,
+		month_start          ,
+		day_start            ,
+		year_end             ,
+		month_end            ,
+		day_end              ,
+		transfer_year        ,
+		transfer_month       ,
+		transfer_day         ,
+		payment1        	 ,
+		payment2        	 ,
+		payment3        	 ,
+		payment4        	 ,
+		purpose              ,
+		rent1                ,
+		rent2                ,
+		upper                ,
+		cash_deposit         ,
+		lease_year           ,
+		lease_month          ,
+		lease_day            ,
+		remark               ,
+		first_agent          ,
+		first_date           ,
+		second_sign          ,
+		second_agent         ,
+		phone                ,
+		second_date          ,
+		confirmation_signatory,
+		confirmation_year    ,
+		confirmation_month   ,
+		confirmation_day     ,
+		status               ,
+		username             
+			)
+	values
+	(
+		#{contract_id            ,jdbcType=INTEGER},
+		#{contract_serial        ,jdbcType=VARCHAR},
+		#{merchant_name          ,jdbcType=VARCHAR},
+		#{address                ,jdbcType=VARCHAR},
+		#{area1                  ,jdbcType=VARCHAR},
+		#{area2                  ,jdbcType=VARCHAR},
+		#{rental_location        ,jdbcType=VARCHAR},
+		#{building_area          ,jdbcType=VARCHAR},
+		#{expires                ,jdbcType=VARCHAR},
+		#{year_start             ,jdbcType=VARCHAR},
+		#{month_start            ,jdbcType=VARCHAR},
+		#{day_start              ,jdbcType=VARCHAR},
+		#{year_end               ,jdbcType=VARCHAR},
+		#{month_end              ,jdbcType=VARCHAR},
+		#{day_end                ,jdbcType=VARCHAR},
+		#{transfer_year          ,jdbcType=VARCHAR},
+		#{transfer_month         ,jdbcType=VARCHAR},
+		#{transfer_day           ,jdbcType=VARCHAR},
+		#{payment1           	 ,jdbcType=VARCHAR},
+		#{payment2           	 ,jdbcType=VARCHAR},
+		#{payment3           	 ,jdbcType=VARCHAR},
+		#{payment4            	 ,jdbcType=VARCHAR},
+		#{purpose                ,jdbcType=VARCHAR},
+		#{rent1                  ,jdbcType=VARCHAR},
+		#{rent2                  ,jdbcType=VARCHAR},
+		#{upper                  ,jdbcType=VARCHAR},
+		#{cash_deposit           ,jdbcType=VARCHAR},
+		#{lease_year             ,jdbcType=VARCHAR},
+		#{lease_month            ,jdbcType=VARCHAR},
+		#{lease_day              ,jdbcType=VARCHAR},
+		#{remark                 ,jdbcType=VARCHAR},
+		#{first_agent            ,jdbcType=VARCHAR},
+		#{first_date             ,jdbcType=DATE},
+		#{second_sign            ,jdbcType=VARCHAR},
+		#{second_agent           ,jdbcType=VARCHAR},
+		#{phone                  ,jdbcType=VARCHAR},
+		#{second_date            ,jdbcType=DATE},
+		#{confirmation_signatory ,jdbcType=VARCHAR},
+		#{confirmation_year      ,jdbcType=VARCHAR},
+		#{confirmation_month     ,jdbcType=VARCHAR},
+		#{confirmation_day       ,jdbcType=VARCHAR},
+		#{status                 ,jdbcType=VARCHAR},
+		#{username               ,jdbcType=VARCHAR}
+	)
+	</insert> 
+	<update id="updateLsyf_wwgf">
+	UPDATE
+	lsyf_wwgf_contract
+	SET
+contract_serial               = #{contract_serial        ,jdbcType=VARCHAR}, 
+merchant_name                 = #{merchant_name          ,jdbcType=VARCHAR}, 
+address                       = #{address                ,jdbcType=VARCHAR}, 
+area1                         = #{area1                  ,jdbcType=VARCHAR}, 
+area2                         = #{area2                  ,jdbcType=VARCHAR}, 
+rental_location               = #{rental_location        ,jdbcType=VARCHAR}, 
+building_area                 = #{building_area          ,jdbcType=VARCHAR}, 
+expires                       = #{expires                ,jdbcType=VARCHAR}, 
+year_start                    = #{year_start             ,jdbcType=VARCHAR}, 
+month_start                   = #{month_start            ,jdbcType=VARCHAR}, 
+day_start                     = #{day_start              ,jdbcType=VARCHAR}, 
+year_end                      = #{year_end               ,jdbcType=VARCHAR}, 
+month_end                     = #{month_end              ,jdbcType=VARCHAR}, 
+day_end                       = #{day_end                ,jdbcType=VARCHAR}, 
+transfer_year                 = #{transfer_year          ,jdbcType=VARCHAR}, 
+transfer_month                = #{transfer_month         ,jdbcType=VARCHAR}, 
+transfer_day                  = #{transfer_day           ,jdbcType=VARCHAR}, 
+payment1        	          = #{payment1           	 ,jdbcType=VARCHAR}, 
+payment2        	          = #{payment2           	 ,jdbcType=VARCHAR}, 
+payment3        	          = #{payment3           	 ,jdbcType=VARCHAR}, 
+payment4        	          = #{payment4            	 ,jdbcType=VARCHAR}, 
+purpose                       = #{purpose                ,jdbcType=VARCHAR}, 
+rent1                         = #{rent1                  ,jdbcType=VARCHAR}, 
+rent2                         = #{rent2                  ,jdbcType=VARCHAR}, 
+upper                         = #{upper                  ,jdbcType=VARCHAR}, 
+cash_deposit                  = #{cash_deposit           ,jdbcType=VARCHAR}, 
+lease_year                    = #{lease_year             ,jdbcType=VARCHAR}, 
+lease_month                   = #{lease_month            ,jdbcType=VARCHAR}, 
+lease_day                     = #{lease_day              ,jdbcType=VARCHAR}, 
+remark                        = #{remark                 ,jdbcType=VARCHAR}, 
+first_agent                   = #{first_agent            ,jdbcType=VARCHAR}, 
+first_date                    = #{first_date             ,jdbcType=DATE},    
+second_sign                   = #{second_sign            ,jdbcType=VARCHAR}, 
+second_agent                  = #{second_agent           ,jdbcType=VARCHAR}, 
+phone                         = #{phone                  ,jdbcType=VARCHAR}, 
+second_date                   = #{second_date            ,jdbcType=DATE},    
+confirmation_signatory        = #{confirmation_signatory ,jdbcType=VARCHAR}, 
+confirmation_year             = #{confirmation_year      ,jdbcType=VARCHAR}, 
+confirmation_month            = #{confirmation_month     ,jdbcType=VARCHAR}, 
+confirmation_day              = #{confirmation_day       ,jdbcType=VARCHAR}, 
+status                        = #{status                 ,jdbcType=VARCHAR}, 
+username             	      = #{username               ,jdbcType=VARCHAR}  
+	WHERE
+contract_id             	      = #{contract_id               ,jdbcType=INTEGER}  
+	</update>        
+</mapper>

@@ -105,5 +105,7 @@ public interface EscService {
    * @throws
    */
   boolean updateEscDate(EscDate escDate);
+
+  List<EscDate> transvertEscList(EscDate escDate);
 }
   

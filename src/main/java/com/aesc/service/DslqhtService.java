@@ -117,5 +117,7 @@ public interface DslqhtService {
    */
   List<String> getDateId(int updateDslqDateContractId);
 
+  List<DslqDate> transvertDslqList(DslqDate dslqDate);
+
 }
   

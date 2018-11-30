@@ -71,10 +71,10 @@ public class DslqhtServiceImpl implements DslqhtService {
   @Override
   public List<DslqDate> transverterDslqList(DslqDate dslqDate) {
     List<DslqDate> list = new ArrayList<DslqDate>();
+    int dslqknId = dslqhtDao.getDslqId();
     if(dslqDate == null){
       return null;
     }else{
-      String[] date_id = dslqDate.getDate_id().split(",");
       String[] yearStr = dslqDate.getYear_str().split(",");
       String[] monthStr = dslqDate.getMonth_str().split(",");
       String[] dayStr = dslqDate.getDay_str().split(",");
@@ -86,7 +86,7 @@ public class DslqhtServiceImpl implements DslqhtService {
       String[] upper1 = dslqDate.getUpper1().split(",");
       for (int i = 0; i < yearStr.length; i++) {
         DslqDate dslq = new DslqDate();
-        dslq.setDate_id((date_id[i]));
+        dslq.setContract_id(Integer.toString(dslqknId));
         dslq.setYear_str(yearStr[i]);
         dslq.setMonth_str(monthStr[i]);
         dslq.setDay_str(dayStr[i]);
@@ -145,5 +145,39 @@ public class DslqhtServiceImpl implements DslqhtService {
   @Override
   public List<String> getDateId(int updateDslqDateContractId) {
     return this.dslqhtDao.getDateId(updateDslqDateContractId);
+  }
+
+  @Override
+  public List<DslqDate> transvertDslqList(DslqDate dslqDate) {
+    List<DslqDate> list = new ArrayList<DslqDate>();
+    if(dslqDate == null){
+      return null;
+    }else{
+      String[] date_id = dslqDate.getDate_id().split(",");
+      String[] yearStr = dslqDate.getYear_str().split(",");
+      String[] monthStr = dslqDate.getMonth_str().split(",");
+      String[] dayStr = dslqDate.getDay_str().split(",");
+      String[] yearEnd = dslqDate.getYear_ed().split(",");
+      String[] monthEnd = dslqDate.getMonth_ed().split(",");
+      String[] dayEnd = dslqDate.getDay_ed().split(",");
+      String[] price = dslqDate.getPrice().split(",");
+      String[] total = dslqDate.getTotal().split(",");
+      String[] upper1 = dslqDate.getUpper1().split(",");
+      for (int i = 0; i < yearStr.length; i++) {
+        DslqDate dslq = new DslqDate();
+        dslq.setDate_id((date_id[i]));
+        dslq.setYear_str(yearStr[i]);
+        dslq.setMonth_str(monthStr[i]);
+        dslq.setDay_str(dayStr[i]);
+        dslq.setYear_ed(yearEnd[i]);
+        dslq.setMonth_ed(monthEnd[i]);
+        dslq.setDay_ed(dayEnd[i]);
+        dslq.setPrice(price[i]);
+        dslq.setTotal(total[i]);
+        dslq.setUpper1(upper1[i]);
+        list.add(dslq);
+      }
+    }
+    return list;
   }
 }

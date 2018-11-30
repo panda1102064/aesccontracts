@@ -22,3 +22,4 @@ TongYongHeTongKuaNian=通用合同跨年
 
 <p>&nbsp;</p>替代<br > 防止ie浏览器打印忽略掉换行，导致打印排版有误差。
 
+使用eclipse编辑完成。勿用idea，将有错误！

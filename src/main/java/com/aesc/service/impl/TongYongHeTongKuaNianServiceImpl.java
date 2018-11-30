@@ -40,7 +40,6 @@ public class TongYongHeTongKuaNianServiceImpl implements TongYongHeTongKuaNianSe
     if(tongYongHeTongKuaNianDate == null){
       return null;
     }else{
-      String[] date_id = tongYongHeTongKuaNianDate.getDate_id().split(",");
       String[] yearStr = tongYongHeTongKuaNianDate.getYear_str().split(",");
       String[] monthStr = tongYongHeTongKuaNianDate.getMonth_str().split(",");
       String[] dayStr = tongYongHeTongKuaNianDate.getDay_str().split(",");
@@ -52,7 +51,6 @@ public class TongYongHeTongKuaNianServiceImpl implements TongYongHeTongKuaNianSe
       String[] upper = tongYongHeTongKuaNianDate.getUpper().split(",");
       for (int i = 0; i < yearStr.length; i++) {
         TongYongHeTongKuaNianDate tyhtkn = new TongYongHeTongKuaNianDate();
-        tyhtkn.setDate_id(date_id[i]);
         tyhtkn.setContract_id(tyhtknId);
         tyhtkn.setYear_str(yearStr[i]);
         tyhtkn.setMonth_str(monthStr[i]);
@@ -122,5 +120,40 @@ public class TongYongHeTongKuaNianServiceImpl implements TongYongHeTongKuaNianSe
       }
     }
     return flag;
+  }
+
+  @Override
+  public List<TongYongHeTongKuaNianDate> transvertTongYongHeTongKuaNianDateList(
+      TongYongHeTongKuaNianDate tongYongHeTongKuaNianDate) {
+    List<TongYongHeTongKuaNianDate> list = new ArrayList<TongYongHeTongKuaNianDate>();
+    if(tongYongHeTongKuaNianDate == null){
+      return null;
+    }else{
+      String[] date_id = tongYongHeTongKuaNianDate.getDate_id().split(",");
+      String[] yearStr = tongYongHeTongKuaNianDate.getYear_str().split(",");
+      String[] monthStr = tongYongHeTongKuaNianDate.getMonth_str().split(",");
+      String[] dayStr = tongYongHeTongKuaNianDate.getDay_str().split(",");
+      String[] yearEnd = tongYongHeTongKuaNianDate.getYear_ed().split(",");
+      String[] monthEnd = tongYongHeTongKuaNianDate.getMonth_ed().split(",");
+      String[] dayEnd = tongYongHeTongKuaNianDate.getDay_ed().split(",");
+      String[] rent = tongYongHeTongKuaNianDate.getRent().split(",");
+      String[] price = tongYongHeTongKuaNianDate.getPrice().split(",");
+      String[] upper = tongYongHeTongKuaNianDate.getUpper().split(",");
+      for (int i = 0; i < yearStr.length; i++) {
+        TongYongHeTongKuaNianDate tyhtkn = new TongYongHeTongKuaNianDate();
+        tyhtkn.setDate_id(date_id[i]);
+        tyhtkn.setYear_str(yearStr[i]);
+        tyhtkn.setMonth_str(monthStr[i]);
+        tyhtkn.setDay_str(dayStr[i]);
+        tyhtkn.setYear_ed(yearEnd[i]);
+        tyhtkn.setMonth_ed(monthEnd[i]);
+        tyhtkn.setDay_ed(dayEnd[i]);
+        tyhtkn.setRent(rent[i]);
+        tyhtkn.setPrice(price[i]);
+        tyhtkn.setUpper(upper[i]);
+        list.add(tyhtkn);
+      }
+    }
+    return list;
   }
 }

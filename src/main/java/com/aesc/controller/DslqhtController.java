@@ -123,7 +123,7 @@ public class DslqhtController {
 	 */
 	@RequestMapping("/updateDslqht")
 	public String redirectUpdateDslqht(Dslqht dslqht,DslqDate dslqDate, Model model){
-	  List<DslqDate> dslqList = dslqhtService.transverterDslqList(dslqDate);// 将日期内容分成LIST只作返回到页面，不进行后续操作
+	  List<DslqDate> dslqList = dslqhtService.transvertDslqList(dslqDate);// 将日期内容分成LIST只作返回到页面，不进行后续操作
 	  boolean flag2 = dslqhtService.updateDslqDate(dslqDate);// 将日期内容分成实体对象进行修改日期内容操作
 	  boolean flag = dslqhtService.updateDslqht(dslqht);// 直接修改合同内容
 	  String msg = flag && flag2 ? "修改成功，请详查，若有误，可再次修改！":"修改失败，请详细检查修改内容";
