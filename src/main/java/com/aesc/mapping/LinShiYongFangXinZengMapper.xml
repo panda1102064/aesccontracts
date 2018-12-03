@@ -8,6 +8,7 @@
 	<result  column="address" property="address"   jdbcType="VARCHAR"/>
 	<result  column="area1" property="area1"   jdbcType="VARCHAR"/>
 	<result  column="area2" property="area2"   jdbcType="VARCHAR"/>
+	<result  column="area3" property="area3"   jdbcType="VARCHAR"/>
 	<result  column="rental_location" property="rental_location"   jdbcType="VARCHAR"/>
 	<result  column="building_area" property="building_area"   jdbcType="VARCHAR"/>
 	<result  column="expires" property="expires"   jdbcType="VARCHAR"/>
@@ -20,6 +21,9 @@
 	<result  column="transfer_year" property="transfer_year"   jdbcType="VARCHAR"/>
 	<result  column="transfer_month" property="transfer_month"   jdbcType="VARCHAR"/>
 	<result  column="transfer_day" property="transfer_day"   jdbcType="VARCHAR"/>
+	<result  column="payment1" property="payment1"   jdbcType="VARCHAR"/>
+	<result  column="payment2" property="payment2"   jdbcType="VARCHAR"/>
+	<result  column="payment3" property="payment3"   jdbcType="VARCHAR"/>	
 	<result  column="charge_year1" property="charge_year1"   jdbcType="VARCHAR"/>
 	<result  column="charge_month1" property="charge_month1"   jdbcType="VARCHAR"/>
 	<result  column="charge_day1" property="charge_day1"   jdbcType="VARCHAR"/>
@@ -30,9 +34,6 @@
 	<result  column="management_fee2" property="management_fee2"   jdbcType="VARCHAR"/>
 	<result  column="power_rate" property="power_rate"   jdbcType="VARCHAR"/>
 	<result  column="water_rate" property="water_rate"   jdbcType="VARCHAR"/>
-	<result  column="payment1" property="payment1"   jdbcType="VARCHAR"/>
-	<result  column="payment2" property="payment2"   jdbcType="VARCHAR"/>
-	<result  column="payment3" property="payment3"   jdbcType="VARCHAR"/>
 	<result  column="payment4" property="payment4"   jdbcType="VARCHAR"/>
 	<result  column="payment5" property="payment5"   jdbcType="VARCHAR"/>
 	<result  column="charge_year2" property="charge_year2"   jdbcType="VARCHAR"/>
@@ -53,21 +54,27 @@
 	<result  column="status" property="status"   jdbcType="VARCHAR"/>
 	<result column="username" property="username" jdbcType="VARCHAR" />
 </resultMap> 
-	<select id="queryLsyf_wwgf" resultMap="LinShiYongFangXinZeng">
-		select contract_id,contract_serial, merchant_name,phone,first_date,username from lsyf_wwgf_contract where status = 1
+
+	<select id="getLsyf_xz_Id"  resultType="int" >
+		select LAST_INSERT_ID();
+	</select>
+	
+	<select id="queryLinShiYongFangXinZeng" resultMap="LinShiYongFangXinZeng">
+		select contract_id,contract_serial, merchant_name,phone,first_date,username from aesccontracts.lsyf_xz_contract where status = 1
 	</select>
 		
-		<select id="queryLsyf_wwgfById" resultMap="LinShiYongFangXinZeng">
-			select * from lsyf_wwgf_contract where contract_id = #{contract_id,jdbcType=INTEGER}
-		</select>
+	<select id="queryLinShiYongFangXinZengById" resultMap="LinShiYongFangXinZeng">
+		select * from aesccontracts.lsyf_xz_contract where contract_id = #{contract_id,jdbcType=INTEGER}
+	</select>
 	<insert id="saveLsyf_xz" parameterType="com.aesc.pojo.LinShiYongFangXinZeng">
-	insert into lsyf_wwgf_contract (
+	insert into aesccontracts.lsyf_xz_contract (
 		contract_id          ,
 		contract_serial      ,
 		merchant_name        ,
 		address              ,
 		area1                ,
 		area2                ,
+		area3                ,
 		rental_location      ,
 		building_area        ,
 		expires              ,
@@ -83,15 +90,22 @@
 		payment1        	 ,
 		payment2        	 ,
 		payment3        	 ,
+		charge_year1,
+		charge_month1,
+		charge_day1,
+		cash_deposit,
+		upper1,
+		area4,
+		management_fee1,
+		management_fee2,
+		power_rate,
+		water_rate,
 		payment4        	 ,
+		payment5        	 ,
+		charge_year2,
+		charge_month2,
+		charge_day2,
 		purpose              ,
-		rent1                ,
-		rent2                ,
-		upper                ,
-		cash_deposit         ,
-		lease_year           ,
-		lease_month          ,
-		lease_day            ,
 		remark               ,
 		first_agent          ,
 		first_date           ,
@@ -114,6 +128,7 @@
 		#{address                ,jdbcType=VARCHAR},
 		#{area1                  ,jdbcType=VARCHAR},
 		#{area2                  ,jdbcType=VARCHAR},
+		#{area3                  ,jdbcType=VARCHAR},
 		#{rental_location        ,jdbcType=VARCHAR},
 		#{building_area          ,jdbcType=VARCHAR},
 		#{expires                ,jdbcType=VARCHAR},
@@ -129,15 +144,22 @@
 		#{payment1           	 ,jdbcType=VARCHAR},
 		#{payment2           	 ,jdbcType=VARCHAR},
 		#{payment3           	 ,jdbcType=VARCHAR},
+		#{charge_year1            	 ,jdbcType=VARCHAR},
+		#{charge_month1            	 ,jdbcType=VARCHAR},
+		#{charge_day1            	 ,jdbcType=VARCHAR},
+		#{cash_deposit            	 ,jdbcType=VARCHAR},
+		#{upper1            	 ,jdbcType=VARCHAR},
+		#{area4            	 ,jdbcType=VARCHAR},
+		#{management_fee1            	 ,jdbcType=VARCHAR},
+		#{management_fee2            	 ,jdbcType=VARCHAR},
+		#{power_rate            	 ,jdbcType=VARCHAR},
+		#{water_rate            	 ,jdbcType=VARCHAR},
 		#{payment4            	 ,jdbcType=VARCHAR},
-		#{purpose                ,jdbcType=VARCHAR},
-		#{rent1                  ,jdbcType=VARCHAR},
-		#{rent2                  ,jdbcType=VARCHAR},
-		#{upper                  ,jdbcType=VARCHAR},
-		#{cash_deposit           ,jdbcType=VARCHAR},
-		#{lease_year             ,jdbcType=VARCHAR},
-		#{lease_month            ,jdbcType=VARCHAR},
-		#{lease_day              ,jdbcType=VARCHAR},
+		#{payment5            	 ,jdbcType=VARCHAR},
+		#{charge_year2            	 ,jdbcType=VARCHAR},
+		#{charge_month2            	 ,jdbcType=VARCHAR},
+		#{charge_day2            	 ,jdbcType=VARCHAR},
+		#{purpose            	 ,jdbcType=VARCHAR},
 		#{remark                 ,jdbcType=VARCHAR},
 		#{first_agent            ,jdbcType=VARCHAR},
 		#{first_date             ,jdbcType=DATE},
@@ -153,15 +175,16 @@
 		#{username               ,jdbcType=VARCHAR}
 	)
 	</insert> 
-	<update id="updateLsyf_wwgf">
+	<update id="updateLsyf_xz">
 	UPDATE
-	lsyf_wwgf_contract
+	aesccontracts.lsyf_xz_contract
 	SET
 contract_serial               = #{contract_serial        ,jdbcType=VARCHAR}, 
 merchant_name                 = #{merchant_name          ,jdbcType=VARCHAR}, 
 address                       = #{address                ,jdbcType=VARCHAR}, 
 area1                         = #{area1                  ,jdbcType=VARCHAR}, 
 area2                         = #{area2                  ,jdbcType=VARCHAR}, 
+area3                         = #{area3                  ,jdbcType=VARCHAR}, 
 rental_location               = #{rental_location        ,jdbcType=VARCHAR}, 
 building_area                 = #{building_area          ,jdbcType=VARCHAR}, 
 expires                       = #{expires                ,jdbcType=VARCHAR}, 
@@ -177,15 +200,22 @@ transfer_day                  = #{transfer_day           ,jdbcType=VARCHAR},
 payment1        	          = #{payment1           	 ,jdbcType=VARCHAR}, 
 payment2        	          = #{payment2           	 ,jdbcType=VARCHAR}, 
 payment3        	          = #{payment3           	 ,jdbcType=VARCHAR}, 
+charge_year1        	          = #{charge_year1            	 ,jdbcType=VARCHAR}, 
+charge_month1        	          = #{charge_month1            	 ,jdbcType=VARCHAR}, 
+charge_day1        	          = #{charge_day1            	 ,jdbcType=VARCHAR}, 
+cash_deposit        	          = #{cash_deposit            	 ,jdbcType=VARCHAR}, 
+upper1        	          = #{upper1            	 ,jdbcType=VARCHAR}, 
+area4        	          = #{area4            	 ,jdbcType=VARCHAR}, 
+management_fee1        	          = #{management_fee1            	 ,jdbcType=VARCHAR}, 
+management_fee2        	          = #{management_fee2            	 ,jdbcType=VARCHAR}, 
+power_rate        	          = #{power_rate            	 ,jdbcType=VARCHAR}, 
+water_rate        	          = #{water_rate            	 ,jdbcType=VARCHAR}, 
 payment4        	          = #{payment4            	 ,jdbcType=VARCHAR}, 
-purpose                       = #{purpose                ,jdbcType=VARCHAR}, 
-rent1                         = #{rent1                  ,jdbcType=VARCHAR}, 
-rent2                         = #{rent2                  ,jdbcType=VARCHAR}, 
-upper                         = #{upper                  ,jdbcType=VARCHAR}, 
-cash_deposit                  = #{cash_deposit           ,jdbcType=VARCHAR}, 
-lease_year                    = #{lease_year             ,jdbcType=VARCHAR}, 
-lease_month                   = #{lease_month            ,jdbcType=VARCHAR}, 
-lease_day                     = #{lease_day              ,jdbcType=VARCHAR}, 
+payment5        	          = #{payment5            	 ,jdbcType=VARCHAR}, 
+charge_year2        	          = #{charge_year2            	 ,jdbcType=VARCHAR}, 
+charge_month2        	          = #{charge_month2            	 ,jdbcType=VARCHAR}, 
+charge_day2        	          = #{charge_day2            	 ,jdbcType=VARCHAR}, 
+purpose        	          = #{purpose            	 ,jdbcType=VARCHAR}, 
 remark                        = #{remark                 ,jdbcType=VARCHAR}, 
 first_agent                   = #{first_agent            ,jdbcType=VARCHAR}, 
 first_date                    = #{first_date             ,jdbcType=DATE},    

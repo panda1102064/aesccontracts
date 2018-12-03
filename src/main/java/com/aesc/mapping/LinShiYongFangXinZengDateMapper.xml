@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.aesc.dao.LinShiYongFangXinZengDao">
+	<resultMap type="com.aesc.pojo.LinShiYongFangXinZengDate" id="LinShiYongFangXinZengDates">
+		<result column="date_id" property="date_id" jdbcType="INTEGER"/>
+		<result column="year_str" property="year_str" jdbcType="VARCHAR"/>
+		<result column="month_str" property="month_str" jdbcType="VARCHAR"/>
+		<result column="day_str" property="day_str" jdbcType="VARCHAR"/>
+		<result column="year_ed" property="year_ed" jdbcType="VARCHAR"/>
+		<result column="month_ed" property="month_ed" jdbcType="VARCHAR"/>
+		<result column="day_ed" property="day_ed" jdbcType="VARCHAR"/>
+		<result column="price" property="price" jdbcType="VARCHAR"/>
+		<result column="upper" property="upper" jdbcType="VARCHAR"/>
+		<result column="contract_id" property="contract_id" jdbcType="INTEGER"/>
+	</resultMap>
+	
+	<insert id="saveLsyf_xzDate" parameterType="java.util.Map" useGeneratedKeys="true">
+	insert into lsyf_xz_date (
+	year_str,
+	month_str,
+	day_str,
+	year_ed,
+	month_ed,
+	day_ed,
+	price,
+	upper,
+	contract_id          
+	)                  
+	values     
+		 <foreach collection="list" item="item" index="index" separator=","> 
+	(	
+		#{item.year_str,jdbcType=VARCHAR},
+		#{item.month_str,jdbcType=VARCHAR},
+		#{item.day_str,jdbcType=VARCHAR},
+		#{item.year_ed,jdbcType=VARCHAR},
+		#{item.month_ed,jdbcType=VARCHAR},
+		#{item.day_ed,jdbcType=VARCHAR},
+		#{item.price,jdbcType=VARCHAR},
+		#{item.upper,jdbcType=VARCHAR},
+		#{item.contract_id,jdbcType=INTEGER}
+	)
+		</foreach> 
+	</insert>
+	
+	<select id="queryLsyfDateById" resultMap="LinShiYongFangXinZengDates">
+		select * from aesccontracts.lsyf_xz_date where contract_id = #{contract_id,jdbcType=INTEGER}
+	</select>
+	
+	<update id="updateLsyf_xz_Date" parameterType="com.aesc.pojo.LinShiYongFangXinZengDate">
+	UPDATE `lsyf_xz_date` SET 
+	`year_str`   =  #{year_str,jdbcType=VARCHAR}, 
+	`month_str`  =  #{month_str,jdbcType=VARCHAR},
+	`day_str`    =  #{day_str,jdbcType=VARCHAR},  
+	`year_ed`	 =  #{year_ed,jdbcType=VARCHAR},  
+	`month_ed`	 =  #{month_ed,jdbcType=VARCHAR}, 
+	`day_ed`	 =  #{day_ed,jdbcType=VARCHAR},   
+	`price`		 =  #{price,jdbcType=VARCHAR},    
+	`upper`		 =  #{upper,jdbcType=VARCHAR}     
+	WHERE 
+	`date_id`	 =  #{date_id,jdbcType=INTEGER};
+	</update>
+</mapper>

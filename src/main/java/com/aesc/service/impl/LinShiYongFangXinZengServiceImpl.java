@@ -44,7 +44,6 @@ public class LinShiYongFangXinZengServiceImpl implements LinShiYongFangXinZengSe
   @Override
   public void saveLsyf_xz(LinShiYongFangXinZeng lsyf_xz) {
     linShiYongFangXinZengDao.saveLsyf_xz(lsyf_xz);
-    
   }
 
   @Override
@@ -88,31 +87,21 @@ public class LinShiYongFangXinZengServiceImpl implements LinShiYongFangXinZengSe
   
   @Override
   public List<LinShiYongFangXinZeng> queryLinShiYongFangXinZeng() {
-      
     return this.linShiYongFangXinZengDao.queryLinShiYongFangXinZeng();
   }
 
   @Override
   public LinShiYongFangXinZeng queryLinShiYongFangXinZengById(int contract_id) {
-      
     return this.linShiYongFangXinZengDao.queryLinShiYongFangXinZengById(contract_id);
   }
 
   @Override
   public List<LinShiYongFangXinZengDate> queryLsyfDateById(int contract_id) {
-      
     return this.linShiYongFangXinZengDao.queryLsyfDateById(contract_id);
   }
 
   @Override
-  public LinShiYongFangXinZeng queryLsyf_xzById(int contract_id) {
-      
-    return this.linShiYongFangXinZengDao.queryLsyf_xzById(contract_id);
-  }
-
-  @Override
   public boolean updateLsyf_xz(LinShiYongFangXinZeng lsyf_xz) {
-      
     return this.linShiYongFangXinZengDao.updateLsyf_xz(lsyf_xz);
   }
 
@@ -147,6 +136,4 @@ public class LinShiYongFangXinZengServiceImpl implements LinShiYongFangXinZengSe
     return true;
   }
 
-
 }
-  

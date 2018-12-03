@@ -27,7 +27,7 @@ import com.aesc.pojo.LinShiYongFangXinZengDate;
  */
 public interface LinShiYongFangXinZengService {
 
-  void saveLsyf_xz(LinShiYongFangXinZeng lsyf_wwgf);
+  void saveLsyf_xz(LinShiYongFangXinZeng lsyf_xz);
 
   void saveLsyf_xzDate(LinShiYongFangXinZengDate lsyf_xzDate);
 
@@ -37,14 +37,10 @@ public interface LinShiYongFangXinZengService {
 
   List<LinShiYongFangXinZengDate> queryLsyfDateById(int contract_id);
 
-  LinShiYongFangXinZeng queryLsyf_xzById(int contract_id);
-
   List<LinShiYongFangXinZengDate> transverterLsyfxzList(LinShiYongFangXinZengDate lsyf_xzDate);
 
   boolean updateLsyf_xz(LinShiYongFangXinZeng lsyf_xz);
 
   boolean updateLsyf_xz_Date(LinShiYongFangXinZengDate lsyf_xzDate);
 
-
 }
-  

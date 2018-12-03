@@ -40,14 +40,9 @@ public class LinShiYongFangXinZeng {
   private String transfer_year;
   private String transfer_month;
   private String transfer_day;
-  private String year_str;
-  private String month_str;
-  private String day_str;
-  private String year_ed;
-  private String month_ed;
-  private String day_ed;
-  private String price;
-  private String upper;
+  private String payment1;
+  private String payment2;
+  private String payment3; 
   private String charge_year1;
   private String charge_month1;
   private String charge_day1;
@@ -58,9 +53,6 @@ public class LinShiYongFangXinZeng {
   private String management_fee2;
   private String power_rate;
   private String water_rate;
-  private String payment1;
-  private String payment2;
-  private String payment3;
   private String payment4;
   private String payment5;
   private String charge_year2;
@@ -219,54 +211,6 @@ public class LinShiYongFangXinZeng {
   }
   public void setTransfer_day(String transfer_day) {
     this.transfer_day = transfer_day;
-  }
-  public String getYear_str() {
-    return year_str;
-  }
-  public void setYear_str(String year_str) {
-    this.year_str = year_str;
-  }
-  public String getMonth_str() {
-    return month_str;
-  }
-  public void setMonth_str(String month_str) {
-    this.month_str = month_str;
-  }
-  public String getDay_str() {
-    return day_str;
-  }
-  public void setDay_str(String day_str) {
-    this.day_str = day_str;
-  }
-  public String getYear_ed() {
-    return year_ed;
-  }
-  public void setYear_ed(String year_ed) {
-    this.year_ed = year_ed;
-  }
-  public String getMonth_ed() {
-    return month_ed;
-  }
-  public void setMonth_ed(String month_ed) {
-    this.month_ed = month_ed;
-  }
-  public String getDay_ed() {
-    return day_ed;
-  }
-  public void setDay_ed(String day_ed) {
-    this.day_ed = day_ed;
-  }
-  public String getPrice() {
-    return price;
-  }
-  public void setPrice(String price) {
-    this.price = price;
-  }
-  public String getUpper() {
-    return upper;
-  }
-  public void setUpper(String upper) {
-    this.upper = upper;
   }
   public String getCharge_year1() {
     return charge_year1;
@@ -458,14 +402,6 @@ public class LinShiYongFangXinZeng {
               ", transfer_year='" + transfer_year + '\'' +
               ", transfer_month='" + transfer_month + '\'' +
               ", transfer_day='" + transfer_day + '\'' +
-              ", year_str='" + year_str + '\'' +
-              ", month_str='" + month_str + '\'' +
-              ", day_str='" + day_str + '\'' +
-              ", year_ed='" + year_ed + '\'' +
-              ", month_ed='" + month_ed + '\'' +
-              ", day_ed='" + day_ed + '\'' +
-              ", price='" + price + '\'' +
-              ", upper='" + upper + '\'' +
               ", charge_year1='" + charge_year1 + '\'' +
               ", charge_month1='" + charge_month1 + '\'' +
               ", charge_day1='" + charge_day1 + '\'' +
