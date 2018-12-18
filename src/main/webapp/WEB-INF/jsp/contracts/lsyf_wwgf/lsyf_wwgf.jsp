@@ -15,7 +15,7 @@
 				<br /><br />
 				<p>出租方[以下简称甲方]:<u>重庆汽博实业有限公司</u></p>
 				<p>地址:<u>重庆北部新区金渝大道99号</u></p>
-				<p>承租方[以下简称乙方]:<input  class="dtkz" name="merchant_name" /></p>
+				<p>承租方[以下简称乙方]:<input  class="form-control" name="merchant_name" /></p>
 				<p>地址：<input class="dtkz" name="address" /></p><br />
 				<p class="zc">第一章 总 则</p>
 				<p>&nbsp;&nbsp;根据《中华人民共和国合同法》及有关法律法规的规定，本着平等自愿和互惠互利的原则，为了明确甲乙双方的权利义务关系，经双方协商一致，就乙方承租甲方商业用房（场地）及由甲方实行商业用房（场地）租赁，现就所涉及的相关事宜，订立本合同。</p>
@@ -55,7 +55,7 @@
 				<p>&nbsp;&nbsp;第二十六条&nbsp;乙方应当缴纳的费用：</p>
 				<p>&nbsp;&nbsp;1、房屋（场地）租金（按建筑面积计收）为：<input required="required" class="dtkzNum" name="rent1" />元/月/㎡；每月租金合计人民币：<input required="required" class="dtkzNum" name="rent2" />元(大写)<input required="required" class="dtkz" name="upper" />元整。</p>
 				<p>&nbsp;&nbsp;2、 乙方应向甲方支付履约保证金：￥<input required="required" class="dtkzNum" name="cash_deposit" />元，在签定合同后由乙方一次性付清。合同有效期内若乙方擅自解除合同或有其它违反合同行为的，履约保证金和所剩租金不予退还，并纳入违约金范围之内。违约金不足以弥补损失的，另行赔偿。合同到期后，如乙方无违约行为，履约保证金如数退还，只退本不退息。</p>
-				<p>&nbsp;&nbsp;3、租金为每<input required="required" class="dtkzNum" name="payment1" value="季度"/>支付，在签定合同时，<!--和第五条对换了一下，数据库有点差异 ====== 首次支付季度年的租金。乙方应向甲方支付履约保证金：￥<input required="required" class="dtkzNum" name="cash" />元， -->乙方应向甲方支付第一个<input required="required" class="dtkzNum" name="payment2" value="季度" />的租金，以后乙方应在每<input required="required" class="dtkzNum" name="payment3" value="季度" />第一个月15日前支付下个<input required="required" class="dtkzNum" name="payment4" value="季度" />的租金。乙方逾期交纳租金，每逾期一日，应按未交纳租金总额的0.5％向甲方支付滞纳金。逾期时间不得超过15日，否则甲方有权单方解除合同，不予退还履约保证金，并可向乙方追收所欠租金及滞纳金。</p>
+				<p>&nbsp;&nbsp;3、租金为<input required="required" class="dtkzNum" name="payment1" value="每季度"/>支付，在签定合同时，乙方应向甲方支付<input required="required" class="dtkzNum" name="payment2" value="第一个季度" />的租金，以后乙方应在<input required="required" class="dtkzNum" name="payment3" value="每季度第一个月15日前" />支付<input required="required" class="dtkzNum" name="payment4" value="下个季度" />的租金。乙方逾期交纳租金，每逾期一日，应按未交纳租金总额的0.5％向甲方支付滞纳金。逾期时间不得超过15日，否则甲方有权单方解除合同，不予退还履约保证金，并可向乙方追收所欠租金及滞纳金。</p>
 				<p>&nbsp;&nbsp;4、付款方式：现金或转帐。</p>
 				<p>&nbsp;&nbsp;第二十七条&nbsp;上述收费起算时间：双方约定起租时间从<input required="required" class="dtkzNum" name="lease_year" value="2018" />年<input required="required" class="dtkzNum" name="lease_month"  value="1"/>月<input required="required" class="dtkzNum" name="lease_day" value="1" />日起算。</p>
 				<p class="zc">第八章 合同的终止与解除</p>
@@ -89,7 +89,8 @@
 				<p>&nbsp;&nbsp;&nbsp;&nbsp;名称：重庆汽博实业有限公司</p>
 				<p>&nbsp;&nbsp;&nbsp;&nbsp;开户银行：建行重庆两江汽博支行</p>
 				<p>&nbsp;&nbsp;&nbsp;&nbsp;帐号：5000 1040 0430 5250 0282</p>
-				<p>&nbsp;&nbsp;第三十七条&nbsp;备注：<input class="dtkz" name="remark" /></p>
+				<p>&nbsp;&nbsp;第三十七条&nbsp;备注：</p>
+				<p><textarea class="form-control" rows="3" cols="100%" name="remark" /></textarea></p>
 				<br />
 				<p>（以下无正文）</p>
 				<br />

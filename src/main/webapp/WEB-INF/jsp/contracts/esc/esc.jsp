@@ -15,8 +15,8 @@
 				<br /><br />
 				<p>出租方[以下简称甲方]:<u>重庆汽博实业有限公司</u></p>
 				<p>地址:<u>重庆两江新区金渝大道99号附15号</u></p>
-				<p>承租方[以下简称乙方]:<input class="dtkz" name="merchant_name" /></p>
-				<p>地址：<input  class="dtkz" name="address" /></p><br />
+				<p>承租方[以下简称乙方]:<input class="form-control" name="merchant_name" /></p>
+				<p>地址：<input  class="form-control" name="address" /></p><br />
 				<p class="zc">第一章 总 则</p>
 				<p>&nbsp;&nbsp;根据《中华人民共和国合同法》及有关法律、法规的相关规定，甲、乙双方本着平等自愿、互惠互利的基本原则，经协商一致，就乙方承租甲方商业用房（场地）及由甲方实行商业用房（场地）租赁所涉相关事宜，订立本合同，以兹双方共同遵守。</p>
 				<p>&nbsp;&nbsp;1、乙方作为入驻汽博中心<input required="required" class="dtkz" name="area1" value="新二手车市场" />的承租人，承诺自觉遵守物业管理区域的各项使用管理规定，维护汽博中心<input required="required" class="dtkz" name="area2" value="新二手车市场" />的整体品牌形象及商业信誉。</p>
@@ -112,7 +112,7 @@
                 <p>&nbsp;&nbsp;43.1、签收人是受送达本人或者是前款指定的代收人的，签收人应当当场核对邮件内容。签收人发现邮件内容与回执上的文书名称不一致的，应当向邮政机构的投递员提出，否则视为一致。</p>
                 <p>&nbsp;&nbsp;43.2、因受送达人自己提供或者确认的送达地址不准确、拒不提供送达地址、送达地址变更未及时告知人民法院、受送达本人或者指定的代收人拒绝签收，导致诉讼文书未能被受送达人实际接收的，文书退回之日视为送达之日。</p>
 				<p>&nbsp;&nbsp;44、备注：</p>
-				<p><input class="dtkz" name="remark" /></p>
+				<p><textarea rows="5" cols="100%" name="remark" class="form-control" /></textarea></p>
 				<p>&nbsp;&nbsp;45、租金、合同保证金及物管费及水电空调费交款账号如下：</p>
                 <p>&nbsp;&nbsp;&nbsp;&nbsp;租金、合同保证金打款账号</p>
                 <p>&nbsp;&nbsp;&nbsp;&nbsp;名称：重庆汽博实业有限公司</p>

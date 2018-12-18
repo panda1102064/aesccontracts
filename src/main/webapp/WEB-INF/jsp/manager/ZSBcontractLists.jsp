@@ -7,8 +7,8 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" type="text/css"
-	href="<%=path%>/css/ContractListsCss.css">
+<link rel="shortcut icon" href="<%=path%>/img/favicon.ico">
+<link rel="stylesheet" type="text/css" href="<%=path%>/css/ContractListsCss.css">
 </head>
 <body>
 	<jsp:include page="../headpart.jsp"></jsp:include>
@@ -21,78 +21,95 @@
 		<div id="div2">
 			<table class="tables">
 				<tbody>
-				    <tr><th>大厦</th></tr>
+				    <tr><th>汽博大厦</th></tr>
 					<tr>
 						<td class="tdcalss">
-							<div class="div3">大厦车位车库停车位</div>
+							<div class="div3">车库停车位</div>
 							<div class="div4">
-								<a class="btn btn-info btn-sm" href="<%=path%>/dscwcktcw" target="_blank">录入</a>
-								<a class="btn btn-danger btn-sm" href="<%=path%>/queryDscwcktcw" target="_blank">查询</a>
+								<a class="btn btn-info btn-sm" href="<%=path%>/dscwcktcw" >录入</a>
+								<a class="btn btn-danger btn-sm" href="<%=path%>/queryDscwcktcw" >查询</a>
 							</div>
 						</td>
 						<td class="tdcalss">
-							<div class="div3">大厦车位室外停车位</div>
+							<div class="div3">室外停车位</div>
 							<div class="div4">
-								<a class="btn btn-info btn-sm" href="<%=path%>/dscwswtcw" target="_blank">录入</a>
-								<a class="btn btn-danger btn-sm" href="<%=path%>/queryDscwswtcw" target="_blank">查询</a>
+								<a class="btn btn-info btn-sm" href="<%=path%>/dscwswtcw" >录入</a>
+								<a class="btn btn-danger btn-sm" href="<%=path%>/queryDscwswtcw" >查询</a>
 							</div>
 						</td>
 						<td class="tdcalss">
-							<div class="div3">大厦裙楼合同</div>
+							<div class="div3">大厦裙楼</div>
 							<div class="div4">
-								<a class="btn btn-info btn-sm" href="<%=path%>/dslqht"target="_blank">录入</a> <a
-									class="btn btn-danger btn-sm" href="<%=path%>/queryDslqht"target="_blank">查询</a>
+								<a class="btn btn-info btn-sm" href="<%=path%>/dslqht" >录入</a> <a
+									class="btn btn-danger btn-sm" href="<%=path%>/queryDslqht" >查询</a>
 							</div>
 						</td>
 					</tr>
-					<tr><th>名车广场</th></tr>
+					<tr><th>名车广场(新能源)</th></tr>
 					<tr>
                         <td class="tdcalss">
-                            <div class="div3">名车广场办公室合同</div>
+                            <div class="div3">办公室</div>
                             <div class="div4">
-                                <a class="btn btn-info btn-sm" href="<%=path%>/mcgcbgsht"target="_blank">录入</a>
-                                <a class="btn btn-danger btn-sm" href="<%=path%>/queryMcgcbgsht"target="_blank">查询</a>
+                                <a class="btn btn-info btn-sm" href="<%=path%>/mcgcbgsht" >录入</a>
+                                <a class="btn btn-danger btn-sm" href="<%=path%>/queryMcgcbgsht" >查询</a>
                             </div>
                         </td>
                         <td class="tdcalss">
-                            <div class="div3">名车广场内场场地合同</div>
+                            <div class="div3">内场场地</div>
                             <div class="div4">
-                                <a class="btn btn-info btn-sm" href="<%=path%>/mcgcnccdht"target="_blank">录入</a>
+                                <a class="btn btn-info btn-sm" href="<%=path%>/mcgcnccdht" >录入</a>
                                 <a class="btn btn-danger btn-sm"
-                                    href="<%=path%>/queryMcgcnccdht"target="_blank">查询</a>
+                                    href="<%=path%>/queryMcgcnccdht" >查询</a>
                             </div>
                         </td>
                         <td class="tdcalss">
-                            <div class="div3">名车广场外展场新模版</div>
+                            <div class="div3">外展场</div>
                             <div class="div4">
-                                <a class="btn btn-info btn-sm" href="<%=path%>/mcgcwzcxmb"target="_blank">录入</a>
+                                <a class="btn btn-info btn-sm" href="<%=path%>/mcgcwzcxmb" >录入</a>
                                 <a class="btn btn-danger btn-sm"
-                                    href="<%=path%>/queryMcgcwzcxmb"target="_blank">查询</a>
+                                    href="<%=path%>/queryMcgcwzcxmb" >查询</a>
                             </div>
                         </td>
                         <td class="tdcalss">
-                            <div class="div3">名车广场停车场协议</div>
+                            <div class="div3">停车场协议</div>
                             <div class="div4">
-                                <a class="btn btn-info btn-sm" href="<%=path%>/mcgctcc"target="_blank">录入</a>
+                                <a class="btn btn-info btn-sm" href="<%=path%>/mcgctcc" >录入</a>
                                 <a class="btn btn-danger btn-sm"
-                                    href="<%=path%>/queryMcgctcc"target="_blank">查询</a>
+                                    href="<%=path%>/queryMcgctcc" >查询</a>
                             </div>
                         </td>
                     </tr>
-                    <tr><th>新二手车</th></tr>
+                    <tr><th>新名车广场</th></tr>
+					<tr>
+					   <td class="tdcalss">
+                            <div class="div3">展厅合同</div>
+                            <div class="div4">
+                                <a class="btn btn-info btn-sm" href="<%=path%>/exhibitionHallEntry">录入</a> <a
+                                    class="btn btn-danger btn-sm" href="<%=path%>/queryExhibitionHall">查询</a>
+                            </div>
+                        </td>
+					   <td class="tdcalss">
+                            <div class="div3">停车位</div>
+                            <div class="div4">
+                                <a class="btn btn-info btn-sm" href="<%=path%>/ParkingSpaceEntry">录入</a> <a
+                                    class="btn btn-danger btn-sm" href="<%=path%>/queryParkingSpace">查询</a>
+                            </div>
+                        </td>
+					</tr>
+                    <tr><th>新二手车市场</th></tr>
                     <tr>
                         <td class="tdcalss">
-                            <div class="div3">新二手车市场地下停车位</div>
+                            <div class="div3">地下停车位</div>
                             <div class="div4">
-                                <a class="btn btn-info btn-sm" href="<%=path%>/xescscdxtcw"target="_blank">录入</a>
+                                <a class="btn btn-info btn-sm" href="<%=path%>/xescscdxtcw" >录入</a>
                                 <a class="btn btn-danger btn-sm"
-                                    href="<%=path%>/queryXescscdxtcw"target="_blank">查询</a>
+                                    href="<%=path%>/queryXescscdxtcw" >查询</a>
                             </div>
                         </td>
                         <td class="tdcalss">
-                            <div class="div3">新二手车市场楼顶停车位</div>
+                            <div class="div3">楼顶停车位</div>
                             <div class="div4">
-                                <a class="btn btn-info btn-sm" href="<%=path%>/xescscldtcw">录入</a>
+                                <a class="btn btn-info btn-sm" href="<%=path%>/xescscldtcw" >录入</a>
                                 <a class="btn btn-danger btn-sm"
                                     href="<%=path%>/queryXescscldtcw">查询</a>
                             </div>
@@ -125,14 +142,14 @@
 					<tr><th>汽配一期</th></tr>
 					<tr>
 						<td class="tdcalss">
-							<div class="div3">汽配一期门市模板</div>
+							<div class="div3">汽配一期门市</div>
 							<div class="div4">
 								<a class="btn btn-info btn-sm" href="<%=path%>/qpyqmsmb">录入</a>
 								<a class="btn btn-danger btn-sm" href="<%=path%>/queryQpyqmsmb">查询</a>
 							</div>
 						</td>
 						<td class="tdcalss">
-							<div class="div3">汽配一期库房模板</div>
+							<div class="div3">汽配一期库房</div>
 							<div class="div4">
 								<a class="btn btn-info btn-sm" href="<%=path%>/qpyqkfmb">录入</a>
 								<a class="btn btn-danger btn-sm" href="<%=path%>/queryQpyqkfmb">查询</a>
@@ -142,14 +159,14 @@
 					<tr><th>汽配二期</th></tr>
 					<tr>
 						<td class="tdcalss">
-							<div class="div3">汽配二期门市模板</div>
+							<div class="div3">汽配二期门市</div>
 							<div class="div4">
 								<a class="btn btn-info btn-sm" href="<%=path%>/qpeqmsmb">录入</a>
 								<a class="btn btn-danger btn-sm" href="<%=path%>/queryQpeqmsmb">查询</a>
 							</div>
 						</td>
 						<td class="tdcalss">
-							<div class="div3">宿舍模板</div>
+							<div class="div3">宿舍</div>
 							<div class="div4">
 								<a class="btn btn-info btn-sm" href="<%=path%>/ssmb">录入</a> <a
 									class="btn btn-danger btn-sm" href="<%=path%>/querySsmb">查询</a>
@@ -159,14 +176,14 @@
 					<tr><th>汽配三期</th></tr>
 					<tr>
 						<td class="tdcalss">
-							<div class="div3">汽配三期门市模板</div>
+							<div class="div3">汽配三期门市</div>
 							<div class="div4">
 								<a class="btn btn-info btn-sm" href="<%=path%>/qpsqmsmb">录入</a>
 								<a class="btn btn-danger btn-sm" href="<%=path%>/queryQpsqmsmb">查询</a>
 							</div>
 						</td>
 						<td class="tdcalss">
-							<div class="div3">汽配三期库房模板</div>
+							<div class="div3">汽配三期库房</div>
 							<div class="div4">
 								<a class="btn btn-info btn-sm" href="<%=path%>/qpsqkfmb">录入</a>
 								<a class="btn btn-danger btn-sm" href="<%=path%>/queryQpsqkfmb">查询</a>

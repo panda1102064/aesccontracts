@@ -33,5 +33,4 @@ http://www.springframework.org/schema/mvc http://www.springframework.org/schema/
 	    </mvc:interceptor>  
 	</mvc:interceptors> 
 	
-	
 </beans>

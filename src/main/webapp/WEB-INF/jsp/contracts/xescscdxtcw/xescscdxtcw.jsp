@@ -8,7 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="<%=path%>/css/contractsBase.css">
 </head>
 	<body>
-<%-- <jsp:include page="../../headpart.jsp"></jsp:include> --%>
+<jsp:include page="../../headpart.jsp"></jsp:include>
 		<div id="wrap">
 		<form action="addxescscdxtcw" method="post">
 			<p><img src="<%=path%>/img/logo.png" width="270px;" height="50px;"/></p>
@@ -17,7 +17,7 @@
 			<h1 style="text-align: center; ">汽博新二手车市场地下停车库租赁协议</h1>
 			<p>&nbsp;</p><p>&nbsp;</p>
 			<p>出租方[以下简称甲方]: <u>重庆汽博实业有限公司 </u></p><br />
-			<p>承租方[以下简称乙方]: <input class="dtkz" type="text" name="merchant_name"></p>
+			<p>承租方[以下简称乙方]: <input class="form-control" type="text" name="merchant_name"></p>
 			<br />
 			<p>&nbsp;&nbsp;甲乙双方本着平等自愿，协商一致原则，就乙方租赁甲方汽博新二手车市场地下停车库车位一事达成如下协议：</p>
 			<p>&nbsp;&nbsp;一、甲方向乙方提供地下车库<input required="required" name="offer" class="dtkz" type="text" value="负  楼停车位 个，场地号为 号" />，该车位用于<input required="required" class="dtkz" type="text" name="purpose" value="自用车" />停放，车牌号为渝<input required="required" class="dtkz" type="text" name="plate" /> ，该停车区位于汽博新二手车市场车库内。</p>
@@ -34,7 +34,7 @@
 			<p>&nbsp;&nbsp;十二、本协议一式肆份，甲方执<u> 叁 </u>份，乙方执<u> 壹 </u>份。具有同等法律效力。</p>
 			<p>&nbsp;&nbsp;十三、本协议自甲、乙双方法定代表人或其授权代理人签字并盖章后生效。</p>
 			<p>&nbsp;&nbsp;十四、备注</p>
-			<p><input class="dtkz"  name="remark" /></p>
+			<p><textarea rows="5" cols="100%" name="remark" /></textarea></p>
 			<br />
 			<p>&nbsp;&nbsp;十五、租金打款帐号</p>
 			<br />
@@ -63,7 +63,7 @@
 			</p>
 			</form>
 		</div>
-		<%-- <jsp:include page="../../footpart.jsp"></jsp:include> --%>
+		<jsp:include page="../../footpart.jsp"></jsp:include>
 		<script type="text/javascript" src="<%=path%>/js/inputExtend.js"></script>
 	</body>
 </html>

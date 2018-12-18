@@ -37,7 +37,7 @@ public class Xescscdxtcw {
 	@DateTimeFormat(pattern = "yyyy-MM-dd")
 	private String second_date;
 	private int status;
-private String username;
+	private String username;
   
   public String getUsername() {
     return username;

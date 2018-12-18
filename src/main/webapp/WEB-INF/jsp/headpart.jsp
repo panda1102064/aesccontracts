@@ -1,5 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <% 
 String path = request.getContextPath(); 
 response.setHeader("Cache-Control","no-cache"); 
@@ -21,6 +20,7 @@ response.setHeader("Pragma","no-cache");
 <meta http-equiv="Cache-Control" content="no-cache, must-revalidate"> 
 <meta http-equiv="expires" content="0">
 <!-- 字体 -->
+<link rel="shortcut icon" href="<%=path%>/img/favicon.ico">
 <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300,400' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
 <!-- CSS类库 -->
@@ -33,7 +33,6 @@ response.setHeader("Pragma","no-cache");
 <link rel="stylesheet" type="text/css" href="<%=path%>/css/dataTables.bootstrap.css">
 <link rel="stylesheet" type="text/css" href="<%=path%>/css/select2.min.css">
 <!-- CSS自定义应用 -->
-<link rel="shortcut icon" href="<%=path%>/img/favicon.ico">
 <link rel="stylesheet" type="text/css" href="<%=path%>/css/style.css">
 <link rel="stylesheet" type="text/css" href="<%=path%>/css/themes/flat-blue.css">
 <link rel="stylesheet" type="text/css" href="<%=path%>/js/laydate/theme/default/laydate.css">
