@@ -11,8 +11,8 @@ package com.aesc.pojo;
 /**  
  * description：
  * ClassName:XMC_ExhibitionHall <br/>  
- * Function: TODO ADD FUNCTION. <br/>  
- * Reason:   TODO ADD REASON. <br/>  
+ * Function:  ADD FUNCTION. <br/>  
+ * Reason:    ADD REASON. <br/>  
  * Date:     2018年12月19日 上午10:24:16 <br/>  
  * @author   Dawn Chen  
  * @version    

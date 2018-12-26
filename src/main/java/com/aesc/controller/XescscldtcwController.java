@@ -19,7 +19,7 @@ public class XescscldtcwController {
   
   /**
    * 方法名称: redirectXescscldtcw ；
-   * 方法描述:  TODO:   ；
+   * 方法描述: 
    * 返回类型: String ；
    * 作者：Dawn Chen  ；
    * 时间：2017年8月17日 下午1:34:51；
@@ -32,7 +32,7 @@ public class XescscldtcwController {
 	
 	/**
 	 * 方法名称: redirectSaveXescscdxtcw ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述: 
 	 * 返回类型: String ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年8月17日 下午1:34:47；
@@ -40,17 +40,13 @@ public class XescscldtcwController {
 	 */
 	@RequestMapping("/saveXescscldtcw")
 	public String redirectSaveXescscdxtcw(Xescscldtcw xescscldtcw){
-	  //try {
 	    xescscldtcwService.saveXescscdxtcw(xescscldtcw);
-    /*} catch (DataIntegrityViolationException e) {
-      return "manager/error";
-    } */
-	  return "contracts/xescscldtcw/xescscldtcw";
+	    return "contracts/xescscldtcw/xescscldtcw";
 	}
 	
 	/**
 	 * 方法名称: redirectQueryXescscldtcw ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述: 
 	 * 返回类型: String ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年8月17日 下午1:34:43；
@@ -65,7 +61,7 @@ public class XescscldtcwController {
 	
 	/**
 	 * 方法名称: redirectQueryXescscldtcwById ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述: 
 	 * 返回类型: String ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年8月17日 下午1:34:39；
@@ -80,7 +76,7 @@ public class XescscldtcwController {
 	
 	/**
 	 * 方法名称: updateXescscldtcwById ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:  
 	 * 返回类型: String ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年11月9日 下午8:49:37；
@@ -95,7 +91,7 @@ public class XescscldtcwController {
 	
 	/**
 	 * 方法名称: updateXescscldtcw ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:  
 	 * 返回类型: String ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年11月9日 下午8:53:03；

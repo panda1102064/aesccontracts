@@ -15,8 +15,8 @@ import com.aesc.pojo.Ssmb;
 
 /**  
  * ClassName:SsmbDao <br/>  
- * Function: TODO ADD FUNCTION. <br/>  
- * Reason:   TODO ADD REASON. <br/>  
+ * Function:  ADD FUNCTION. <br/>  
+ * Reason:    ADD REASON. <br/>  
  * Date:     2017年8月14日 上午11:34:52 <br/>  
  * @author   Dawn Chen  
  * @version    
@@ -28,7 +28,7 @@ public interface SsmbDao {
   /**
    * 
    * 方法名称: saveSsmb ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: void ；
    * 作者：Dawn Chen  ；
    * 时间：2017年8月14日 上午11:35:22；
@@ -39,7 +39,7 @@ public interface SsmbDao {
   /**
    * 
    * 方法名称: querySsmb ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: List<Ssmb> ；
    * 作者：Dawn Chen  ；
    * 时间：2017年8月14日 上午11:35:26；
@@ -50,7 +50,7 @@ public interface SsmbDao {
   /**
    * 
    * 方法名称: querySsmbById ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: Ssmb ；
    * 作者：Dawn Chen  ；
    * 时间：2017年8月14日 上午11:35:30；
@@ -60,7 +60,7 @@ public interface SsmbDao {
 
   /**
    * 方法名称: updateSsmb ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: boolean ；
    * 作者：Dawn Chen  ；
    * 时间：2017年10月30日 下午5:28:03；

@@ -24,7 +24,7 @@ public class QpeqmsmbController {
 	/**
 	 * 
 	 * 方法名称: redirectSaveQpeqmsmb ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:  :   ；
 	 * 返回类型: String ；
 	 * 创建人：Dawn Chen  ；
 	 * 创建时间：2017年8月8日 下午2:40:49；
@@ -32,16 +32,12 @@ public class QpeqmsmbController {
 	 */
 	@RequestMapping("/saveQpeqmsmb")
 	public String redirectSaveQpeqmsmb(Qpeqmsmb qpeqmsmb){
-		//try {
 		  qpeqmsmbService.saveQpeqmsmb(qpeqmsmb);
-    /*} catch (DataIntegrityViolationException e) {
-      return "manager/error";
-    } */
-		return "contracts/qpeqmsmb/qpeqmsmb";
+		  return "contracts/qpeqmsmb/qpeqmsmb";
 	}
 	/**
 	 * 方法名称: redirectQueryQpeqmsmb ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:  :   ；
 	 * 返回类型: String ；
 	 * 创建人：Dawn Chen  ；
 	 * 创建时间：2017年8月8日 下午3:00:28；
@@ -56,7 +52,7 @@ public class QpeqmsmbController {
 	
 	/**
 	 * 方法名称: redirectQueryQpeqmsmbById ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:  :   ；
 	 * 返回类型: String ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年12月18日 下午1:44:47；
@@ -71,7 +67,7 @@ public class QpeqmsmbController {
 	
 	/**
 	 * 方法名称: redirectUpdateQpeqmsmbById ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:  :   ；
 	 * 返回类型: String ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年12月18日 下午1:50:43；

@@ -34,8 +34,6 @@ public class XescscdxtcwServiceImpl implements XescscdxtcwService {
 
   @Override
   public boolean updateXescscdxtcw(Xescscdxtcw xescscdxtcw) {
-      
-    // TODO Auto-generated method stub  
     return this.xescscdxtcwDao.updateXescscdxtcw(xescscdxtcw);
   }
 }

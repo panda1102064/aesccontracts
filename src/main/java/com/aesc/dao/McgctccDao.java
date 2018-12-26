@@ -15,8 +15,8 @@ import com.aesc.pojo.Mcgctcc;
 
 /**  
  * ClassName:McgctccDao <br/>  
- * Function: TODO ADD FUNCTION. <br/>  
- * Reason:   TODO ADD REASON. <br/>  
+ * Function:  ADD FUNCTION. <br/>  
+ * Reason:    ADD REASON. <br/>  
  * Date:     2017年12月12日 下午3:31:56 <br/>  
  * @author   Dawn Chen  
  * @version    
@@ -27,7 +27,7 @@ public interface McgctccDao {
 
   /**
    * 方法名称: saveMcgctcc ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: void ；
    * 作者：Dawn Chen  ；
    * 时间：2017年12月12日 下午3:48:43；
@@ -37,7 +37,7 @@ public interface McgctccDao {
 
   /**
    * 方法名称: queryMcgctcc ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: List<Mcgctcc> ；
    * 作者：Dawn Chen  ；
    * 时间：2017年12月12日 下午3:48:48；
@@ -47,7 +47,7 @@ public interface McgctccDao {
 
   /**
    * 方法名称: queryMcgctccById ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: Mcgctcc ；
    * 作者：Dawn Chen  ；
    * 时间：2017年12月12日 下午3:48:51；
@@ -57,7 +57,7 @@ public interface McgctccDao {
 
   /**
    * 方法名称: updateMcgctcc ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: boolean ；
    * 作者：Dawn Chen  ；
    * 时间：2017年12月12日 下午4:36:27；

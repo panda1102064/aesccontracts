@@ -10,8 +10,8 @@
 package com.aesc.pojo;  
 /**  
  * ClassName:Qpyqmsmb <br/>  
- * Function: TODO ADD FUNCTION. <br/>  
- * Reason:   TODO ADD REASON. <br/>  
+ * Function:  ADD FUNCTION. <br/>  
+ * Reason:    ADD REASON. <br/>  
  * Date:     2017年8月11日 上午11:07:52 <br/>  
  * @author   Dawn Chen  
  * @version    

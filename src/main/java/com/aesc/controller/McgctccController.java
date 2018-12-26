@@ -27,11 +27,7 @@ public class McgctccController {
 	//执行保存操作
 	@RequestMapping("/saveMcgctcc")
 	public String redirectSavemcgctcc(Mcgctcc mcgctcc){
-		//try {
 		  mcgctccService.saveMcgctcc(mcgctcc);
-   /* } catch (DataIntegrityViolationException e) {
-      return "manager/error";
-    } */
 		return "contracts/mcgctcc/mcgctcc";
 	}
 	
@@ -53,7 +49,7 @@ public class McgctccController {
 	
 	/**
 	 * 方法名称: redirectUpdatemcgctccById ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:  :   ；
 	 * 返回类型: ModelAndView ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年11月13日 下午9:00:28；
@@ -69,7 +65,7 @@ public class McgctccController {
 	
 	/**
 	 * 方法名称: redirectUpdatemcgctcc ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:  :   ；
 	 * 返回类型: ModelAndView ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年11月13日 下午9:02:37；

@@ -24,18 +24,14 @@ public class QpsqkfmbServiceImpl implements QpsqkfmbService {
 	}
 	@Override
 	public List<Qpsqkfmb> queryQpsqkfmb() {
-		// TODO Auto-generated method stub
 		return this.qpsqkfmbDao.queryQpsqkfmb();
 	}
 	@Override
 	public Qpsqkfmb queryQpsqkfmbById(int contract_id) {
-		// TODO Auto-generated method stub
 		return this.qpsqkfmbDao.queryQpsqkfmbById(contract_id);
 	}
   @Override
   public boolean updateQpsqkfmb(Qpsqkfmb qpsqkfmb) {
-      
-    // TODO Auto-generated method stub  
     return this.qpsqkfmbDao.updateQpsqkfmb(qpsqkfmb) ;
   }
 

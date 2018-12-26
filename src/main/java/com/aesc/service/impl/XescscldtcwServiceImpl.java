@@ -22,8 +22,8 @@ import com.aesc.service.XescscldtcwService;
 
 /**
  * ClassName:XescscldtcwServiceImpl <br/>
- * Function: TODO ADD FUNCTION. <br/>
- * Reason: TODO ADD REASON. <br/>
+ * Function:  ADD FUNCTION. <br/>
+ * Reason:  ADD REASON. <br/>
  * Date: 2017年8月17日 下午1:35:35 <br/>
  * 
  * @author Dawn Chen
@@ -46,22 +46,16 @@ public class XescscldtcwServiceImpl implements XescscldtcwService {
 
   @Override
   public List<Xescscldtcw> queryXescscldtcw() {
-
-    // TODO Auto-generated method stub
     return this.xescscldtcwDao.queryXescscldtcw();
   }
 
   @Override
   public Xescscldtcw queryXescscldtcwById(int contract_id) {
-
-    // TODO Auto-generated method stub
     return this.xescscldtcwDao.queryXescscldtcwById(contract_id);
   }
 
   @Override
   public boolean updateXescscldtcw(Xescscldtcw xescscldtcw) {
-      
-    // TODO Auto-generated method stub  
     return this.xescscldtcwDao.updateXescscldtcw(xescscldtcw);
   }
 

@@ -26,7 +26,7 @@ public class McgcwzcxmbController {
 	/**
 	 * 
 	 * 方法名称: redirectSaveMcgcwzcxmb ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:  :   ；
 	 * 返回类型: String ；
 	 * 创建人：Dawn Chen  ；
 	 * 创建时间：2017年8月4日 下午4:52:13；
@@ -34,17 +34,13 @@ public class McgcwzcxmbController {
 	 */
 	@RequestMapping("/saveMcgcwzcxmb")
 	public String redirectSaveMcgcwzcxmb(Mcgcwzcxmb mcgcwzcxmb){
-		//try {
 		  mcgcwzcxmbService.saveMcgcwzcxmb(mcgcwzcxmb);
-    /*} catch (DataIntegrityViolationException e) {
-      return "manager/error";
-    } */
-		return "contracts/mcgcwzcxmb/mcgcwzcxmb";
+		  return "contracts/mcgcwzcxmb/mcgcwzcxmb";
 	}
 	/**
 	 * 
 	 * 方法名称: redirectQueryMcgcwzcxmb ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:  :   ；
 	 * 返回类型: ModelAndView ；
 	 * 创建人：Dawn Chen  ；
 	 * 创建时间：2017年8月7日 上午10:52:41；
@@ -61,7 +57,7 @@ public class McgcwzcxmbController {
 	/**
 	 * 
 	 * 方法名称: redirectqueryMcgcwzcxmbById ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:  :   ；
 	 * 返回类型: ModelAndView ；
 	 * 创建人：Dawn Chen  ；
 	 * 创建时间：2017年8月7日 上午11:01:50；
@@ -77,7 +73,7 @@ public class McgcwzcxmbController {
 	
 	/**
 	 * 方法名称: redirectupdateMcgcwzcxmbById ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:  :   ；
 	 * 返回类型: String ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年11月1日 下午1:33:37；
@@ -93,7 +89,7 @@ public class McgcwzcxmbController {
 	
 	/**
 	 * 方法名称: redirectupdateMcgcwzcxmb ；
-	 * 方法描述:  TODO:  修改方法 ；
+	 * 方法描述:  :  修改方法 ；
 	 * 返回类型: String ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年11月1日 下午1:34:08；

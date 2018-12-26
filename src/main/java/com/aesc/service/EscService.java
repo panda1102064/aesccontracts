@@ -16,8 +16,8 @@ import com.aesc.pojo.EscDate;
 
 /**  
  * ClassName:EscService <br/>  
- * Function: TODO ADD FUNCTION. <br/>  
- * Reason:   TODO ADD REASON. <br/>  
+ * Function:  ADD FUNCTION. <br/>  
+ * Reason:    ADD REASON. <br/>  
  * Date:     2017年8月22日 下午4:47:59 <br/>  
  * @author   Dawn Chen  
  * @version    
@@ -28,7 +28,7 @@ public interface EscService {
 
   /**
    * 方法名称: queryEsc ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: List<Esc> ；
    * 作者：Dawn Chen  ；
    * 时间：2017年8月23日 上午9:55:53；
@@ -38,7 +38,7 @@ public interface EscService {
 
   /**
    * 方法名称: queryEscById ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: Esc ；
    * 作者：Dawn Chen  ；
    * 时间：2017年8月23日 上午9:55:57；
@@ -48,7 +48,7 @@ public interface EscService {
 
   /**
    * 方法名称: queryEscDateById ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: EscDate ；
    * 作者：Dawn Chen  ；
    * 时间：2017年8月23日 上午9:56:00；
@@ -58,7 +58,7 @@ public interface EscService {
 
   /**
    * 方法名称: saveEsc ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: void ；
    * 作者：Dawn Chen  ；
    * 时间：2017年8月25日 上午9:59:08；
@@ -68,7 +68,7 @@ public interface EscService {
 
   /**
    * 方法名称: saveEscDate ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: void ；
    * 作者：Dawn Chen  ；
    * 时间：2017年8月25日 上午9:59:13；
@@ -78,7 +78,7 @@ public interface EscService {
 
   /**
    * 方法名称: transverterEscList ；
-   * 方法描述:  TODO: 将得到的数据转换为List传到前端页面进行处理  ；transverter：转换器；
+   * 方法描述:  : 将得到的数据转换为List传到前端页面进行处理  ；transverter：转换器；
    * 返回类型: List<EscDate> ；
    * 作者：Dawn Chen  ；
    * 时间：2017年8月29日 上午11:03:38；
@@ -88,7 +88,7 @@ public interface EscService {
 
   /**
    * 方法名称: updateEsc ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: boolean ；
    * 作者：Dawn Chen  ；
    * 时间：2017年11月10日 下午8:21:44；
@@ -98,7 +98,7 @@ public interface EscService {
 
   /**
    * 方法名称: updateEscDate ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: boolean ；
    * 作者：Dawn Chen  ；
    * 时间：2017年11月10日 下午8:21:51；
@@ -108,4 +108,3 @@ public interface EscService {
 
   List<EscDate> transvertEscList(EscDate escDate);
 }
-  

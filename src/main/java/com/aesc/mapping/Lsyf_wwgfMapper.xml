@@ -21,7 +21,6 @@
 	<result  column="transfer_month" property="transfer_month"   jdbcType="VARCHAR"/>
 	<result  column="transfer_day" property="transfer_day"   jdbcType="VARCHAR"/>
 	<result  column="payment1" property="payment1"   jdbcType="VARCHAR"/>
-	<!-- <result  column="cash" property="cash"   jdbcType="VARCHAR"/> -->
 	<result  column="payment2" property="payment2"   jdbcType="VARCHAR"/>
 	<result  column="payment3" property="payment3"   jdbcType="VARCHAR"/>
 	<result  column="payment4" property="payment4"   jdbcType="VARCHAR"/>

@@ -16,8 +16,8 @@ import com.aesc.pojo.XMC_ParkingSpace;
 /**  
  * description：
  * ClassName:XMC_ParkingSpaceService <br/>  
- * Function: TODO ADD FUNCTION. <br/>  
- * Reason:   TODO ADD REASON. <br/>  
+ * Function:  ADD FUNCTION. <br/>  
+ * Reason:    ADD REASON. <br/>  
  * Date:     2018年12月18日 上午11:11:58 <br/>  
  * @author   Dawn Chen  
  * @version    
@@ -35,4 +35,3 @@ public interface XMC_ParkingSpaceService {
   boolean updateParkingSpace(XMC_ParkingSpace parkingSpace);
 
 }
-  

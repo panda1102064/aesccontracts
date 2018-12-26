@@ -15,8 +15,8 @@ import com.aesc.pojo.Qpyqmsmb;
 
 /**  
  * ClassName:QpyqmsmbDao <br/>  
- * Function: TODO ADD FUNCTION. <br/>  
- * Reason:   TODO ADD REASON. <br/>  
+ * Function:  ADD FUNCTION. <br/>  
+ * Reason:    ADD REASON. <br/>  
  * Date:     2017年8月11日 上午11:23:51 <br/>  
  * @author   Dawn Chen  
  * @version    
@@ -27,7 +27,7 @@ public interface QpyqmsmbDao {
     /**
      * 
      * 方法名称: saveQpyqmsmb ；
-     * 方法描述:  TODO:   ；
+     * 方法描述:  :   ；
      * 返回类型: void ；
      * 作者：Dawn Chen  ；
      * 时间：2017年8月11日 上午11:24:59；
@@ -37,7 +37,7 @@ public interface QpyqmsmbDao {
     /**
      * 
      * 方法名称: queryQpyqmsmb ；
-     * 方法描述:  TODO:   ；
+     * 方法描述:  :   ；
      * 返回类型: List<Qpyqmsmb> ；
      * 作者：Dawn Chen  ；
      * 时间：2017年8月11日 上午11:25:03；
@@ -47,7 +47,7 @@ public interface QpyqmsmbDao {
     /**
      * 
      * 方法名称: queryQpyqmsmbById ；
-     * 方法描述:  TODO:   ；
+     * 方法描述:  :   ；
      * 返回类型: Qpyqmsmb ；
      * 作者：Dawn Chen  ；
      * 时间：2017年8月11日 上午11:25:05；
@@ -57,7 +57,7 @@ public interface QpyqmsmbDao {
     
     /**
      * 方法名称: updateQpyqmsmb ；
-     * 方法描述:  TODO:   ；
+     * 方法描述:  :   ；
      * 返回类型: boolean ；
      * 作者：Dawn Chen  ；
      * 时间：2017年11月8日 下午1:56:43；

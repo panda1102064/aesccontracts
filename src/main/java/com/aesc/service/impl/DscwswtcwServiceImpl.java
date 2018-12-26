@@ -18,23 +18,18 @@ public class DscwswtcwServiceImpl implements DscwswtcwService {
 	private DscwswtcwDao dscwswtcwDao;
 	@Override
 	public void saveDscwswtcw(Dscwswtcw dscwswtcw) {
-		// TODO Auto-generated method stub
 		dscwswtcwDao.saveDscwswtcw(dscwswtcw);
 	}
 	@Override
 	public List<Dscwswtcw> queryDscwswtcw() {
-		// TODO Auto-generated method stub
 		return this.dscwswtcwDao.queryDscwswtcw();
 	}
 	@Override
 	public Dscwswtcw queryDscwswtcwById(int contract_id) {
-		// TODO Auto-generated method stub
 		return this.dscwswtcwDao.queryDscwswtcwById(contract_id);
 	}
   @Override
   public boolean updateDscwswtcw(Dscwswtcw dscwswtcw) {
-      
-    // TODO Auto-generated method stub  
     return this.dscwswtcwDao.updateDscwswtcw(dscwswtcw);
   }
 

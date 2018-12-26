@@ -14,8 +14,8 @@ import java.util.List;
 
 /**  
  * ClassName:TestList <br/>  
- * Function: TODO ADD FUNCTION. <br/>  
- * Reason:   TODO ADD REASON. <br/>  
+ * Function:  ADD FUNCTION. <br/>  
+ * Reason:    ADD REASON. <br/>  
  * Date:     2017年8月29日 上午10:38:35 <br/>  
  * @author   Dawn Chen  
  * @version    
@@ -28,8 +28,6 @@ public class TestList {
     String tr = "1,2,3,4,5";
     List<Pojo> list = loadPojo(tr);
     System.out.println(list);
-    // TODO Auto-generated method stub  
-
   }
 
   private static List<Pojo> loadPojo(String str) {
@@ -39,12 +37,9 @@ public class TestList {
       Pojo pojo = new Pojo();
       pojo.setA(val);
       list.add(pojo);
-      
     }
     return list;
   }
-  
- 
 }
   
 class Pojo{

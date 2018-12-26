@@ -16,8 +16,8 @@ import com.aesc.pojo.Dslqht;
 
 /**  
  * ClassName:DslqhtService <br/>  
- * Function: TODO ADD FUNCTION. <br/>  
- * Reason:   TODO ADD REASON. <br/>  
+ * Function:  ADD FUNCTION. <br/>  
+ * Reason:    ADD REASON. <br/>  
  * Date:     2017年8月18日 下午4:31:13 <br/>  
  * @author   Dawn Chen  
  * @version    
@@ -28,7 +28,7 @@ public interface DslqhtService {
 
   /**
    * 方法名称: saveDslqht ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: void ；
    * 作者：Dawn Chen  ；
    * 时间：2017年8月18日 下午4:34:42；
@@ -38,7 +38,7 @@ public interface DslqhtService {
 
   /**
    * 方法名称: queryDslqht ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: List<Dslqht> ；
    * 作者：Dawn Chen  ；
    * 时间：2017年8月18日 下午4:34:47；
@@ -48,7 +48,7 @@ public interface DslqhtService {
 
   /**
    * 方法名称: queryDslqhtById ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: Dslqht ；
    * 作者：Dawn Chen  ；
    * 时间：2017年8月18日 下午4:34:51；
@@ -58,7 +58,7 @@ public interface DslqhtService {
 
   /**
    * 方法名称: saveDslqDate ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: void ；
    * 作者：Dawn Chen  ；
    * 时间：2017年8月31日 上午9:38:32；
@@ -68,7 +68,7 @@ public interface DslqhtService {
 
   /**
    * 方法名称: queryDslqDateById ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: DslqDate ；
    * 作者：Dawn Chen  ；
    * 时间：2017年8月31日 上午9:53:43；
@@ -78,7 +78,7 @@ public interface DslqhtService {
 
   /**
    * 方法名称: transverterEscList ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: List<DslqDate> ；
    * 作者：Dawn Chen  ；
    * 时间：2017年11月6日 下午5:05:51；
@@ -88,7 +88,7 @@ public interface DslqhtService {
 
   /**
    * 方法名称: updateDslqht ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: boolean ；
    * 作者：Dawn Chen  ；
    * 时间：2017年11月6日 下午5:05:58；
@@ -98,7 +98,7 @@ public interface DslqhtService {
 
   /**
    * 方法名称: updateDslqDate ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: boolean ；
    * 作者：Dawn Chen  ；
    * 时间：2017年11月6日 下午5:07:20；
@@ -109,7 +109,7 @@ public interface DslqhtService {
   /**
    * 
    * 方法名称: getDateId ；
-   * description:  TODO:  根据主合同ID获取大厦楼群合同的日期Id
+   * description:  :  根据主合同ID获取大厦楼群合同的日期Id
    * 返回类型: int[] ；
    * 作者：Dawn Chen  ；
    * 时间：2018年8月13日 上午10:23:20；
@@ -120,4 +120,3 @@ public interface DslqhtService {
   List<DslqDate> transvertDslqList(DslqDate dslqDate);
 
 }
-  

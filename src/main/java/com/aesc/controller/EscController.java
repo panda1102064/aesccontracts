@@ -20,7 +20,7 @@ public class EscController {
   
   /**
    * 方法名称: redirectEsc ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: String ；
    * 作者：Dawn Chen  ；
    * 时间：2017年8月22日 下午4:48:14；
@@ -33,7 +33,7 @@ public class EscController {
 	
 	/**
 	 * 方法名称: redirectSaveEsc ；
-	 * 方法描述:  TODO:synchronized是为了防止escdate数据库的合同id出错   ；
+	 * 方法描述:  :synchronized是为了防止escdate数据库的合同id出错   ；
 	 * 返回类型: String ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年8月22日 下午4:48:19；
@@ -41,18 +41,14 @@ public class EscController {
 	 */
 	@RequestMapping("/saveEsc")
 	public synchronized String redirectSaveEsc(Esc esc, EscDate escDate){
-	  //try {
 	  escService.saveEsc(esc);
 	  escService.saveEscDate(escDate);
-	  /*} catch (DataIntegrityViolationException e) {
-	    return "manager/error";
-	  } */
 	  return "contracts/esc/esc";
 	}
 	  
 	/**
 	 * 方法名称: redirectQueryEsc ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:  :   ；
 	 * 返回类型: String ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年8月22日 下午4:48:22；
@@ -67,7 +63,7 @@ public class EscController {
 	
 	/**
 	 * 方法名称: redirectQueryEscById ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:  :   ；
 	 * 返回类型: String ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年8月22日 下午4:48:25；
@@ -84,7 +80,7 @@ public class EscController {
 	
 	/**
 	 * 方法名称: redirectUpdateEscById ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:  :   ；
 	 * 返回类型: String ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年11月10日 下午8:15:05；
@@ -101,7 +97,7 @@ public class EscController {
 	
 	/**
 	 * 方法名称: redirectUpdateEsc ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:  :   ；
 	 * 返回类型: String ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年11月10日 下午8:16:42；

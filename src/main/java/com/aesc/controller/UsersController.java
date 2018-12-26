@@ -39,7 +39,7 @@ public class UsersController {
 	 * @throws IOException 
 	 * @throws ServletException 
 	 * 方法名称: login ；
-	 * 方法描述:  TODO:  新增HttpServletRequest让用户在前端获取 ；
+	 * 方法描述:     新增HttpServletRequest让用户在前端获取 ；
 	 * 返回类型: String ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年9月7日 下午3:59:49；
@@ -80,7 +80,7 @@ public class UsersController {
 	
 	/**
 	 * 方法名称: logOut ；
-	 * 方法描述:  TODO: 用户退出登录，清除session  ；
+	 * 方法描述:    用户退出登录，清除session  ；
 	 * 返回类型: ModelAndView ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年9月15日 上午9:18:15；
@@ -101,7 +101,7 @@ public class UsersController {
 
   /**
    * 方法名称: redirectMain ；
-   * 方法描述:  TODO: 用户注册  ；
+   * 方法描述:    用户注册  ；
    * 返回类型: String ；
    * 作者：Dawn Chen  ；
    * 时间：2017年9月12日 下午1:49:22；
@@ -114,7 +114,7 @@ public class UsersController {
   
   /**
    * 方法名称: redirectAddUsers ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:      ；
    * 返回类型: String ；
    * 作者：Dawn Chen  ；
    * 时间：2017年9月15日 上午9:06:29；
@@ -139,7 +139,7 @@ public class UsersController {
 	
 	/**
 	 * 方法名称: redirectpersonInfo ；
-	 * 方法描述:  TODO: 用户查看自己信息资料  ；
+	 * 方法描述:    用户查看自己信息资料  ；
 	 * 返回类型: String ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年9月18日 下午3:00:28；
@@ -154,7 +154,7 @@ public class UsersController {
 	
 	/**
 	 * 方法名称: redirectupdateUserInfo ；
-	 * 方法描述:  TODO: 用户修改自己的信息密码，电话  ；
+	 * 方法描述:    用户修改自己的信息密码，电话  ；
 	 * 返回类型: String ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年9月18日 下午5:07:58；

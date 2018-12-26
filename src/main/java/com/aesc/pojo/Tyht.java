@@ -11,8 +11,8 @@ package com.aesc.pojo;
 
 /**
  * ClassName:Tyht <br/>
- * Function: TODO ADD FUNCTION. <br/>
- * Reason: TODO ADD REASON. <br/>
+ * Function:  ADD FUNCTION. <br/>
+ * Reason:  ADD REASON. <br/>
  * Date: 2017年8月17日 上午9:32:19 <br/>
  * 
  * @author Dawn Chen

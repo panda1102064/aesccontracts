@@ -46,7 +46,6 @@
 	positions            ,
 	createtime   ,
 	status      
-	
 	)                  
 	VALUES             
 	(                  
@@ -62,9 +61,5 @@
 	#{createtime           ,      jdbcType=TIMESTAMP},
 	#{status               ,      jdbcType=INTEGER}
 	)
-	
 	</insert>
-	
-	
-	
 </mapper>

@@ -209,7 +209,6 @@
 	UPDATE 
 	qpsqkfmb_contract
 	SET
-	
 contract_serial              = #{contract_serial        ,jdbcType=VARCHAR},
 merchant_name                = #{merchant_name          ,jdbcType=VARCHAR},
 address                      = #{address                ,jdbcType=VARCHAR},
@@ -276,11 +275,3 @@ status                       = #{status                 ,jdbcType=VARCHAR}
 contract_id                  = #{contract_id        ,jdbcType=VARCHAR}
 	</update>        
 </mapper>
-        
-        
-        
-        
-        
-        
-        
-        

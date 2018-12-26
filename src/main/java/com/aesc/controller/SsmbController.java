@@ -21,7 +21,7 @@ public class SsmbController {
   /**
    * 
    * 方法名称: redirectSsmb ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:   :   ；
    * 返回类型: String ；
    * 作者：Dawn Chen  ；
    * 时间：2017年8月11日 下午5:05:06；
@@ -34,7 +34,7 @@ public class SsmbController {
 	/**
 	 * 
 	 * 方法名称: redirectSaveSsmb ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:   :   ；
 	 * 返回类型: String ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年8月11日 下午5:08:57；
@@ -42,17 +42,13 @@ public class SsmbController {
 	 */
 	  @RequestMapping("/saveSsmb")
 	  public String redirectSaveSsmb(Ssmb ssmb) {
-	    //try {
 	      ssmbService.saveSsmb(ssmb);
-	    /*} catch (DataIntegrityViolationException e) {
-	      return "manager/error";
-	    } */
 	    return "contracts/ssmb/ssmb";
 	  }
 	  /**
 	   * 
 	   * 方法名称: redirectQuerySsmb ；
-	   * 方法描述:  TODO:   ；
+	   * 方法描述:   :   ；
 	   * 返回类型: String ；
 	   * 作者：Dawn Chen  ；
 	   * 时间：2017年8月11日 下午5:08:59；
@@ -67,7 +63,7 @@ public class SsmbController {
 	  /**
 	   * 
 	   * 方法名称: redirectQuerySsmbById ；
-	   * 方法描述:  TODO:   ；
+	   * 方法描述:   :   ；
 	   * 返回类型: String ；
 	   * 作者：Dawn Chen  ；
 	   * 时间：2017年8月11日 下午5:09:04；
@@ -82,7 +78,7 @@ public class SsmbController {
 	  
 	  /**
 	   * 方法名称: redirectUpdateQuerySsmb ；
-	   * 方法描述:  TODO:   ；
+	   * 方法描述:   :   ；
 	   * 返回类型: String ；
 	   * 作者：Dawn Chen  ；
 	   * 时间：2017年10月30日 下午3:43:20；
@@ -96,7 +92,7 @@ public class SsmbController {
 	  }
 	  /**
 	   * 方法名称: redirectUpdateSsmb ；
-	   * 方法描述:  TODO:   ；
+	   * 方法描述:   :   ；
 	   * 返回类型: String ；
 	   * 作者：Dawn Chen  ；
 	   * 时间：2017年10月30日 下午5:16:50；

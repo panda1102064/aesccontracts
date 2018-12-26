@@ -1,18 +1,12 @@
 package com.aesc.controller;
 
-import javax.annotation.Resource;
-
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-
-import com.aesc.service.XescscdxtcwService;
 
 
 @Controller
 public class ContractsController {
 
-	@Resource
-	private XescscdxtcwService contractService;
 	/**
 	 * 方法名称: redirectMain ；
 	 * 方法描述: 错误页返回菜单主页  ；

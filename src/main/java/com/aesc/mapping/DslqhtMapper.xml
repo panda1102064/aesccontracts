@@ -257,11 +257,3 @@ status                = #{status                 ,jdbcType=VARCHAR}
 contract_id	          = #{contract_id            ,jdbcType=INTEGER}   
 	</update>     
 </mapper>
-        
-        
-        
-        
-        
-        
-        
-        

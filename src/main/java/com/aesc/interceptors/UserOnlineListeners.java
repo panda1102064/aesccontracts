@@ -16,8 +16,8 @@ import javax.servlet.http.HttpSessionListener;
 
 /**
  * ClassName:UserOnlineListeners <br/>
- * Function: TODO ADD FUNCTION. <br/>
- * Reason: TODO ADD REASON. <br/>
+ * Function:  ADD FUNCTION. <br/>
+ * Reason:  ADD REASON. <br/>
  * Date: 2017年9月29日 下午3:31:08 <br/>
  * 
  * @author Dawn Chen

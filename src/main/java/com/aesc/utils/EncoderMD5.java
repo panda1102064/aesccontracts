@@ -16,8 +16,8 @@ import java.util.List;
 
 /**
  * ClassName:EncoderMD5 <br/>
- * Function: TODO ADD FUNCTION. <br/>
- * Reason: TODO ADD REASON. <br/>
+ * Function:  ADD FUNCTION. <br/>
+ * Reason:  ADD REASON. <br/>
  * Date: 2017年9月15日 上午10:13:44 <br/>
  * 
  * @author Dawn Chen
@@ -44,7 +44,7 @@ public class EncoderMD5 {
 
   /**
    * 方法名称: getMD5 ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: String ；
    * 作者：Dawn Chen  ；
    * 时间：2017年9月15日 上午10:38:32；
@@ -69,7 +69,7 @@ public class EncoderMD5 {
 
   /**
    * 方法名称: bytesToHex ；
-   * 方法描述:  TODO: 二进制转十六进制  ；
+   * 方法描述:  : 二进制转十六进制  ；
    * 返回类型: String ；
    * 作者：Dawn Chen  ；
    * 时间：2017年9月15日 上午10:38:24；

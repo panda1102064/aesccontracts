@@ -11,8 +11,8 @@ package com.aesc.pojo;
 /**  
  * description：
  * ClassName:TongYongHeTongKuaNianDate <br/>  
- * Function: TODO ADD FUNCTION. <br/>  
- * Reason:   TODO ADD REASON. <br/>  
+ * Function:  ADD FUNCTION. <br/>  
+ * Reason:    ADD REASON. <br/>  
  * Date:     2018年11月26日 上午10:12:03 <br/>  
  * @author   Dawn Chen  
  * @version    

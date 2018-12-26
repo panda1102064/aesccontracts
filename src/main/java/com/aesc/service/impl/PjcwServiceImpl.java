@@ -23,35 +23,19 @@ public class PjcwServiceImpl implements PjcwService {
 		pjcwDao.savePjcw(pjcw);
 
 	}
-/**
- * 
- * 
- *实现类
- * @return
- * @see com.aesc.service.PjcwService#queryPjcw()
- */
+
 	@Override
 	public List<Pjcw> queryPjcw() {
-		// TODO Auto-generated method stub
 		return this.pjcwDao.queryPjcw();
 	}
-	/**
-	 * 
-	 * 
-	 *实现类
-	 * @param contract_id
-	 * @return
-	 * @see com.aesc.service.PjcwService#queryPjcwListById(int)
-	 */
-@Override
-public Pjcw queryPjcwListById(int contract_id) {
-	// TODO Auto-generated method stub
-	return this.pjcwDao.queryPjcwListById(contract_id);
-}
+
+	@Override
+  public Pjcw queryPjcwListById(int contract_id) {
+  	return this.pjcwDao.queryPjcwListById(contract_id);
+  }
+  
   @Override
   public boolean updatePjcw(Pjcw pjcw) {
-      
-    // TODO Auto-generated method stub  
     return this.pjcwDao.updatePjcw(pjcw);
   }
 

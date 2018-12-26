@@ -4,7 +4,6 @@ import java.util.List;
 
 import javax.annotation.Resource;
 
-import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -24,7 +23,7 @@ public class QpsqmsmbController {
 	}
 	/**
 	 * 方法名称: redirectSaveQpsqmsmb ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:  :   ；
 	 * 返回类型: String ；
 	 * 创建人：Dawn Chen  ；
 	 * 创建时间：2017年8月10日 上午10:19:06；
@@ -32,16 +31,12 @@ public class QpsqmsmbController {
 	 */
 	@RequestMapping("/saveQpsqmsmb")
 	public String redirectSaveQpsqmsmb(Qpsqmsmb qpsqmsmb){
-		try {
 		  qpsqmsmbService.saveQpsqmsmb(qpsqmsmb);
-    } catch (DataIntegrityViolationException e) {
-      return "manager/error";
-    } 
-		return "contracts/qpsqmsmb/qpsqmsmb";
+		  return "contracts/qpsqmsmb/qpsqmsmb";
 	}
 	/**
 	 * 方法名称: redirectQueryQpsqmsmb ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:  :   ；
 	 * 返回类型: String ；
 	 * 创建人：Dawn Chen  ；
 	 * 创建时间：2017年8月10日 上午10:19:43；
@@ -55,7 +50,7 @@ public class QpsqmsmbController {
 	}
 	/**
 	 * 方法名称: redirectQueryQpsqmsmbById ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:  :   ；
 	 * 返回类型: String ；
 	 * 创建人：Dawn Chen  ；
 	 * 创建时间：2017年8月10日 上午10:20:31；
@@ -70,7 +65,7 @@ public class QpsqmsmbController {
 	
 	/**
 	 * 方法名称: redirectUpdateQpsqmsmbById ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:  :   ；
 	 * 返回类型: String ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年11月24日 下午3:57:55；
@@ -85,7 +80,7 @@ public class QpsqmsmbController {
 	
 	/**
 	 * 方法名称: redirectUpdateQpsqmsmb ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:  :   ；
 	 * 返回类型: String ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年11月24日 下午3:58:46；

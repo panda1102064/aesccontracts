@@ -20,7 +20,6 @@ public class Lsyf_wwgf {
 	private String transfer_month;
 	private String transfer_day;
 	private String payment1;
-	//private String cash;
 	private String payment2;
 	private String payment3;
 	private String payment4;

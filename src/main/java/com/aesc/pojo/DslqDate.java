@@ -10,8 +10,8 @@
 package com.aesc.pojo;  
 /**  
  * ClassName:DslqDate <br/>  
- * Function: TODO ADD FUNCTION. <br/>  
- * Reason:   TODO ADD REASON. <br/>  
+ * Function:  ADD FUNCTION. <br/>  
+ * Reason:    ADD REASON. <br/>  
  * Date:     2017年8月31日 上午9:18:11 <br/>  
  * @author   Dawn Chen  
  * @version    

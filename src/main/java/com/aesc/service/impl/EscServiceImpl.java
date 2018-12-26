@@ -24,8 +24,8 @@ import com.aesc.service.EscService;
 
 /**  
  * ClassName:EscServiceImpl <br/>  
- * Function: TODO ADD FUNCTION. <br/>  
- * Reason:   TODO ADD REASON. <br/>  
+ * Function:  ADD FUNCTION. <br/>  
+ * Reason:    ADD REASON. <br/>  
  * Date:     2017年8月23日 上午9:57:10 <br/>  
  * @author   Dawn Chen  
  * @version    
@@ -69,7 +69,7 @@ public class EscServiceImpl implements EscService {
 
   /**
    * 方法名称: transverterEscList ；
-   * 方法描述:  TODO: 将二手车的第七条日期类条例对象转换成List存入数据库，对象多条时，是用“，”作的分隔。  ；
+   * 方法描述:  : 将二手车的第七条日期类条例对象转换成List存入数据库，对象多条时，是用“，”作的分隔。  ；
    * 返回类型: List<EscDate> ；
    * 作者：Dawn Chen  ；
    * 时间：2017年8月30日 下午5:19:07；

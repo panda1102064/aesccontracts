@@ -4,7 +4,6 @@ import java.util.List;
 
 import javax.annotation.Resource;
 
-import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -20,7 +19,7 @@ public class QpyqkfmbController {
 
 	/**
 	 * 
-	 * 方法名称: redirectQpyqkfmb ； 方法描述: TODO: ； 返回类型: String ； 创建人：Dawn Chen ；
+	 * 方法名称: redirectQpyqkfmb ； 方法描述: : ； 返回类型: String ； 创建人：Dawn Chen ；
 	 * 创建时间：2017年8月10日 下午1:45:06； @throws
 	 */
 	@RequestMapping("/qpyqkfmb")
@@ -30,22 +29,18 @@ public class QpyqkfmbController {
 
 	/**
 	 * 
-	 * 方法名称: redirectSaveQpyqkfmb ； 方法描述: TODO: ； 返回类型: String ； 创建人：Dawn Chen ；
+	 * 方法名称: redirectSaveQpyqkfmb ； 方法描述: : ； 返回类型: String ； 创建人：Dawn Chen ；
 	 * 创建时间：2017年8月10日 下午1:45:48； @throws
 	 */
 	@RequestMapping("/saveQpyqkfmb")
 	public String redirectSaveQpyqkfmb(Qpyqkfmb qpyqkfmb) {
-		try {
 		  QpyqkfmbService.saveQpyqkfmb(qpyqkfmb);
-    } catch (DataIntegrityViolationException e) {
-      return "manager/error";
-    } 
 		return "contracts/qpyqkfmb/qpyqkfmb";
 	}
 
 	/**
 	 * 
-	 * 方法名称: redirectQueryQpyqkfmb ； 方法描述: TODO: ； 返回类型: String ； 创建人：Dawn Chen
+	 * 方法名称: redirectQueryQpyqkfmb ； 方法描述: : ； 返回类型: String ； 创建人：Dawn Chen
 	 * ； 创建时间：2017年8月10日 下午1:46:16； @throws
 	 */
 	@RequestMapping("/queryQpyqkfmb")
@@ -57,7 +52,7 @@ public class QpyqkfmbController {
 
 	/**
 	 * 
-	 * 方法名称: redirectQueryQpyqkfmbById ； 方法描述: TODO: ； 返回类型: String ； 创建人：Dawn
+	 * 方法名称: redirectQueryQpyqkfmbById ； 方法描述: : ； 返回类型: String ； 创建人：Dawn
 	 * Chen ； 创建时间：2017年8月10日 下午1:46:51； @throws
 	 */
 	@RequestMapping("/queryQpyqkfmbById")
@@ -69,7 +64,7 @@ public class QpyqkfmbController {
 	
 	/**
 	 * 方法名称: redirectUpdateQpyqkfmbById ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:  :   ；
 	 * 返回类型: String ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年11月6日 下午3:06:26；
@@ -84,7 +79,7 @@ public class QpyqkfmbController {
 	
 	/**
 	 * 方法名称: redirectUpdateQpyqkfmb ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:  :   ；
 	 * 返回类型: String ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年11月8日 下午1:55:25；

@@ -272,11 +272,3 @@ WHERE
 contract_id              = #{contract_id                 ,jdbcType=INTEGER}	
 	</update>    
 </mapper>
-        
-        
-        
-        
-        
-        
-        
-        

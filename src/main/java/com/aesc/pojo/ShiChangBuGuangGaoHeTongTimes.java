@@ -11,8 +11,8 @@ package com.aesc.pojo;
 
 /**
  * ClassName:ShiChangBuGuangGaoHeTongTimes <br/>
- * Function: TODO ADD FUNCTION. <br/>
- * Reason: TODO ADD REASON. <br/>
+ * Function:  ADD FUNCTION. <br/>
+ * Reason:  ADD REASON. <br/>
  * Date: 2017年10月10日 下午1:28:20 <br/>
  * 
  * @author Dawn Chen

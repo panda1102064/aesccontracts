@@ -47,7 +47,7 @@
 	</select>
 	
 	<update id="updateEscDate" parameterType="com.aesc.pojo.EscDate">
-	UPDATE `aesccontracts`.`escdate` SET 
+	UPDATE `escdate` SET 
 	`year_str`   =  #{year_str,jdbcType=VARCHAR}, 
 	`month_str`  =  #{month_str,jdbcType=VARCHAR},
 	`day_str`    =  #{day_str,jdbcType=VARCHAR},  

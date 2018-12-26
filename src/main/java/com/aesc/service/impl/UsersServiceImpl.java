@@ -10,8 +10,6 @@ import com.aesc.pojo.Users;
 import com.aesc.service.UsersService;
 import com.aesc.utils.EncoderMD5;
 
-import static java.lang.System.out;
-
 @Transactional
 @Service("UsersService")
 public class UsersServiceImpl implements UsersService{
@@ -27,7 +25,6 @@ public class UsersServiceImpl implements UsersService{
 	
   @Override
   public Users getUsers(String username) {
-      
     return this.usersDao.getUsers(username);
   }
 
@@ -35,7 +32,6 @@ public class UsersServiceImpl implements UsersService{
   @Override
     public void addUsers(Users user) {
       usersDao.addUsers(user);
-      out.println("success");
   }
 
 
@@ -48,9 +44,7 @@ public class UsersServiceImpl implements UsersService{
 
   @Override
   public boolean updateUserInfo(String username, String password, String telephone) {
-    
     boolean trueORfalse = usersDao.updateUserInfo(username,EncoderMD5.getMD5(password),telephone);
-    // TODO Auto-generated method stub  
     return trueORfalse;
   }
 

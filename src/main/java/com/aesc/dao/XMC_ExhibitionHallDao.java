@@ -17,8 +17,8 @@ import com.aesc.pojo.XMC_ExhibitionHallDate;
 /**  
  * description：
  * ClassName:XMC_ExhibitionHallDao <br/>  
- * Function: TODO ADD FUNCTION. <br/>  
- * Reason:   TODO ADD REASON. <br/>  
+ * Function:  ADD FUNCTION. <br/>  
+ * Reason:    ADD REASON. <br/>  
  * Date:     2018年12月19日 上午10:29:39 <br/>  
  * @author   Dawn Chen  
  * @version    

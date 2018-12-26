@@ -17,8 +17,8 @@ import com.aesc.pojo.ShiChangBuGuangGaoHeTongTimes;
 
 /**  
  * ClassName:ShiChangBuGuangGaoDao <br/>  
- * Function: TODO ADD FUNCTION. <br/>  
- * Reason:   TODO ADD REASON. <br/>  
+ * Function:  ADD FUNCTION. <br/>  
+ * Reason:    ADD REASON. <br/>  
  * Date:     2017年10月10日 下午1:49:34 <br/>  
  * @author   Dawn Chen  
  * @version    
@@ -29,7 +29,7 @@ public interface ShiChangBuGuangGaoDao {
 
   /**
    * 方法名称: savegght ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: void ；
    * 作者：Dawn Chen  ；
    * 时间：2017年10月10日 下午2:04:52；
@@ -39,7 +39,7 @@ public interface ShiChangBuGuangGaoDao {
 
   /**
    * 方法名称: saveggTimes ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: void ；
    * 作者：Dawn Chen  ；
    * 时间：2017年10月10日 下午2:04:56；
@@ -49,7 +49,7 @@ public interface ShiChangBuGuangGaoDao {
 
   /**
    * 方法名称: saveggMedia ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: void ；
    * 作者：Dawn Chen  ；
    * 时间：2017年10月10日 下午2:05:00；
@@ -59,7 +59,7 @@ public interface ShiChangBuGuangGaoDao {
 
   /**
    * 方法名称: getPrkId 获取合同最新一次插入的主键id；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: int ；
    * 作者：Dawn Chen  ；
    * 时间：2017年10月10日 下午3:26:38；
@@ -69,7 +69,7 @@ public interface ShiChangBuGuangGaoDao {
 
   /**
    * 方法名称: queryGght ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: List<ShiChangBuGuangGaoHeTong> ；
    * 作者：Dawn Chen  ；
    * 时间：2017年10月10日 下午4:49:04；
@@ -79,7 +79,7 @@ public interface ShiChangBuGuangGaoDao {
 
   /**
    * 方法名称: queryGghtById ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: ShiChangBuGuangGaoHeTong ；
    * 作者：Dawn Chen  ；
    * 时间：2017年10月11日 上午9:32:35；
@@ -89,7 +89,7 @@ public interface ShiChangBuGuangGaoDao {
 
   /**
    * 方法名称: queryGgtimesById ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: ShiChangBuGuangGaoHeTongTimes ；
    * 作者：Dawn Chen  ；
    * 时间：2017年10月11日 上午9:36:35；
@@ -99,7 +99,7 @@ public interface ShiChangBuGuangGaoDao {
 
   /**
    * 方法名称: queryGgMediaById ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: ShiChangBuGuangGaoHeTongMedia ；
    * 作者：Dawn Chen  ；
    * 时间：2017年10月11日 上午9:36:39；

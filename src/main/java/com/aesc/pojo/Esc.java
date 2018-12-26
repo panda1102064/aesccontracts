@@ -11,8 +11,8 @@ package com.aesc.pojo;
 
 /**
  * ClassName:Esc <br/>
- * Function: TODO ADD FUNCTION. <br/>
- * Reason: TODO ADD REASON. <br/>
+ * Function:  ADD FUNCTION. <br/>
+ * Reason:  ADD REASON. <br/>
  * Date: 2017年8月22日 下午4:23:21 <br/>
  * 
  * @author Dawn Chen

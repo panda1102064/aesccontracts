@@ -19,7 +19,7 @@ public class TyhtController {
   
   /**
    * 方法名称: redirectTyht ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:     ；
    * 返回类型: String ；
    * 作者：Dawn Chen  ；
    * 时间：2017年8月17日 上午9:50:49；
@@ -32,7 +32,7 @@ public class TyhtController {
 	
 	/**
 	 * 方法名称: redirectSaveTyht ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:     ；
 	 * 返回类型: String ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年8月17日 上午9:50:56；
@@ -40,17 +40,13 @@ public class TyhtController {
 	 */
 	@RequestMapping("/saveTyht")
 	public String redirectSaveTyht(Tyht tyht){
-	  //try {
 	    tyhtService.saveTyht(tyht);
-    /*} catch (DataIntegrityViolationException e) {
-      return "manager/error";
-    } */
-	  return "contracts/tyht/tyht";
+	    return "contracts/tyht/tyht";
 	}
 	
 	/**
 	 * 方法名称: redirectQueryTyht ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:     ；
 	 * 返回类型: String ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年8月17日 上午9:54:21；
@@ -65,7 +61,7 @@ public class TyhtController {
 	
 	/**
 	 * 方法名称: redirectQueryById ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:     ；
 	 * 返回类型: String ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年8月17日 上午9:58:26；
@@ -81,7 +77,7 @@ public class TyhtController {
 	
 	/**
 	 * 方法名称: redirectUpdateQueryById ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:     ；
 	 * 返回类型: String ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年11月15日 上午10:27:16；
@@ -97,7 +93,7 @@ public class TyhtController {
 	
 	/**
 	 * 方法名称: redirectUpdateTyht ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:     ；
 	 * 返回类型: String ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年11月15日 上午10:07:02；

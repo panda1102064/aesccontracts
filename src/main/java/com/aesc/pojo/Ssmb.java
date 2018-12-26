@@ -11,8 +11,8 @@ package com.aesc.pojo;
 
 /**
  * ClassName:Ssmb <br/>
- * Function: TODO ADD FUNCTION. <br/>
- * Reason: TODO ADD REASON. <br/>
+ * Function:  ADD FUNCTION. <br/>
+ * Reason:  ADD REASON. <br/>
  * Date: 2017年8月11日 下午4:45:58 <br/>
  * 
  * @author Dawn Chen

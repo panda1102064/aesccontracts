@@ -8,7 +8,7 @@ public interface DscwswtcwDao {
 
   /**
    * 方法名称: saveDscwswtcw ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: void ；
    * 作者：Dawn Chen  ；
    * 时间：2017年11月8日 下午8:48:16；
@@ -18,7 +18,7 @@ public interface DscwswtcwDao {
 
 	/**
 	 * 方法名称: queryDscwswtcw ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:  :   ；
 	 * 返回类型: List<Dscwswtcw> ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年11月8日 下午8:48:24；
@@ -28,7 +28,7 @@ public interface DscwswtcwDao {
 
 	/**
 	 * 方法名称: queryDscwswtcwById ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:  :   ；
 	 * 返回类型: Dscwswtcw ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年11月8日 下午8:48:28；
@@ -38,7 +38,7 @@ public interface DscwswtcwDao {
 
 	/**
 	 * 方法名称: updateDscwswtcw ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:  :   ；
 	 * 返回类型: boolean ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年11月8日 下午8:48:35；

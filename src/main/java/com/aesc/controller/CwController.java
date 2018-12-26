@@ -21,7 +21,7 @@ public class CwController {
 	
 /**
  * 方法名称: redirectCw ；
- * 方法描述:  TODO:   ；
+ * 方法描述:  :   ；
  * 返回类型: String ；
  * 作者：Dawn Chen  ；
  * 时间：2017年9月11日 下午2:58:19；
@@ -35,7 +35,7 @@ public class CwController {
 
 	/**
 	 * 方法名称: entryCwContract ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:  :   ；
 	 * 返回类型: String ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年9月11日 下午2:58:37；
@@ -44,17 +44,13 @@ public class CwController {
 	// 车位的合同录入
 	@RequestMapping("/addcw")
 	public String entryCwContract(Cw cw) {
-		//try {
 		cwService.save(cw);
-    /*} catch (DataIntegrityViolationException e) {
-      return "manager/error";
-    } */
 		return "contracts/cw/cw";
 	}
 
 	/**
 	 * 方法名称: queryCw ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:  :   ；
 	 * 返回类型: ModelAndView ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年9月11日 下午2:58:41；
@@ -63,7 +59,6 @@ public class CwController {
 	// 查询合同信息
 	@RequestMapping("/queryCw")
 	public ModelAndView queryCw(Model model) {
-		System.out.println("执行车位合同查询");
 		List<Cw> cwList = new ArrayList<Cw>();
 		cwList = cwService.queryAll();
 		model.addAttribute("cwList", cwList);
@@ -72,7 +67,7 @@ public class CwController {
 
 	/**
 	 * 方法名称: queryById ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:  :   ；
 	 * 返回类型: ModelAndView ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年9月11日 下午2:58:45；
@@ -89,7 +84,7 @@ public class CwController {
 
 	/**
 	 * 方法名称: updateCwById ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:  :   ；
 	 * 返回类型: ModelAndView ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年11月2日 下午8:57:41；
@@ -105,7 +100,7 @@ public class CwController {
 	
 	/**
 	 * 方法名称: updateCw ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:  :   ；
 	 * 返回类型: ModelAndView ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年11月2日 下午9:05:30；

@@ -60,14 +60,14 @@
 	</select>
 	
 	<select id="queryLinShiYongFangXinZeng" resultMap="LinShiYongFangXinZeng">
-		select contract_id,contract_serial, merchant_name,phone,first_date,username from aesccontracts.lsyf_xz_contract where status = 1
+		select contract_id,contract_serial, merchant_name,phone,first_date,username from lsyf_xz_contract where status = 1
 	</select>
 		
 	<select id="queryLinShiYongFangXinZengById" resultMap="LinShiYongFangXinZeng">
-		select * from aesccontracts.lsyf_xz_contract where contract_id = #{contract_id,jdbcType=INTEGER}
+		select * from lsyf_xz_contract where contract_id = #{contract_id,jdbcType=INTEGER}
 	</select>
 	<insert id="saveLsyf_xz" parameterType="com.aesc.pojo.LinShiYongFangXinZeng">
-	insert into aesccontracts.lsyf_xz_contract (
+	insert into lsyf_xz_contract (
 		contract_id          ,
 		contract_serial      ,
 		merchant_name        ,
@@ -177,7 +177,7 @@
 	</insert> 
 	<update id="updateLsyf_xz">
 	UPDATE
-	aesccontracts.lsyf_xz_contract
+	lsyf_xz_contract
 	SET
 contract_serial               = #{contract_serial        ,jdbcType=VARCHAR}, 
 merchant_name                 = #{merchant_name          ,jdbcType=VARCHAR}, 

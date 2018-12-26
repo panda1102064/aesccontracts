@@ -24,8 +24,8 @@ import com.aesc.pojo.EscDate;
 
 /**  
  * ClassName:GetEscDate <br/>  
- * Function: TODO ADD FUNCTION. <br/>  
- * Reason:   TODO ADD REASON. <br/>  
+ * Function:  ADD FUNCTION. <br/>  
+ * Reason:    ADD REASON. <br/>  
  * Date:     2017年8月25日 下午2:50:06 <br/>  
  * @author   Dawn Chen  
  * @version    
@@ -61,4 +61,3 @@ public class GetEscDate {
   }
   
 }
-  

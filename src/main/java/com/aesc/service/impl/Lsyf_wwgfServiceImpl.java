@@ -23,20 +23,15 @@ public class Lsyf_wwgfServiceImpl implements Lsyf_wwgfService {
 	}
 	@Override
 	public List<Lsyf_wwgf> queryLsyf_wwgf() {
-		// TODO Auto-generated method stub
 		return this.lsyf_wwgfDao.queryLsyf_wwgf();
 	}
 	@Override
 	public Lsyf_wwgf queryLsyf_wwgfById(int contract_id) {
-		// TODO Auto-generated method stub
 		return this.lsyf_wwgfDao.queryLsyf_wwgfById(contract_id);
 	}
   @Override
   public boolean updateLsyf_wwgf(Lsyf_wwgf lsyf_wwgf) {
-      
-    // TODO Auto-generated method stub  
     return this.lsyf_wwgfDao.updateLsyf_wwgf(lsyf_wwgf);
   }
-
 	
 }

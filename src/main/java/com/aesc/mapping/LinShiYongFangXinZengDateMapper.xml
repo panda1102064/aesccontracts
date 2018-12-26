@@ -43,7 +43,7 @@
 	</insert>
 	
 	<select id="queryLsyfDateById" resultMap="LinShiYongFangXinZengDates">
-		select * from aesccontracts.lsyf_xz_date where contract_id = #{contract_id,jdbcType=INTEGER}
+		select * from lsyf_xz_date where contract_id = #{contract_id,jdbcType=INTEGER}
 	</select>
 	
 	<update id="updateLsyf_xz_Date" parameterType="com.aesc.pojo.LinShiYongFangXinZengDate">

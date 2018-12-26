@@ -104,7 +104,7 @@ response.setHeader("Pragma","no-cache");
 								class="icon fa fa-tachometer"></span><span class="title">控制台</span>
 						</a></li>
 						
-					    <%-- <li class="panel panel-default dropdown"><a
+					   <li class="panel panel-default dropdown"><a
 							data-toggle="collapse" href="#dropdown-desktop"> <span
 								class="icon fa fa-desktop"></span><span class="title">系统管理(敬请期待)</span>
 						</a> 
@@ -115,7 +115,7 @@ response.setHeader("Pragma","no-cache");
 										<li><a href="<%=path%>/Theming">主题设置</a></li>
 									</ul>
 								</div>
-							</div></li> --%>
+							</div></li>
 							
 						<li class="panel panel-default dropdown"><a
 							data-toggle="collapse" href="#dropdown-slack"> <span

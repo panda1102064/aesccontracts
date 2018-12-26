@@ -25,7 +25,7 @@ public class PjcwController {
 	/**
 	 * 
 	 * 方法名称: redirectSavePjcw ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:  :   ；
 	 * 返回类型: String ；
 	 * 创建人：Dawn Chen  ；
 	 * 创建时间：2017年8月7日 下午3:44:14；
@@ -33,17 +33,13 @@ public class PjcwController {
 	 */
 	@RequestMapping("/savePjcw")
 	public String redirectSavePjcw(Pjcw pjcw){
-		//try {
 		  pjcwService.savePjcw(pjcw);
-    /*} catch (DataIntegrityViolationException e) {
-      return "manager/error";
-    }*/ 
-		return "contracts/pjcw/pjcw";
+		  return "contracts/pjcw/pjcw";
 	}
 	/**
 	 * 
 	 * 方法名称: redirectqueryPjcw ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:  :   ；
 	 * 返回类型: ModelAndView ；
 	 * 创建人：Dawn Chen  ；
 	 * 创建时间：2017年8月7日 下午4:17:25；
@@ -58,7 +54,7 @@ public class PjcwController {
 	/**
 	 * 
 	 * 方法名称: redirectQueryPjcwListById ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:  :   ；
 	 * 返回类型: ModelAndView ；
 	 * 创建人：Dawn Chen  ；
 	 * 创建时间：2017年8月7日 下午4:37:14；
@@ -73,7 +69,7 @@ public class PjcwController {
 	
 	/**
 	 * 方法名称: redirectUpdatePjcwListById ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:  :   ；
 	 * 返回类型: ModelAndView ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年11月13日 下午8:15:12；
@@ -88,7 +84,7 @@ public class PjcwController {
 	
 	/**
 	 * 方法名称: redirectUpdatePjcwList ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:  :   ；
 	 * 返回类型: ModelAndView ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年11月13日 下午8:16:03；

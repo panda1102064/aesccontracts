@@ -17,8 +17,8 @@ import com.aesc.pojo.ShiChangBuGuangGaoHeTongTimes;
 
 /**  
  * ClassName:ShiChangBuGuangGaoService <br/>  
- * Function: TODO ADD FUNCTION. <br/>  
- * Reason:   TODO ADD REASON. <br/>  
+ * Function:  ADD FUNCTION. <br/>  
+ * Reason:    ADD REASON. <br/>  
  * Date:     2017年10月10日 上午11:40:55 <br/>  
  * @author   Dawn Chen  
  * @version    
@@ -29,7 +29,7 @@ public interface ShiChangBuGuangGaoService {
 
   /**
    * 方法名称: saveHt ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: void ；
    * 作者：Dawn Chen  ；
    * 时间：2017年10月10日 下午1:47:36；
@@ -40,7 +40,7 @@ public interface ShiChangBuGuangGaoService {
 
   /**
    * 方法名称: queryGght ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: List<ShiChangBuGuangGaoHeTong> ；
    * 作者：Dawn Chen  ；
    * 时间：2017年10月10日 下午4:48:24；
@@ -50,7 +50,7 @@ public interface ShiChangBuGuangGaoService {
 
   /**
    * 方法名称: queryGghtById ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: ShiChangBuGuangGaoHeTong ；
    * 作者：Dawn Chen  ；
    * 时间：2017年10月11日 上午9:31:29；
@@ -60,7 +60,7 @@ public interface ShiChangBuGuangGaoService {
 
   /**
    * 方法名称: queryGgtimesById ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: List<ShiChangBuGuangGaoHeTongTimes> ；
    * 作者：Dawn Chen  ；
    * 时间：2017年10月11日 上午9:31:33；
@@ -70,7 +70,7 @@ public interface ShiChangBuGuangGaoService {
 
   /**
    * 方法名称: queryGgMediaById ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: List<ShiChangBuGuangGaoHeTongMedia> ；
    * 作者：Dawn Chen  ；
    * 时间：2017年10月11日 上午9:31:37；
@@ -79,4 +79,3 @@ public interface ShiChangBuGuangGaoService {
   List<ShiChangBuGuangGaoHeTongMedia> queryGgMediaById(int contract_id);
 
 }
-  

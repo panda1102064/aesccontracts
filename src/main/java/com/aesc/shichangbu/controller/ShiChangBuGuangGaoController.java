@@ -25,8 +25,8 @@ import com.aesc.service.ShiChangBuGuangGaoService;
 
 /**  
  * ClassName:ShiChangBuGuangGaoController <br/>  
- * Function: TODO ADD FUNCTION. <br/>  
- * Reason:   TODO ADD REASON. <br/>  
+ * Function:  ADD FUNCTION. <br/>  
+ * Reason:    ADD REASON. <br/>  
  * Date:     2017年9月26日 下午1:14:43 <br/>  
  * @author   Dawn Chen  
  * @version    
@@ -42,7 +42,7 @@ public class ShiChangBuGuangGaoController {
   
   /**
    * 方法名称: redirectZwhtSave ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: String ；
    * 作者：Dawn Chen  ；
    * 时间：2017年9月26日 下午1:16:28；
@@ -55,7 +55,7 @@ public class ShiChangBuGuangGaoController {
   
   /**
    * 方法名称: redirectSaveGuangGao ；
-   * 方法描述:  TODO: synchronized是为了防止ggTimes和ggMedia的合同id出错   ；
+   * 方法描述:  : synchronized是为了防止ggTimes和ggMedia的合同id出错   ；
    * 返回类型: String ；
    * 作者：Dawn Chen  ；
    * 时间：2017年10月10日 上午11:38:52；
@@ -69,7 +69,7 @@ public class ShiChangBuGuangGaoController {
   
   /**
    * 方法名称: redirectGghtQuery ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: String ；
    * 作者：Dawn Chen  ；
    * 时间：2017年10月10日 下午4:51:25；
@@ -84,7 +84,7 @@ public class ShiChangBuGuangGaoController {
   
   /**
    * 方法名称: redirectQueryGghtById ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: String ；
    * 作者：Dawn Chen  ；
    * 时间：2017年10月11日 上午9:30:19；

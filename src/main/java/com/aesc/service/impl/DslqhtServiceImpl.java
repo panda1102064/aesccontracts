@@ -24,8 +24,8 @@ import com.aesc.service.DslqhtService;
 
 /**  
  * ClassName:DslqhtServiceImpl <br/>  
- * Function: TODO ADD FUNCTION. <br/>  
- * Reason:   TODO ADD REASON. <br/>  
+ * Function:  ADD FUNCTION. <br/>  
+ * Reason:    ADD REASON. <br/>  
  * Date:     2017年8月18日 下午4:35:08 <br/>  
  * @author   Dawn Chen  
  * @version    
@@ -104,7 +104,6 @@ public class DslqhtServiceImpl implements DslqhtService {
 
   @Override
   public boolean updateDslqht(Dslqht dslqht) {
-    // TODO Auto-generated method stub  
     return this.dslqhtDao.updateDslqht(dslqht);
   }
 

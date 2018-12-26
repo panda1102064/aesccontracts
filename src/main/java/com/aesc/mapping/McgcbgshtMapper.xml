@@ -266,14 +266,5 @@
 		status                 = #{status                 ,jdbcType=VARCHAR}	
 		WHERE 	
 		contract_id            = #{contract_id                 ,jdbcType=INTEGER}
-	
 	</update>  
 </mapper>
-        
-        
-        
-        
-        
-        
-        
-        

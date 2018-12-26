@@ -15,8 +15,8 @@ import java.util.Map;
 
 /**
  * ClassName:StringUtil <br/>
- * Function: TODO ADD FUNCTION. <br/>
- * Reason: TODO ADD REASON. <br/>
+ * Function:  ADD FUNCTION. <br/>
+ * Reason:  ADD REASON. <br/>
  * Date: 2017年8月28日 上午10:15:22 <br/>
  * 
  * @author Dawn Chen
@@ -27,7 +27,7 @@ import java.util.Map;
 public class StringUtil {
 
   /**
-   * 方法名称: getJsonStr ； 方法描述: TODO: ； 返回类型: String ； 作者：Dawn Chen ； 时间：2017年8月28日
+   * 方法名称: getJsonStr ； 方法描述: : ； 返回类型: String ； 作者：Dawn Chen ； 时间：2017年8月28日
    * 上午10:15:43； @throws
    */
   public static String getJsonStr(Map<String, String> objMap) {
@@ -47,7 +47,7 @@ public class StringUtil {
   }
 
   /**
-   * 方法名称: getSysTime ； 方法描述: TODO: ； 返回类型: String ； 作者：Dawn Chen ； 时间：2017年8月28日
+   * 方法名称: getSysTime ； 方法描述: : ； 返回类型: String ； 作者：Dawn Chen ； 时间：2017年8月28日
    * 上午10:16:10； @throws
    */
   public static String getSysTime() {

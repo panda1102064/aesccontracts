@@ -42,12 +42,8 @@ public class XescscdxtcwController {
 	 */
 	@RequestMapping("/addxescscdxtcw")
 	public String entrycontract(Xescscdxtcw xescscdxtcw) {
-		//try {
 		  xescscdxtcwService.add(xescscdxtcw);
-    /*} catch (DataIntegrityViolationException e) {
-      return "manager/error";
-    } */
-		return "contracts/xescscdxtcw/xescscdxtcw";
+		  return "contracts/xescscdxtcw/xescscdxtcw";
 	}
 
 	/**
@@ -84,7 +80,7 @@ public class XescscdxtcwController {
 	
 	/**
 	 * 方法名称: updateXescscdxtcwById ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述: 
 	 * 返回类型: ModelAndView ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年11月9日 下午7:48:29；
@@ -100,7 +96,7 @@ public class XescscdxtcwController {
 	
 	/**
 	 * 方法名称: updateXescscdxtcw ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述: 
 	 * 返回类型: ModelAndView ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年11月9日 下午7:51:53；

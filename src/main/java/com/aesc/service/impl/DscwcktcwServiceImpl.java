@@ -24,20 +24,16 @@ public class DscwcktcwServiceImpl implements DscwcktcwService {
 
 	@Override
 	public List<Dscwcktcw> queryDscwcktcw() {
-		// TODO Auto-generated method stub
 		return this.dscwcktcwDao.queryDscwcktcwAll();
 	}
 
 	@Override
 	public Dscwcktcw queryDscwcktcwById(int contract_id) {
-		// TODO Auto-generated method stub
 		return this.dscwcktcwDao.queryDscwcktcwById(contract_id);
 	}
 
   @Override
   public boolean updateDscwcktcw(Dscwcktcw dscwcktcw) {
-      
-    // TODO Auto-generated method stub  
     return this.dscwcktcwDao.updateDscwcktcw(dscwcktcw);
   }
 

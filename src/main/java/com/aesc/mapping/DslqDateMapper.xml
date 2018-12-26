@@ -21,7 +21,7 @@
 
 	<select id="getDateId" resultType="String">
 		SELECT date_id FROM
-		aesccontracts.dslqdate WHERE contract_id =
+		dslqdate WHERE contract_id =
 		#{contract_id,jdbcType=INTEGER}
 	</select>
 

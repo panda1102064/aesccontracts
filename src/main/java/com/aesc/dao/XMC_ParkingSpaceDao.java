@@ -16,8 +16,8 @@ import com.aesc.pojo.XMC_ParkingSpace;
 /**  
  * description：
  * ClassName:XMC_ParkingSpaceDao <br/>  
- * Function: TODO ADD FUNCTION. <br/>  
- * Reason:   TODO ADD REASON. <br/>  
+ * Function:  ADD FUNCTION. <br/>  
+ * Reason:    ADD REASON. <br/>  
  * Date:     2018年12月18日 上午11:14:34 <br/>  
  * @author   Dawn Chen  
  * @version    

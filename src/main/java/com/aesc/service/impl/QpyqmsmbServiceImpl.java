@@ -22,8 +22,8 @@ import com.aesc.service.QpyqmsmbService;
 
 /**  
  * ClassName:QpyqmsmbServiceImpl <br/>  
- * Function: TODO ADD FUNCTION. <br/>  
- * Reason:   TODO ADD REASON. <br/>  
+ * Function:  ADD FUNCTION. <br/>  
+ * Reason:    ADD REASON. <br/>  
  * Date:     2017年8月11日 上午11:21:29 <br/>  
  * @author   Dawn Chen  
  * @version    
@@ -49,8 +49,6 @@ public class QpyqmsmbServiceImpl implements QpyqmsmbService {
     @Override
     public void saveQpyqmsmb(Qpyqmsmb qpyqmsmb) {
         qpyqmsmbDao.saveQpyqmsmb(qpyqmsmb);
-        // TODO Auto-generated method stub  
-
     }
 /**
  * 
@@ -62,8 +60,6 @@ public class QpyqmsmbServiceImpl implements QpyqmsmbService {
  */
     @Override
     public List<Qpyqmsmb> queryQpyqmsmb() {
-
-        // TODO Auto-generated method stub  
         return this.qpyqmsmbDao.queryQpyqmsmb();
     }
 /**
@@ -77,17 +73,12 @@ public class QpyqmsmbServiceImpl implements QpyqmsmbService {
  */
     @Override
     public Qpyqmsmb queryQpyqmsmbById(int contract_id) {
-
-        // TODO Auto-generated method stub  
         return this.qpyqmsmbDao.queryQpyqmsmbById(contract_id);
     }
     
-@Override
-public boolean updateQpyqmsmb(Qpyqmsmb qpyqmsmb) {
-    
-  // TODO Auto-generated method stub  
-  return this.qpyqmsmbDao.updateQpyqmsmb(qpyqmsmb);
-}
+  @Override
+  public boolean updateQpyqmsmb(Qpyqmsmb qpyqmsmb) {
+    return this.qpyqmsmbDao.updateQpyqmsmb(qpyqmsmb);
+  }
 
 }
-  

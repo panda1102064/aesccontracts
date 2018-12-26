@@ -18,8 +18,8 @@ import org.springframework.web.servlet.ModelAndView;
 
 /**
  * ClassName:Dispatchs <br/>
- * Function: TODO ADD FUNCTION. <br/>
- * Reason: TODO ADD REASON. <br/>
+ * Function:  ADD FUNCTION. <br/>
+ * Reason:  ADD REASON. <br/>
  * Date: 2017年9月18日 上午10:55:51 <br/>
  * 
  * @author Dawn Chen
@@ -85,9 +85,6 @@ public class LoginInterceptor implements HandlerInterceptor {
   @Override
   public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler,
       ModelAndView modelAndView) throws Exception {
-
-    // TODO Auto-generated method stub
-
   }
 
   /**
@@ -105,9 +102,6 @@ public class LoginInterceptor implements HandlerInterceptor {
   @Override
   public void afterCompletion(HttpServletRequest request, HttpServletResponse response,
       Object handler, Exception ex) throws Exception {
-
-    // TODO Auto-generated method stub
-
   }
 
 }

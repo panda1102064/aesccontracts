@@ -20,7 +20,7 @@ public class DslqhtController {
   
   /**
    * 方法名称: redirectDslqht ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: String ；
    * 作者：Dawn Chen  ；
    * 时间：2017年8月18日 下午4:34:19；
@@ -33,7 +33,7 @@ public class DslqhtController {
 	
 	/**
 	 * 方法名称: redirectSaveDslqht ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:  :   ；
 	 * 返回类型: String ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年8月18日 下午4:34:22；
@@ -41,18 +41,14 @@ public class DslqhtController {
 	 */
 	@RequestMapping("/saveDslqht")
 	public String redirectSaveDslqht(Dslqht dslqht,DslqDate dslqDate){
-	  //try {
 	  dslqhtService.saveDslqht(dslqht);
 	  dslqhtService.saveDslqDate(dslqDate);
-	 /* } catch (DataIntegrityViolationException e) {
-	    return "manager/error";
-	  } */
 	  return "contracts/dslqht/dslqht";
 	}
 	
 	/**
 	 * 方法名称: redirectQueryDslqht ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:  :   ；
 	 * 返回类型: String ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年8月18日 下午4:34:26；
@@ -67,7 +63,7 @@ public class DslqhtController {
 	
 	/**
 	 * 方法名称: redirectQueryDslqhtById ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:  :   ；
 	 * 返回类型: String ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年8月18日 下午4:34:11；
@@ -85,7 +81,7 @@ public class DslqhtController {
 	
 	/**
 	 * 方法名称: redirectUpdateDslqhtById ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:  :   ；
 	 * 返回类型: String ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年11月6日 下午4:52:34；
@@ -115,7 +111,7 @@ public class DslqhtController {
 	/**
 	 * 
 	 * 方法名称: redirectUpdateDslqht ；
-	 * description:  TODO:  
+	 * description:  :  
 	 * 返回类型: String ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2018年5月25日 上午10:00:13；

@@ -17,7 +17,7 @@ public class Users {
 	private String positions;
 	@DateTimeFormat(pattern="yyyy-MM-dd HH:mm:ss")
 	private Date createtime;
-//Session最后交互时间
+	// Session最后交互时间
 	@DateTimeFormat(pattern="yyyy-MM-dd HH:mm:ss")
   private Date lastAccess;
 	private int status;

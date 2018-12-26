@@ -24,8 +24,8 @@ import com.aesc.service.ShiChangBuZhanWeiService;
 
 /**  
  * ClassName:ShiChangBuZhanWeiServiceImpl <br/>  
- * Function: TODO ADD FUNCTION. <br/>  
- * Reason:   TODO ADD REASON. <br/>  
+ * Function:  ADD FUNCTION. <br/>  
+ * Reason:    ADD REASON. <br/>  
  * Date:     2017年9月29日 下午2:46:55 <br/>  
  * @author   Dawn Chen  
  * @version    
@@ -122,4 +122,3 @@ public class ShiChangBuZhanWeiServiceImpl implements ShiChangBuZhanWeiService {
     return list;
   }
 }
-  

@@ -21,7 +21,7 @@ public class DscwswtcwController {
 	
 	/**
 	 * 方法名称: redirectCw ；
-	 * 方法描述:  TODO: /跳转到录入页面  ；
+	 * 方法描述:  : /跳转到录入页面  ；
 	 * 返回类型: String ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年11月8日 下午8:42:28；
@@ -34,7 +34,7 @@ public class DscwswtcwController {
 	
 	/**
 	 * 方法名称: saveDscwswtcw ；
-	 * 方法描述:  TODO: /执行保存  ；
+	 * 方法描述:  : /执行保存  ；
 	 * 返回类型: String ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年11月8日 下午8:42:13；
@@ -42,17 +42,13 @@ public class DscwswtcwController {
 	 */
 	@RequestMapping("/saveDscwswtcw")
 	public String saveDscwswtcw(Dscwswtcw dscwswtcw){
-	 // try {
 	    dscwswtcwService.saveDscwswtcw(dscwswtcw);
-    /*} catch (DataIntegrityViolationException e) {
-      return "manager/error";
-    } */
-		return "contracts/dscwswtcw/dscwswtcw";
+	    return "contracts/dscwswtcw/dscwswtcw";
 	}
 	
 	/**
 	 * 方法名称: queryDscwswtcw ；
-	 * 方法描述:  TODO: /执行查询  ；
+	 * 方法描述:  : /执行查询  ；
 	 * 返回类型: ModelAndView ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年11月8日 下午8:42:00；
@@ -68,7 +64,7 @@ public class DscwswtcwController {
 	
 	/**
 	 * 方法名称: queryDscwswtcwById ；
-	 * 方法描述:  TODO: /通过ID查询合同信息  ；
+	 * 方法描述:  : /通过ID查询合同信息  ；
 	 * 返回类型: ModelAndView ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年11月8日 下午8:41:49；
@@ -84,7 +80,7 @@ public class DscwswtcwController {
 	
 	/**
 	 * 方法名称: updateDscwswtcwById ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:  :   ；
 	 * 返回类型: ModelAndView ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年11月8日 下午8:46:03；
@@ -100,7 +96,7 @@ public class DscwswtcwController {
 	
 	/**
 	 * 方法名称: updateDscwswtcw；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:  :   ；
 	 * 返回类型: ModelAndView ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年11月8日 下午8:41:40；

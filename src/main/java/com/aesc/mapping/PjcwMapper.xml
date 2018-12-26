@@ -33,12 +33,8 @@
 		<result column="status" property= "status" jdbcType="VARCHAR" />
 	</resultMap>
 <!-- 查询所有合同信息 -->
-	 <!-- <sql id="inc">
-		contract_serial, merchant_name, second_agent,phone,second_date
-	</sql>  -->
 	<select id="queryPjcw" resultMap="pjcw" >
 		select 
-		<!-- <include refid="inc"/> -->
 		contract_id,contract_serial, merchant_name,phone,first_date,username
 		 from pjcw_contract
 	</select>

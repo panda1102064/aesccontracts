@@ -27,11 +27,7 @@ public class Lsyn_wwgfController {
 	//执行保存操作
 	@RequestMapping("/saveLsyf_wwgf")
 	public String redirectSaveLsyf_wwgf(Lsyf_wwgf lsyf_wwgf){
-		//try {
 		  lsyf_wwgfService.saveLsyf_wwgf(lsyf_wwgf);
-   /* } catch (DataIntegrityViolationException e) {
-      return "manager/error";
-    } */
 		return "contracts/lsyf_wwgf/lsyf_wwgf";
 	}
 	
@@ -55,7 +51,7 @@ public class Lsyn_wwgfController {
 	
 	/**
 	 * 方法名称: redirectUpdateLsyf_wwgfById ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:  :   ；
 	 * 返回类型: ModelAndView ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年11月13日 下午9:00:28；
@@ -72,7 +68,7 @@ public class Lsyn_wwgfController {
 	
 	/**
 	 * 方法名称: redirectUpdateLsyf_wwgf ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:  :   ；
 	 * 返回类型: ModelAndView ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年11月13日 下午9:02:37；

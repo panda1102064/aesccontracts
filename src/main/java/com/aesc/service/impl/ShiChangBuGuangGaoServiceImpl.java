@@ -25,8 +25,8 @@ import com.aesc.service.ShiChangBuGuangGaoService;
 
 /**  
  * ClassName:ShiChangBuGuangGaoServiceImpl <br/>  
- * Function: TODO ADD FUNCTION. <br/>  
- * Reason:   TODO ADD REASON. <br/>  
+ * Function:  ADD FUNCTION. <br/>  
+ * Reason:    ADD REASON. <br/>  
  * Date:     2017年10月10日 上午11:41:44 <br/>  
  * @author   Dawn Chen  
  * @version    
@@ -69,13 +69,11 @@ public class ShiChangBuGuangGaoServiceImpl implements ShiChangBuGuangGaoService 
    */
   @Override
   public List<ShiChangBuGuangGaoHeTong> queryGght() {
-      
     return this.ggDao.queryGght();
   }
 
   @Override
   public ShiChangBuGuangGaoHeTong queryGghtById(int contract_id) {
-      
     return this.ggDao.queryGghtById(contract_id);
   }
 
@@ -95,7 +93,7 @@ public class ShiChangBuGuangGaoServiceImpl implements ShiChangBuGuangGaoService 
 
   /**
    * 方法名称: transverterGgTimeList ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: List<ShiChangBuGuangGaoHeTongTimes> ；
    * 作者：Dawn Chen  ；
    * 时间：2017年10月11日 上午9:56:42；
@@ -128,39 +126,38 @@ public class ShiChangBuGuangGaoServiceImpl implements ShiChangBuGuangGaoService 
 
 /**
  * 方法名称: transverterGgMediaList ；
- * 方法描述:  TODO:   ；
+ * 方法描述:  :   ；
  * 返回类型: List<ShiChangBuGuangGaoHeTongMedia> ；
  * 作者：Dawn Chen  ；
  * 时间：2017年10月11日 上午9:56:52；
  * @throws
  */
-public List<ShiChangBuGuangGaoHeTongMedia> transverterGgMediaList (ShiChangBuGuangGaoHeTongMedia ggMedia){
-  List<ShiChangBuGuangGaoHeTongMedia> ggMediaList = new ArrayList<ShiChangBuGuangGaoHeTongMedia>();
-  if(ggMedia == null){
-    return null;
-  }else{
-    String[] media_serial = ggMedia.getMedia_serial().split(",");
-    String[] location = ggMedia.getLocation().split(",");
-    String[] media_type = ggMedia.getMedia_type().split(",");
-    String[] media_specification = ggMedia.getMedia_specification().split(",");
-    String[] media_number = ggMedia.getMedia_number().split(",");
-    String[] release_time = ggMedia.getRelease_time().split(",");
-    String[] release_fee = ggMedia.getRelease_fee().split(",");
-    String[] production_cost = ggMedia.getProduction_cost().split(",");
-    for (int i = 0; i < media_serial.length; i++) {
-      ShiChangBuGuangGaoHeTongMedia ggmedia = new ShiChangBuGuangGaoHeTongMedia();
-      ggmedia.setMedia_serial(media_serial[i]);
-      ggmedia.setLocation(location[i]);
-      ggmedia.setMedia_type(media_type[i]);
-      ggmedia.setMedia_specification(media_specification[i]);
-      ggmedia.setMedia_number(media_number[i]);
-      ggmedia.setRelease_time(release_time[i]);
-      ggmedia.setRelease_fee(release_fee[i]);
-      ggmedia.setProduction_cost(production_cost[i]);
-      ggMediaList.add(ggmedia);
+  public List<ShiChangBuGuangGaoHeTongMedia> transverterGgMediaList (ShiChangBuGuangGaoHeTongMedia ggMedia){
+    List<ShiChangBuGuangGaoHeTongMedia> ggMediaList = new ArrayList<ShiChangBuGuangGaoHeTongMedia>();
+    if(ggMedia == null){
+      return null;
+    }else{
+      String[] media_serial = ggMedia.getMedia_serial().split(",");
+      String[] location = ggMedia.getLocation().split(",");
+      String[] media_type = ggMedia.getMedia_type().split(",");
+      String[] media_specification = ggMedia.getMedia_specification().split(",");
+      String[] media_number = ggMedia.getMedia_number().split(",");
+      String[] release_time = ggMedia.getRelease_time().split(",");
+      String[] release_fee = ggMedia.getRelease_fee().split(",");
+      String[] production_cost = ggMedia.getProduction_cost().split(",");
+      for (int i = 0; i < media_serial.length; i++) {
+        ShiChangBuGuangGaoHeTongMedia ggmedia = new ShiChangBuGuangGaoHeTongMedia();
+        ggmedia.setMedia_serial(media_serial[i]);
+        ggmedia.setLocation(location[i]);
+        ggmedia.setMedia_type(media_type[i]);
+        ggmedia.setMedia_specification(media_specification[i]);
+        ggmedia.setMedia_number(media_number[i]);
+        ggmedia.setRelease_time(release_time[i]);
+        ggmedia.setRelease_fee(release_fee[i]);
+        ggmedia.setProduction_cost(production_cost[i]);
+        ggMediaList.add(ggmedia);
+      }
     }
+    return ggMediaList;
   }
-  return ggMediaList;
-}
-
 }

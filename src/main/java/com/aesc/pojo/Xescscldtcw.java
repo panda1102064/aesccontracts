@@ -13,8 +13,8 @@ import org.springframework.format.annotation.DateTimeFormat;
 
 /**
  * ClassName:Xescscldtcw <br/>
- * Function: TODO ADD FUNCTION. <br/>
- * Reason: TODO ADD REASON. <br/>
+ * Function:  ADD FUNCTION. <br/>
+ * Reason:  ADD REASON. <br/>
  * Date: 2017年8月17日 下午1:18:35 <br/>
  * 
  * @author Dawn Chen
@@ -54,7 +54,7 @@ public class Xescscldtcw {
   @DateTimeFormat(pattern = "yyyy-MM-dd")
   private String second_date;
   private String status;
-private String username;
+  private String username;
   
   public String getUsername() {
     return username;
@@ -62,8 +62,6 @@ private String username;
   public void setUsername(String username) {
     this.username = username;
   }
-
-  
   public String getPayday() {
     return payday;
   }

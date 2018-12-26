@@ -25,8 +25,8 @@ import com.aesc.service.TongYongHeTongKuaNianService;
 /**  
  * description：
  * ClassName:TongYongHeTongKuaNianController <br/>  
- * Function: TODO ADD FUNCTION. <br/>  
- * Reason:   TODO ADD REASON. <br/>  
+ * Function:   ADD FUNCTION. <br/>  
+ * Reason:     ADD REASON. <br/>  
  * Date:     2018年11月19日 上午11:03:15 <br/>  
  * @author   Dawn Chen  
  * @version    

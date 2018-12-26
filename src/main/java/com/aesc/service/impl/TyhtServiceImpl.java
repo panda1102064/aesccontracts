@@ -22,8 +22,8 @@ import com.aesc.service.TyhtService;
 
 /**  
  * ClassName:TyhtServiceImpl <br/>  
- * Function: TODO ADD FUNCTION. <br/>  
- * Reason:   TODO ADD REASON. <br/>  
+ * Function:  ADD FUNCTION. <br/>  
+ * Reason:    ADD REASON. <br/>  
  * Date:     2017年8月17日 上午9:59:38 <br/>  
  * @author   Dawn Chen  
  * @version    
@@ -40,31 +40,22 @@ public class TyhtServiceImpl implements TyhtService {
   
   @Override
   public void saveTyht(Tyht tyht) {
-
     tyhtDao.saveTyht(tyht);
-
   }
 
   @Override
   public List<Tyht> queryTyht() {
-
-    // TODO Auto-generated method stub  
     return this.tyhtDao.queryTyht();
   }
 
   @Override
   public Tyht queryTyhtById(int contract_id) {
-
-    // TODO Auto-generated method stub  
     return this.tyhtDao.queryTyhtById(contract_id);
   }
 
   @Override
   public boolean updateTyht(Tyht tyht) {
-      
-    // TODO Auto-generated method stub  
     return this.tyhtDao.updateTyht(tyht);
   }
 
 }
-  

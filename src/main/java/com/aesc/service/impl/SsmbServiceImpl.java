@@ -22,8 +22,8 @@ import com.aesc.service.SsmbService;
 
 /**  
  * ClassName:SsmbServiceImpl <br/>  
- * Function: TODO ADD FUNCTION. <br/>  
- * Reason:   TODO ADD REASON. <br/>  
+ * Function:  ADD FUNCTION. <br/>  
+ * Reason:    ADD REASON. <br/>  
  * Date:     2017年8月14日 上午11:32:33 <br/>  
  * @author   Dawn Chen  
  * @version    
@@ -41,21 +41,15 @@ public class SsmbServiceImpl implements SsmbService {
   @Override
   public void saveSsmb(Ssmb ssmb) {
     ssmbDao.saveSsmb(ssmb);
-    // TODO Auto-generated method stub  
-
   }
 
   @Override
   public List<Ssmb> querySsmb() {
-
-    // TODO Auto-generated method stub  
     return this.ssmbDao.querySsmb();
   }
 
   @Override
   public Ssmb querySsmbById(int contract_id) {
-
-    // TODO Auto-generated method stub  
     return this.ssmbDao.querySsmbById(contract_id);
   }
 

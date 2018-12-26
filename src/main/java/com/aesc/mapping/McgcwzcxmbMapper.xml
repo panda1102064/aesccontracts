@@ -96,8 +96,6 @@
 			)
 			values
 			(
-			
-		
 				 #{contract_id        ,jdbcType=INTEGER},
 				 #{contract_serial    ,jdbcType=VARCHAR},
 				 #{merchant_name      ,jdbcType=VARCHAR},

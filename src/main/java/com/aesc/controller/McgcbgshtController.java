@@ -25,7 +25,7 @@ public class McgcbgshtController {
 	/**
 	 * 
 	 * 方法名称: redirectSaveMcgcbgsht ；
-	 * 方法描述:  TODO: 保存名车广场办公室合同  ；
+	 * 方法描述:  : 保存名车广场办公室合同  ；
 	 * 返回类型: ModelAndView ；
 	 * 创建人：Dawn Chen  ；
 	 * 创建时间：2017年8月2日 上午10:18:45；
@@ -33,18 +33,14 @@ public class McgcbgshtController {
 	 */
 	@RequestMapping("/saveMcgcbgsht")
 	public String redirectSaveMcgcbgsht(Mcgcbgsht mcgcbgsht){
-		//try {
 		  mcgcbgshtService.SaveMcgcbgsht(mcgcbgsht);
-    /*} catch (DataIntegrityViolationException e) {
-      return "manager/error";
-    } */
 		return "contracts/mcgcbgsht/mcgcbgsht";
 	}
 	
 	/**
 	 * 
 	 * 方法名称: redirectQueryMcgcbgsht ；
-	 * 方法描述:  TODO:  查询合同信息 ；
+	 * 方法描述:  :  查询合同信息 ；
 	 * 返回类型: ModelAndView ；
 	 * 创建人：Dawn Chen  ；
 	 * 创建时间：2017年8月2日 上午10:20:00；
@@ -52,7 +48,6 @@ public class McgcbgshtController {
 	 */
 	@RequestMapping("/queryMcgcbgsht")
 	public ModelAndView redirectQueryMcgcbgsht(Model model){
-		System.out.println("查询名车广场办公室合同");
 		List<Mcgcbgsht> mcgcbgshtList = null;
 		mcgcbgshtList = mcgcbgshtService.queryMcgcbgsht();
 		model.addAttribute("mcgcbgshtList", mcgcbgshtList);
@@ -61,7 +56,7 @@ public class McgcbgshtController {
 	/**
 	 * 
 	 * 方法名称: redirectquerymcgcbgshtListById ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:  :   ；
 	 * 返回类型: ModelAndView ；
 	 * 创建人：Dawn Chen  ；
 	 * 创建时间：2017年8月2日 上午10:34:02；
@@ -77,7 +72,7 @@ public class McgcbgshtController {
 	
 	/**
 	 * 方法名称: redirectupdatemcgcbgshtListById ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:  :   ；
 	 * 返回类型: String ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年11月2日 上午8:53:29；
@@ -92,7 +87,7 @@ public class McgcbgshtController {
 	
 	/**
 	 * 方法名称: redirectUpdateMcgcbgsht ；
-	 * 方法描述:  TODO:   ；
+	 * 方法描述:  :   ；
 	 * 返回类型: String ；
 	 * 作者：Dawn Chen  ；
 	 * 时间：2017年11月2日 上午8:53:34；

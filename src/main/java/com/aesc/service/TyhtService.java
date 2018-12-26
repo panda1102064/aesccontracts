@@ -15,8 +15,8 @@ import com.aesc.pojo.Tyht;
 
 /**  
  * ClassName:TyhtService <br/>  
- * Function: TODO ADD FUNCTION. <br/>  
- * Reason:   TODO ADD REASON. <br/>  
+ * Function:  ADD FUNCTION. <br/>  
+ * Reason:    ADD REASON. <br/>  
  * Date:     2017年8月17日 上午9:49:10 <br/>  
  * @author   Dawn Chen  
  * @version    
@@ -27,7 +27,7 @@ public interface TyhtService {
 
   /**
    * 方法名称: saveTyht ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: void ；
    * 作者：Dawn Chen  ；
    * 时间：2017年8月17日 上午9:58:55；
@@ -37,7 +37,7 @@ public interface TyhtService {
 
   /**
    * 方法名称: queryTyht ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: List<Tyht> ；
    * 作者：Dawn Chen  ；
    * 时间：2017年8月17日 上午9:59:00；
@@ -47,7 +47,7 @@ public interface TyhtService {
 
   /**
    * 方法名称: queryTyhtById ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: Tyht ；
    * 作者：Dawn Chen  ；
    * 时间：2017年8月17日 上午9:59:04；
@@ -58,4 +58,3 @@ public interface TyhtService {
   boolean updateTyht(Tyht tyht);
 
 }
-  

@@ -29,18 +29,15 @@ public class QpeqmsmbServiceImpl implements QpeqmsmbService {
 	}
 	/**
 	 * 
-	 * 
 	 *实现类
 	 * @return
 	 * @see com.aesc.service.QpeqmsmbService#queryQpeqmsmb()
 	 */
 	@Override
 	public List<Qpeqmsmb> queryQpeqmsmb() {
-		// TODO Auto-generated method stub
 		return this.qpeqmsmbDao.queryQpeqmsmb();
 	}
 	/**
-	 * 
 	 * 
 	 *实现类
 	 * @param contract_id
@@ -49,12 +46,11 @@ public class QpeqmsmbServiceImpl implements QpeqmsmbService {
 	 */
 	@Override
 	public Qpeqmsmb queryQpeqmsmbById(int contract_id) {
-		// TODO Auto-generated method stub
 		return this.qpeqmsmbDao.queryQpeqmsmbById(contract_id);
 	}
+	
   @Override
   public boolean updateQpeqmsmb(Qpeqmsmb qpeqmsmb) {
-    // TODO Auto-generated method stub  
     return this.qpeqmsmbDao.updateQpeqmsmb(qpeqmsmb);
   }
 

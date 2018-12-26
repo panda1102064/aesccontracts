@@ -19,7 +19,6 @@ public class McgcbgshtServiceImpl implements McgcbgshtService {
 	private McgcbgshtDao mcgcbgshtDao;
 	/**
 	 * 
-	 * 
 	 *实现类
 	 * @param mcgcbgsht
 	 * @see com.aesc.service.McgcbgshtService#SaveMcgcbgsht(com.aesc.pojo.Mcgcbgsht)
@@ -32,14 +31,12 @@ public class McgcbgshtServiceImpl implements McgcbgshtService {
 	}
 	/**
 	 * 
-	 * 
 	 *实现类
 	 * @return
 	 * @see com.aesc.service.McgcbgshtService#queryMcgcbgsht()
 	 */
 	@Override
 	public List<Mcgcbgsht> queryMcgcbgsht() {
-		// TODO Auto-generated method stub
 		return this.mcgcbgshtDao.queryMcgcbgsht();
 	}
 	/**
@@ -52,7 +49,6 @@ public class McgcbgshtServiceImpl implements McgcbgshtService {
 	 */
 	@Override
 	public Mcgcbgsht querymcgcbgshtListById(int contract_id) {
-		// TODO Auto-generated method stub
 		return this.mcgcbgshtDao.querymcgcbgshtListById(contract_id);
 	}
   @Override

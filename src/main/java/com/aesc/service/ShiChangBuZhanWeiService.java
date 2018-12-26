@@ -16,8 +16,8 @@ import com.aesc.pojo.ShiChangBuZhanWeiHeTongTimes;
 
 /**  
  * ClassName:ShiChangBuZhanWeiService <br/>  
- * Function: TODO ADD FUNCTION. <br/>  
- * Reason:   TODO ADD REASON. <br/>  
+ * Function:  ADD FUNCTION. <br/>  
+ * Reason:    ADD REASON. <br/>  
  * Date:     2017年9月29日 下午2:46:26 <br/>  
  * @author   Dawn Chen  
  * @version    
@@ -28,7 +28,7 @@ public interface ShiChangBuZhanWeiService {
 
   /**
    * 方法名称: saveHt ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: void ；
    * 作者：Dawn Chen  ；
    * 时间：2017年9月30日 下午3:13:13；
@@ -38,7 +38,7 @@ public interface ShiChangBuZhanWeiService {
 
   /**
    * 方法名称: queryZwht ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: List<ShiChangBuZhanWeiHeTong> ；
    * 作者：Dawn Chen  ；
    * 时间：2017年9月30日 下午3:27:12；
@@ -48,7 +48,7 @@ public interface ShiChangBuZhanWeiService {
 
   /**
    * 方法名称: queryZwhtById ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: ShiChangBuZhanWeiHeTong ；
    * 作者：Dawn Chen  ；
    * 时间：2017年9月30日 下午3:37:09；
@@ -58,7 +58,7 @@ public interface ShiChangBuZhanWeiService {
 
   /**
    * 方法名称: queryZwhtTimeById ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: ShiChangBuZhanWeiHeTongTimes ；
    * 作者：Dawn Chen  ；
    * 时间：2017年9月30日 下午3:37:13；
@@ -68,7 +68,7 @@ public interface ShiChangBuZhanWeiService {
 
   /**
    * 方法名称: transverterZhanWeiHeTongTimesList ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: List<ShiChangBuZhanWeiHeTongTimes> ；
    * 作者：Dawn Chen  ；
    * 时间：2017年9月30日 下午3:43:32；
@@ -77,4 +77,3 @@ public interface ShiChangBuZhanWeiService {
   List<ShiChangBuZhanWeiHeTongTimes> transverterZhanWeiHeTongTimesList(ShiChangBuZhanWeiHeTongTimes zwTimes);
 
 }
-  

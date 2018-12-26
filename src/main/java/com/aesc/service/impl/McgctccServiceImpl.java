@@ -22,8 +22,8 @@ import com.aesc.service.McgctccService;
 
 /**  
  * ClassName:McgctccServiceImpl <br/>  
- * Function: TODO ADD FUNCTION. <br/>  
- * Reason:   TODO ADD REASON. <br/>  
+ * Function:  ADD FUNCTION. <br/>  
+ * Reason:    ADD REASON. <br/>  
  * Date:     2017年12月12日 上午9:58:35 <br/>  
  * @author   Dawn Chen  
  * @version    
@@ -54,4 +54,3 @@ public class McgctccServiceImpl implements McgctccService {
   }
 
 }
-  

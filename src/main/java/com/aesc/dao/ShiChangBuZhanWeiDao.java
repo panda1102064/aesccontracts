@@ -16,8 +16,8 @@ import com.aesc.pojo.ShiChangBuZhanWeiHeTongTimes;
 
 /**  
  * ClassName:ShiChangBuZhanWeiDao <br/>  
- * Function: TODO ADD FUNCTION. <br/>  
- * Reason:   TODO ADD REASON. <br/>  
+ * Function:  ADD FUNCTION. <br/>  
+ * Reason:    ADD REASON. <br/>  
  * Date:     2017年9月30日 上午9:16:42 <br/>  
  * @author   Dawn Chen  
  * @version    
@@ -28,7 +28,7 @@ public interface ShiChangBuZhanWeiDao {
 
   /**
    * 方法名称: saveHt ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: void ；
    * 作者：Dawn Chen  ；
    * 时间：2017年9月30日 上午9:17:38；
@@ -38,7 +38,7 @@ public interface ShiChangBuZhanWeiDao {
 
   /**
    * 方法名称: saveHtime ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: void ；
    * 作者：Dawn Chen  ；
    * 时间：2017年9月30日 上午9:41:07；
@@ -48,7 +48,7 @@ public interface ShiChangBuZhanWeiDao {
 
   /**
    * 方法名称: getZwId ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: int ；
    * 作者：Dawn Chen  ；
    * 时间：2017年9月30日 上午9:42:32；
@@ -58,7 +58,7 @@ public interface ShiChangBuZhanWeiDao {
 
   /**
    * 方法名称: queryZwht ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: List<ShiChangBuZhanWeiHeTong> ；
    * 作者：Dawn Chen  ；
    * 时间：2017年9月30日 下午3:27:55；
@@ -68,7 +68,7 @@ public interface ShiChangBuZhanWeiDao {
 
   /**
    * 方法名称: queryZwhtById ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: ShiChangBuZhanWeiHeTong ；
    * 作者：Dawn Chen  ；
    * 时间：2017年9月30日 下午3:38:31；
@@ -78,7 +78,7 @@ public interface ShiChangBuZhanWeiDao {
 
   /**
    * 方法名称: queryZwhtTimeById ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: ShiChangBuZhanWeiHeTongTimes ；
    * 作者：Dawn Chen  ；
    * 时间：2017年9月30日 下午3:38:35；

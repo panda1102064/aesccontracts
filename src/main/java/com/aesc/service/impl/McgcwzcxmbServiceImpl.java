@@ -21,32 +21,17 @@ public class McgcwzcxmbServiceImpl implements McgcwzcxmbService {
 		mcgcwzcxmbDao.saveMcgcwzcxmb(mcgcwzcxmb);
 
 	}
-	/**
-	 * 
-	 * 
-	 *实现类
-	 * @return
-	 * @see com.aesc.service.McgcwzcxmbService#queryMcgcwzcxmb()
-	 */
+
 	@Override
 	public List<Mcgcwzcxmb> queryMcgcwzcxmb() {
-		// TODO Auto-generated method stub
 		return this.mcgcwzcxmbDao.queryMcgcwzcxmb();
 	}
 	
-	/**
-	 * 
-	 * 
-	 *实现类
-	 * @param contract_id
-	 * @return
-	 * @see com.aesc.service.McgcwzcxmbService#queryMcgcwzcxmbById(int)
-	 */
 	@Override
 	public Mcgcwzcxmb queryMcgcwzcxmbById(int contract_id) {
-		// TODO Auto-generated method stub
 		return this.mcgcwzcxmbDao.queryMcgcwzcxmbById(contract_id);
 	}
+	
   @Override
   public boolean updateMcgcwzcxmb(Mcgcwzcxmb mcgcwzcxmb) {
     boolean flag = mcgcwzcxmbDao.updateMcgcwzcxmb(mcgcwzcxmb);

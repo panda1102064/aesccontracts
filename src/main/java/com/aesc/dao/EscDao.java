@@ -16,8 +16,8 @@ import com.aesc.pojo.EscDate;
 
 /**  
  * ClassName:EscDao <br/>  
- * Function: TODO ADD FUNCTION. <br/>  
- * Reason:   TODO ADD REASON. <br/>  
+ * Function:  ADD FUNCTION. <br/>  
+ * Reason:    ADD REASON. <br/>  
  * Date:     2017年8月23日 上午9:58:55 <br/>  
  * @author   Dawn Chen  
  * @version    
@@ -28,7 +28,7 @@ public interface EscDao {
 
   /**
    * 方法名称: queryEsc ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: List<Esc> ；
    * 作者：Dawn Chen  ；
    * 时间：2017年8月23日 上午10:05:22；
@@ -38,7 +38,7 @@ public interface EscDao {
 
   /**
    * 方法名称: queryEscById ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: Esc ；
    * 作者：Dawn Chen  ；
    * 时间：2017年8月23日 上午10:05:26；
@@ -48,7 +48,7 @@ public interface EscDao {
 
   /**
    * 方法名称: queryEscDateById ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: EscDate ；
    * 作者：Dawn Chen  ；
    * 时间：2017年8月23日 上午10:05:31；
@@ -58,7 +58,7 @@ public interface EscDao {
 
   /**
    * 方法名称: saveEsc ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: void ；
    * 作者：Dawn Chen  ；
    * 时间：2017年8月25日 上午9:55:14；
@@ -68,7 +68,7 @@ public interface EscDao {
 
   /**
    * 方法名称: saveEscDate ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: void ；
    * 作者：Dawn Chen  ；
    * 时间：2017年8月25日 上午9:55:19；
@@ -78,7 +78,7 @@ public interface EscDao {
   
   /**
    * 方法名称: getEscId ；
-   * 方法描述:  TODO:  获取最后插入数据的id返回给saveEscDate得到id存入数据库与之建立关联关系。当出现高并发，可能会出现id不匹配的异常，由于业务量小，不考虑这样的情形 ；
+   * 方法描述:  :  获取最后插入数据的id返回给saveEscDate得到id存入数据库与之建立关联关系。当出现高并发，可能会出现id不匹配的异常，由于业务量小，不考虑这样的情形 ；
    * 返回类型: int ；
    * 作者：Dawn Chen  ；
    * 时间：2017年8月25日 上午9:55:26；
@@ -88,7 +88,7 @@ public interface EscDao {
 
   /**
    * 方法名称: updateEsc ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: boolean ；
    * 作者：Dawn Chen  ；
    * 时间：2017年11月20日 上午11:49:21；
@@ -98,7 +98,7 @@ public interface EscDao {
 
   /**
    * 方法名称: updateEscDate ；
-   * 方法描述:  TODO:   ；
+   * 方法描述:  :   ；
    * 返回类型: boolean ；
    * 作者：Dawn Chen  ；
    * 时间：2017年11月20日 上午11:49:27；
