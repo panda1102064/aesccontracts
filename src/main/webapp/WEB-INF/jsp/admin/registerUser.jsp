@@ -44,7 +44,7 @@
 							<tr>
 								<th>联系方式：</th>
 								<td>
-									<input type="text" name="telephone" required="required" pattern="(13\d|14[57]|15[^4,\D]|17[13678]|18\d)\d{8}|170[0589]\d{7}" placeholder="请输入联系方式"><span style="color: red;">*(11位手机号格式)</span>
+									<input type="text" name="telephone" required="required" pattern="(13\d|14[5789]|15[^4\D]|17[^49\D]|18\d|16[56]|19[1890])\d{8}" placeholder="请输入联系方式"><span style="color: red;">*(11位手机号格式)</span>
 								</td>
 							</tr>
 							<tr>
@@ -65,7 +65,6 @@
 										<option value="招商运营部" >招商运营部</option>
 										<option value="市场部" >市场部</option>
 										<option value="加油站" >加油站</option>
-										<option value="善悦" >善悦</option>
 										<option value="市场管理" >市场管理</option>
 									</select>
 								</td>
@@ -78,11 +77,6 @@
 							</tr>
 							<!-- <tr>
 								<th>角色权限：</th>
-								pattern="[\u4e00-\u9fa5]"
-								pattern="/^[a-z0-9_-]{6,18}$/"
-								pattern="[1-9]\d{1}"
-								pattern="(13\d|14[57]|15[^4,\D]|17[13678]|18\d)\d{8}|170[0589]\d{7}"
-								pattern="(([0-9]{3}[1-9]|[0-9]{2}[1-9][0-9]{1}|[0-9]{1}[1-9][0-9]{2}|[1-9][0-9]{3})-(((0[13578]|1[02])-(0[1-9]|[12][0-9]|3[01]))|((0[469]|11)-(0[1-9]|[12][0-9]|30))|(02-(0[1-9]|[1][0-9]|2[0-8]))))|((([0-9]{2})(0[48]|[2468][048]|[13579][26])|((0[48]|[2468][048]|[3579][26])00))-02-29)" 
 								<td>
 									<select name="permissionsid">
 										<option value="1" >普通职员</option>

@@ -43,7 +43,7 @@
 							<tr>
 								<th>联系方式：</th>
 								<td>
-									<input type="text" name="telephone" value="${userInfo.telephone}" required="required" pattern="(13\d|14[57]|15[^4,\D]|17[13678]|18\d)\d{8}|170[0589]\d{7}" placeholder="请输入联系方式"><span style="color: red;">*(11位手机号格式)</span>
+									<input type="text" name="telephone" value="${userInfo.telephone}" required="required" pattern="(13\d|14[5789]|15[^4\D]|17[^49\D]|18\d|16[56]|19[1890])\d{8}" placeholder="请输入联系方式"><span style="color: red;">*(11位手机号格式)</span>
 								</td>
 							</tr>
 							<tr>

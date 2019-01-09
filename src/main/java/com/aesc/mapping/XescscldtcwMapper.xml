@@ -21,8 +21,6 @@
 		<result column="payment1" property="payment1" jdbcType="VARCHAR" />
 		<result column="payment2" property="payment2" jdbcType="VARCHAR" />
 		<result column="payment3" property="payment3" jdbcType="VARCHAR" />
-		<result column="payday" property="payday" jdbcType="VARCHAR" />
-		<result column="payment4" property="payment4" jdbcType="VARCHAR" />
 		<result column="first_agent" property="first_agent" jdbcType="VARCHAR" />
 		<result column="first_date" property="first_date" jdbcType="DATE" />
 		<result column="second_sign" property="second_sign" jdbcType="VARCHAR" />
@@ -62,8 +60,6 @@
 	payment1       ,	
 	payment2       ,	
 	payment3       ,	
-	payday         ,	
-	payment4       ,	
 	first_agent    ,	
 	first_date     ,	
 	second_sign    ,	
@@ -94,8 +90,6 @@
 		#{payment1,jdbcType=VARCHAR},
 		#{payment2,jdbcType=VARCHAR},
 		#{payment3,jdbcType=VARCHAR},
-		#{payday,jdbcType=VARCHAR},
-		#{payment4,jdbcType=VARCHAR},
 		#{first_agent,jdbcType=VARCHAR},
 		#{first_date,jdbcType=DATE},
 		#{second_sign,jdbcType=VARCHAR},
@@ -129,8 +123,6 @@ upper2            = #{upper2,jdbcType=VARCHAR},
 payment1          = #{payment1,jdbcType=VARCHAR},         
 payment2          = #{payment2,jdbcType=VARCHAR},         
 payment3          = #{payment3,jdbcType=VARCHAR},         
-payday            = #{payday,jdbcType=VARCHAR},           
-payment4          = #{payment4,jdbcType=VARCHAR},         
 first_agent       = #{first_agent,jdbcType=VARCHAR},      
 first_date        = #{first_date,jdbcType=DATE},       
 second_sign       = #{second_sign,jdbcType=VARCHAR},      
@@ -139,7 +131,6 @@ second_phone      = #{second_phone,jdbcType=VARCHAR},
 second_date       = #{second_date,jdbcType=DATE},      
 status            = #{status,jdbcType=INTEGER},           
 username       	  = #{username,jdbcType=VARCHAR}          
-	
 	WHERE
 contract_id       	  = #{contract_id,jdbcType=INTEGER}          
 	</update>

@@ -24,8 +24,8 @@
 				<p>&nbsp;&nbsp;一、	租赁物业基本情况</p>
 				<p>&nbsp;&nbsp;1、乙方承租的甲方商业用房（场地），位于：重庆北部新区经开园金渝大道99号（以下简称“汽博中心”）内的<input required="required" class="dtkz" name="rental_location" />，其建筑面积为：<input required="required" class="dtkzNum" name="building_area" /> ㎡ 。</p>
 				<p class="zc">第二章     租赁期限</p>
-				<p>&nbsp;&nbsp;第三条&nbsp;本合同所涉商业用房（场地）租赁期限为<input required="required" class="dtkzNum" name="expires" value="壹" />年，从<input required="required" class="dtkzNum" name="year_start" value="2018" />年<input required="required" class="dtkzNum" name="month_start" value="1" />月<input required="required" class="dtkzNum" name="day_start" value="1" />日起至<input required="required" class="dtkzNum" name="year_end" value="2018" />年<input required="required" class="dtkzNum" name="month_end" value="12" />月<input required="required" class="dtkzNum" name="day_end" value="31" />日止。</p>
-				<p>&nbsp;&nbsp;第四条&nbsp;甲方于<input required="required" class="dtkzNum" name="transfer_year" value="2018" />年<input required="required" class="dtkzNum" name="transfer_month" value="1" />月<input required="required" class="dtkzNum" name="transfer_day" value="1" />日前将本合同所涉的商业用房（场地）移交给乙方使用。</p>
+				<p>&nbsp;&nbsp;第三条&nbsp;本合同所涉商业用房（场地）租赁期限为<input required="required" class="dtkzNum" name="expires" value="壹" />年，从<input required="required" class="dtkzNum" name="year_start" value="" />年<input required="required" class="dtkzNum" name="month_start" value="1" />月<input required="required" class="dtkzNum" name="day_start" value="1" />日起至<input required="required" class="dtkzNum" name="year_end" value="" />年<input required="required" class="dtkzNum" name="month_end" value="12" />月<input required="required" class="dtkzNum" name="day_end" value="31" />日止。</p>
+				<p>&nbsp;&nbsp;第四条&nbsp;甲方于<input required="required" class="dtkzNum" name="transfer_year" value="" />年<input required="required" class="dtkzNum" name="transfer_month" value="1" />月<input required="required" class="dtkzNum" name="transfer_day" value="1" />日前将本合同所涉的商业用房（场地）移交给乙方使用。</p>
 				<p>&nbsp;&nbsp;第五条&nbsp;交接房时，乙方须对租赁场房屋（场地）内已有的物品及设施逐一进行检查，经双方书面确认物品及设施完好后，甲方交付乙方使用；在合同有效期内，乙方应确保其租赁场地内的物品及设施的完好，租赁期间，租赁房屋及设施、设备（包括乙方增设、添附设施、设备）的维护、维修义务由乙方负责，所产生的费用由乙方承担。如在使用中出现的损耗（如玻璃幕墙破裂，卷帘门损坏，门、窗、门锁损坏等），由乙方负责维修，如出现不能维修的情况，由乙方负责照价赔偿或自行更换。合同期满后，乙方应保证租赁场地内的物品及设施完好无损交付甲方</p>
 				<p class="zc"> 第三章 营业资格及乙方经营范围</p>
 				<p>&nbsp;&nbsp;第六条&nbsp;乙方应具备在中华人民共和国境内依法取得经营主体资格并符合在汽博中心开业的条件。</p>
@@ -57,7 +57,7 @@
 				<p>&nbsp;&nbsp;2、 乙方应向甲方支付履约保证金：￥<input required="required" class="dtkzNum" name="cash_deposit" />元，在签定合同后由乙方一次性付清。合同有效期内若乙方擅自解除合同或有其它违反合同行为的，履约保证金和所剩租金不予退还，并纳入违约金范围之内。违约金不足以弥补损失的，另行赔偿。合同到期后，如乙方无违约行为，履约保证金如数退还，只退本不退息。</p>
 				<p>&nbsp;&nbsp;3、租金为<input required="required" class="dtkzNum" name="payment1" value="每季度"/>支付，在签定合同时，乙方应向甲方支付<input required="required" class="dtkzNum" name="payment2" value="第一个季度" />的租金，以后乙方应在<input required="required" class="dtkzNum" name="payment3" value="每季度第一个月15日前" />支付<input required="required" class="dtkzNum" name="payment4" value="下个季度" />的租金。乙方逾期交纳租金，每逾期一日，应按未交纳租金总额的0.5％向甲方支付滞纳金。逾期时间不得超过15日，否则甲方有权单方解除合同，不予退还履约保证金，并可向乙方追收所欠租金及滞纳金。</p>
 				<p>&nbsp;&nbsp;4、付款方式：现金或转帐。</p>
-				<p>&nbsp;&nbsp;第二十七条&nbsp;上述收费起算时间：双方约定起租时间从<input required="required" class="dtkzNum" name="lease_year" value="2018" />年<input required="required" class="dtkzNum" name="lease_month"  value="1"/>月<input required="required" class="dtkzNum" name="lease_day" value="1" />日起算。</p>
+				<p>&nbsp;&nbsp;第二十七条&nbsp;上述收费起算时间：双方约定起租时间从<input required="required" class="dtkzNum" name="lease_year" value="" />年<input required="required" class="dtkzNum" name="lease_month"  value="1"/>月<input required="required" class="dtkzNum" name="lease_day" value="1" />日起算。</p>
 				<p class="zc">第八章 合同的终止与解除</p>
 				<p>&nbsp;&nbsp;第二十八条&nbsp;有下列情形之一者，合同即告终止；</p>
 				<p>&nbsp;&nbsp;1）合同期满。</p>

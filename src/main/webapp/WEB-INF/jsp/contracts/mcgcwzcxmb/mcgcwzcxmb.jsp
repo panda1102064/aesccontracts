@@ -21,17 +21,17 @@
 				<p>&nbsp;&nbsp;一、租赁物业基本情况</p>
 				<p>&nbsp;&nbsp;1、乙方租用甲方名车广场（外展场）<input required="required" class="dtkzNum" name="area1" />个车位，编号为<input required="required" class="dtkzNum" name="serial" />，单价：￥<input required="required" class="dtkzNum" name="price" />元/个/月（人民币），合租办公室：<input required="required" class="dtkzNum" name="office_rent" />元/个/月，总计：￥<input required="required" class="dtkzNum" name="total" />元/月（人民币）；</p>
 				<p>&nbsp;&nbsp;二、	租赁期限</p>
-				<p>&nbsp;&nbsp;上述车位租赁期限原则上为<input required="required" class="dtkzNum" name="expires" value="\" />年，从<input required="required" class="dtkzNum" name="year_start" value="2018" />年<input required="required" class="dtkzNum" name="month_start" value="1" />月<input required="required" class="dtkzNum" name="day_start" value="1" />日起至<input required="required" class="dtkzNum" name="year_end" value="2018" />年<input required="required" class="dtkzNum" name="month_end" value="6" />月<input required="required" class="dtkzNum" name="day_end" value="30" />日止。</p>
+				<p>&nbsp;&nbsp;上述车位租赁期限原则上为<input required="required" class="dtkzNum" name="expires" value="\" />年，从<input required="required" class="dtkzNum" name="year_start" value="" />年<input required="required" class="dtkzNum" name="month_start" value="1" />月<input required="required" class="dtkzNum" name="day_start" value="1" />日起至<input required="required" class="dtkzNum" name="year_end" value="" />年<input required="required" class="dtkzNum" name="month_end" value="6" />月<input required="required" class="dtkzNum" name="day_end" value="30" />日止。</p>
 				<p>&nbsp;&nbsp;三、租金及物管费的交付方式</p>
 				<p>&nbsp;&nbsp;1、租金为每<input required="required" class="dtkzNum" name="payment1" value="半年" />支付，在签定合同时，乙方应向甲方支付第一个<input required="required" class="dtkzNum" name="payment2" value="半年" />的租金，以后乙方应在每<input required="required" class="dtkzNum" name="payment3" value="半年" />第一个月10日前支付下个<input required="required" class="dtkzNum" name="payment4" value="半年" />的租金。乙方逾期交纳租金，每逾期一日，应按未交纳租金总额的0.5％向甲方支付滞纳金。逾期时间不得超过15日，否则甲方有权单方解除合同，不予退还履约保证金，并可向乙方追收所欠租金及滞纳金。</p>
 				<p>&nbsp;&nbsp;2、乙方应向甲方支付履约保证金：￥<input required="required" class="dtkzNum" name="cash_deposit" />元，在本合同签订时乙方应当立即以一次性付清的方式向甲方支付。合同有效期内若乙方擅自解除合同或有其他违反合同行为的，甲方有权力单方面终止合同，履约保证金和所剩租金不予退还，并纳入违约金范围内。违约金不足以弥补损失的，另行赔偿。合同到期后，如乙方无违约行为，履约保证金如数退还，只退本不退息。</p>
 				<p>&nbsp;&nbsp;3、付款方式：现金、转帐支票或网上银行。</p>
-				<p>&nbsp;&nbsp;3.1、上述收费起算时间：从<input required="required" class="dtkzNum" name="charge_year1" value="2018" />年<input required="required" class="dtkzNum" name="charge_month1" value="1" />月<input required="required" class="dtkzNum" name="charge_day1" value="1" />日起算。</p>
+				<p>&nbsp;&nbsp;3.1、上述收费起算时间：从<input required="required" class="dtkzNum" name="charge_year1" value="" />年<input required="required" class="dtkzNum" name="charge_month1" value="1" />月<input required="required" class="dtkzNum" name="charge_day1" value="1" />日起算。</p>
 				<p>&nbsp;&nbsp;4、物业管理服务费（按乙方承租的物业实际建筑面积计收），汽博中心<input required="required" class="dtkz" name="purpose" value="名车广场外展场"/>的用房为商业性质的物业，物业管理服务费的收费标准经重庆市物局审批为：  <input required="required" class="dtkzNum" name="management_fee" value="30" />元/个/月，物业管理服务费合计：<input required="required" class="dtkzNum" name="management_total" />元/月。</p>
 				<p>&nbsp;&nbsp;5、前述物业费用按季度支付：在签定合同时，乙方应向物业公司支付第一季度的物业费，以后乙方应在每季度初25日前支付下个季度的物业费。</p>
 				<p>&nbsp;&nbsp;5.1、乙方如逾期10天不缴纳物业管理服务费或相关物业费用的，本合同约定物业公司有权按乙方应交付费用总额的每日3‰加收滞纳金；逾期20天者系恶意拖欠的，物业公司除有权按照5‰加收滞纳金还有权停止向乙方提供服务，同时视为乙方对本合同的根本性违约。</p>
 				<p>&nbsp;&nbsp;6、付款方式：现金、转帐支票或网上银行。</p>
-				<p>&nbsp;&nbsp;6.1、上述收费起算时间：从<input required="required" class="dtkzNum" name="charge_year2" value="2018" />年<input required="required" class="dtkzNum" name="charge_month2" value="1" />月<input required="required" class="dtkzNum" name="charge_day2" value="1" />日起算。</p>
+				<p>&nbsp;&nbsp;6.1、上述收费起算时间：从<input required="required" class="dtkzNum" name="charge_year2" value="" />年<input required="required" class="dtkzNum" name="charge_month2" value="1" />月<input required="required" class="dtkzNum" name="charge_day2" value="1" />日起算。</p>
 				<p>&nbsp;&nbsp;四、乙方租用甲方名车广场（外展场）用于<input required="required" class="dtkz" name="syfs" />停放。乙方租赁的上述场地，仅供自己使用，不得擅自转租、转让、许可第三方使用或擅自改变合同所有约定的停放车型。如甲方发现乙方有上诉违约行为，甲方有权单方面解除合同，且不退还乙方已缴纳的租金。</p>
 				<p>&nbsp;&nbsp;五、甲方收取的租金仅限于乙方车辆停放所占用地租金，不包含车辆保管费，即：双方只构成占用车位场地租赁关系，不构成车辆保管关系。该车位车辆的安保负责由乙方自行负责。</p>
 				<p>&nbsp;&nbsp;六、租约期满，乙方如需要继续租赁，应在协议到期前 15 天到汽博中心招商运营部办公室办理续租手续：否则，将视为乙方自动终止协议，甲方将该车位转租他人时不需另行通知乙方。</p>
@@ -65,7 +65,7 @@
 				<p>&nbsp;&nbsp;b)本协议一式<u> 肆  </u>份，经甲、乙双方签署后生效，甲方执 <u> 叁 </u>份,乙方执<u> 壹 </u>份，协议自甲、乙双方法定代表人或其授权代理人签字并盖章后生效。</p>
 				<p>&nbsp;&nbsp;十四、备注及补充说明</p>
 				<p>&nbsp;&nbsp;若遇到到市场客观因素（如治理堵塞、道路改建、区域整体布局调整）甲方需收回该场地时。乙方须无条件配合甲方，其中所涉及的费用按实际使用时间计算。甲方在车位资源允许的情况下，优先为乙方提供新场地进行经营，但不保证与原车位数量相等。合同租赁期间，甲方若因整体市场推广而需临时征用乙方租赁场地时，应提前15天告知乙方，乙方须无条件配合。</p>
-				<p><input class="dtkz" name="remark" /></p>
+				<p><textarea rows="5" cols="100%" name="remark" class="form-control" /></textarea></p>
 				<p>&nbsp;&nbsp;十五、租金、合同保证金及物管费及水电空调费交款账号如下：</p>
 				<p>&nbsp;&nbsp;租金、合同保证金打款帐号 </p>
 				<p>&nbsp;&nbsp;&nbsp;&nbsp;名称：重庆汽博实业有限公司</p>

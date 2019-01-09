@@ -24,9 +24,9 @@ response.setHeader("Pragma","no-cache");
 <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300,400' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
 <!-- CSS类库 -->
+<link rel="stylesheet" type="text/css" href="<%=path%>/css/animate.min.css">
 <link rel="stylesheet" type="text/css" href="<%=path%>/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="<%=path%>/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="<%=path%>/css/animate.min.css">
 <link rel="stylesheet" type="text/css" href="<%=path%>/css/bootstrap-switch.min.css">
 <link rel="stylesheet" type="text/css" href="<%=path%>/css/checkbox3.min.css">
 <link rel="stylesheet" type="text/css" href="<%=path%>/css/jquery.dataTables.css">
@@ -106,13 +106,12 @@ response.setHeader("Pragma","no-cache");
 						
 					   <li class="panel panel-default dropdown"><a
 							data-toggle="collapse" href="#dropdown-desktop"> <span
-								class="icon fa fa-desktop"></span><span class="title">系统管理(敬请期待)</span>
+								class="icon fa fa-desktop"></span><span class="title">系统管理</span>
 						</a> 
 							<div id="dropdown-desktop" class="panel-collapse collapse">
 								<div class="panel-body">
 									<ul class="nav navbar-nav">
 										<li><a href="<%=path%>/registerUser">用户新增</a></li>
-										<li><a href="<%=path%>/Theming">主题设置</a></li>
 									</ul>
 								</div>
 							</div></li>
@@ -124,7 +123,7 @@ response.setHeader("Pragma","no-cache");
 							<div id="dropdown-slack" class="panel-collapse collapse">
 								<div class="panel-body">
 									<ul class="nav navbar-nav">
-										<li><a href="<%=path%>/ZSBcontractLists">招商部租赁合同分类列表</a></li>
+										<li><a href="<%=path%>/ZSBcontractLists">招商部合同列表</a></li>
 										<%-- <li><a href="<%=path%>/ybht">合同文件上传</a></li> --%>
 									</ul>
 								</div>

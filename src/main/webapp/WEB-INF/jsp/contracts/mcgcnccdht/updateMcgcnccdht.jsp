@@ -31,21 +31,21 @@
 				<p>&nbsp;&nbsp;5、甲方于<input required="required" class="dtkzNum" name="transfer_year" value="${aesc.transfer_year}" />年<input required="required" class="dtkzNum" name="transfer_month" value="${aesc.transfer_month}" />月<input required="required" class="dtkzNum" name="transfer_day" value="${aesc.transfer_day}" />日前将本合同项下的商业用房（场地）移交给乙方使用。</p>
 				<p>&nbsp;&nbsp;6、交接房时，乙方须对租赁场房屋（场地）内已有的物品及设施逐一进行检查，经双方书面确认物品及设施完好后，甲方交付乙方使用；在合同有效期内，乙方应确保其租赁场地内的物品及设施的完好，租赁期间，租赁房屋及设施、设备（包括乙方增设、添附设施、设备）的维护、维修义务由乙方负责，所产生的费用由乙方承担。如在使用中出现的损耗（如玻璃幕墙破裂，卷帘门损坏，门、窗、门锁损坏等），由乙方负责维修，如出现不能维修的情况，由乙方负责照价赔偿或自行更换。合同期满后，乙方应保证租赁场地内的物品及设施完好无损交付甲方。</p>
 				<p class="zc"> 第四章 乙方应支付费用</p>
-				<p>&nbsp;&nbsp;7、乙方应当向甲方缴纳的房屋租赁费用（暂定）：</p>
+				<p>&nbsp;&nbsp;7、乙方应当向甲方缴纳的房屋租赁费用：</p>
 				<p>&nbsp;&nbsp;7.1、房屋（场地）租金（按乙方实际承租的建筑面积计收）为：<input required="required" class="dtkzNum" name="rent1" value="${aesc.rent1}" />，每月租金合计人民币：<input required="required" class="dtkzNum" name="total" value="${aesc.total}" />元(大写)<input required="required" class="dtkz" name="upper1" value="${aesc.upper1}" />元整 。</p>
 				<p>&nbsp;&nbsp;7.2、房屋租金按<input required="required" class="dtkz" name="payment1" value="${aesc.payment1}" />支付。乙方应自本合同签订当日向甲方支付第一个<input required="required" class="dtkz" name="payment2" value="${aesc.payment2}" />的租金，以后乙方应在每<input required="required" class="dtkz" name="payment3" value="${aesc.payment3}" />初第一个月第15日前支付本<input required="required" class="dtkz" name="payment4" value="${aesc.payment4}" />的租金。乙方逾期交纳租金，逾期在15内的，每逾期一日，应按未交纳租金的总额0.5％的标准向甲方支付滞纳金；逾期时间超过10日的，甲方有权单方解除合同，不予退还履约保证金，并可向乙方追收所欠租金及滞纳金。</p>
-				<p>&nbsp;&nbsp;7.3、前述租金的付款方式：现金或转帐支票。</p>
+				<p>&nbsp;&nbsp;7.3、前述租金的付款方式：现金或转帐。</p>
 				<p>&nbsp;&nbsp;7.4、上述收费起算时间：从<input required="required" class="dtkzNum" name="charge_year1" value="${aesc.charge_year1}" />年<input required="required" class="dtkzNum" name="charge_month1" value="${aesc.charge_month1}" />月<input required="required" class="dtkzNum" name="charge_day1" value="${aesc.charge_day1}" />日起算。</p>
 				<p>&nbsp;&nbsp;8、乙方应向甲方支付履约保证金：￥<input required="required" class="dtkzNum" name="cash_deposit" value="${aesc.cash_deposit}" />元（大写）<input required="required" class="dtkz" name="upper2" value="${aesc.upper2}" />元整，在本合同签订时乙方应当立即以一次性付清的方式向甲方支付。合同有效期内若乙方擅自解除合同或有其它违反合同约定行为的，履约保证金和所剩租金不予退还，并纳入违约金范围之内。违约金不足以弥补损失的，甲方有权向乙方追讨，另行赔偿。合同到期后，如乙方无违约行为，履约保证金如数退还，但不计算利息。    </p>
-				<p>&nbsp;&nbsp;8.1、前述保证金的付款方式：现金或转帐支票。</p>
-				<p>&nbsp;&nbsp;9、乙方应当向物业公司缴纳的物业费用（暂定）：</p>
+				<p>&nbsp;&nbsp;8.1、前述保证金的付款方式：现金或转帐。</p>
+				<p>&nbsp;&nbsp;9、乙方应当向物业公司缴纳的物业费用：</p>
 				<p>&nbsp;&nbsp;9.1、物业管理服务费（按乙方承租的物业实际建筑面积计收），汽博中心<input required="required" class="dtkz" name="area3" value="${aesc.area3}" />的用房为商业性质的物业，物业管理服务费的收费标准经重庆市物局审批为：<input required="required" class="dtkzNum" name="management_fee1" value="${aesc.management_fee1}" />元/㎡/月，物业管理服务费：<input required="required" class="dtkzNum" name="management_fee2" value="${aesc.management_fee2}" />元/月。</p>
 				<p>&nbsp;&nbsp;9.2、中央空调使用耗能费：按实际公示标准收费。</p>
 				<p>&nbsp;&nbsp;9.3、商业用户水电交费单价分别为：电<input required="required" class="dtkzNum" name="power_rate" value="${aesc.power_rate}" />元人民币/KW/小时，水<input required="required" class="dtkzNum" name="water_rate" value="${aesc.water_rate}" />元人民币/T（含公共区域分摊费）。</p>
 				<p>&nbsp;&nbsp;9.4、公共区域的水电等公摊费用按据实分摊的原则收取。</p>
 				<p>&nbsp;&nbsp;9.5、前述物业费用按<input required="required" class="dtkz" name="payment5" value="${aesc.payment5}" />支付：在签定合同时，乙方应向物业公司支付第一个<input required="required" class="dtkz" name="payment6" value="${aesc.payment6}" />的物业费，以后乙方应在每<input required="required" class="dtkz" name="payment7" value="${aesc.payment7}" />初15日前向物业公司支付下个<input required="required" class="dtkz" name="payment8" value="${aesc.payment8}" />的物业费。 </p>
 				<p>&nbsp;&nbsp;9.6、乙方如逾期10天不缴纳物业管理服务费或相关物业费用的，本合同约定物业公司有权按乙方应交付费用总额的每日3‰加收滞纳金；逾期30天者系恶意拖欠的，物业公司除有权按照5‰加收滞纳金还有权停止向乙方提供服务，同时视为乙方对本合同的跟本性违约。</p>
-				<p>&nbsp;&nbsp;10、前述物业费用付款方式：现金或转账支票。</p>
+				<p>&nbsp;&nbsp;10、前述物业费用付款方式：现金或转账。</p>
 				<p>&nbsp;&nbsp;10.1、上述收费起算时间：从<input required="required" class="dtkzNum" name="charge_year2" value="${aesc.charge_year2}" />年<input required="required" class="dtkzNum" name="charge_month2" value="${aesc.charge_month2}" />月<input required="required" class="dtkzNum" name="charge_day2" value="${aesc.charge_day2}" />日起算。</p>
 				<p class="zc">第五章 营业资格及乙方经营范围</p>
 				<p>&nbsp;&nbsp;11、乙方应具备在中华人民共和国境内依法取得经营主体资格并符合在汽博中心开业的条件。</p>

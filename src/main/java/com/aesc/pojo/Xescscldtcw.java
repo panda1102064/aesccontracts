@@ -43,8 +43,6 @@ public class Xescscldtcw {
   private String payment1;
   private String payment2;
   private String payment3;
-  private String payday;
-  private String payment4;
   private String first_agent;
   @DateTimeFormat(pattern = "yyyy-MM-dd")
   private String first_date;
@@ -62,14 +60,7 @@ public class Xescscldtcw {
   public void setUsername(String username) {
     this.username = username;
   }
-  public String getPayday() {
-    return payday;
-  }
-
-  public void setPayday(String payday) {
-    this.payday = payday;
-  }
-
+  
   public Integer getContract_id() {
     return contract_id;
   }
@@ -218,14 +209,6 @@ public class Xescscldtcw {
 
   public void setPayment3(String payment3) {
     this.payment3 = payment3;
-  }
-
-  public String getPayment4() {
-    return payment4;
-  }
-
-  public void setPayment4(String payment4) {
-    this.payment4 = payment4;
   }
 
   public String getFirst_agent() {

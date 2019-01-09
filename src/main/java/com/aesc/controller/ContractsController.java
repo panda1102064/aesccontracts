@@ -21,13 +21,6 @@ public class ContractsController {
 	  return "manager/main";
 	}
 	
-	//主题设置
-	@RequestMapping("/Theming")
-	public String redirectTheme(){
-		return "manager/Theming";
-	}
-	
-	
 	//招商合同列表
 	@RequestMapping("/ZSBcontractLists")
 	public String redirectinputContract(){

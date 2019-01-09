@@ -21,8 +21,8 @@
 			<br />
 			<p>&nbsp;&nbsp;甲乙双方本着平等自愿，协商一致原则，就乙方租赁甲方汽博新二手车市场地下停车库车位一事达成如下协议：</p>
 			<p>&nbsp;&nbsp;一、甲方向乙方提供地下车库<input required="required" name="offer" class="dtkz" type="text" value="负  楼停车位 个，场地号为 号" />，该车位用于<input required="required" class="dtkz" type="text" name="purpose" value="自用车" />停放，车牌号为渝<input required="required" class="dtkz" type="text" name="plate" /> ，该停车区位于汽博新二手车市场车库内。</p>
-			<p>&nbsp;&nbsp;二、租赁期限及场地使用服务费：自<input required="required" name="year_start" class="dtkzNum" type="text" value="2018" />年<input required="required" class="dtkzNum" type="text" name="month_start" value="1" />月 <input required="required" class="dtkzNum" type="text" name="day_start" value="1" />日至 <input required="required" class="dtkzNum" type="text" name="year_end" value="2018" />年<input required="required" class="dtkzNum" type="text" name="month_end" value="12" />月 <input  value="31"required="required" class="dtkzNum" type="text" name="day_end" />日止。服务费为：<input required="required" type="text" class="dtkzNum" name="service_charge" />元/个/月，共计 <input required="required" type="text" class="dtkzNum" name="total" />元/月（大写： <input required="required" class="dtkz" name="numeral_sed" type="text" /> ）。</p>
-			<p>&nbsp;&nbsp;三、计租时间及相关费用计算时间：从<input required="required" name="year_rd" class="dtkzNum" type="text"  value="2018"/>年 <input required="required" class="dtkzNum" type="text" name="month_rd" value="1" />月 <input required="required" class="dtkzNum" type="text"  name="day_rd" value="1" />日起算。</p>
+			<p>&nbsp;&nbsp;二、租赁期限及场地使用服务费：自<input required="required" name="year_start" class="dtkzNum" type="text" value="" />年<input required="required" class="dtkzNum" type="text" name="month_start" value="1" />月 <input required="required" class="dtkzNum" type="text" name="day_start" value="1" />日至 <input required="required" class="dtkzNum" type="text" name="year_end" value="" />年<input required="required" class="dtkzNum" type="text" name="month_end" value="" />月 <input  value=""required="required" class="dtkzNum" type="text" name="day_end" />日止。服务费为：<input required="required" type="text" class="dtkzNum" name="service_charge" />元/个/月，共计 <input required="required" type="text" class="dtkzNum" name="total" />元/月（大写： <input required="required" class="dtkz" name="numeral_sed" type="text" /> ）。</p>
+			<p>&nbsp;&nbsp;三、计租时间及相关费用计算时间：从<input required="required" name="year_rd" class="dtkzNum" type="text"  value=""/>年 <input required="required" class="dtkzNum" type="text" name="month_rd" value="1" />月 <input required="required" class="dtkzNum" type="text"  name="day_rd" value="1" />日起算。</p>
 			<p>&nbsp;&nbsp;四、乙方应向甲方支付履约保证金：￥<input required="required" name="cash_deposit" class="dtkzNum" type="text" />元（大写）<input required="required" class="dtkz" type="text" name="numeral_four" />元整 ，在签定合同后由乙方一次性付清。合同有效期内若乙方擅自解除合同或有其它违反合同行为的，履约保证金和所剩租金不予退还，并纳入违约金范围之内。违约金不足以弥补损失的，另行赔偿。合同到期后，如乙方无违约行为，履约保证金如数退还，只退本不退息。</p>
 			<p>&nbsp;&nbsp;五、乙方按 <input required="required" name="payment_way" class="dtkz" type="text"  value="季度"/>向甲方交付场地租金，交款时间为每<input required="required" type="text" class="dtkz" name="payment_time" value="季度"/>初第一个月的15日前 缴纳本 <input required="required" type="text" class="dtkz" name="rent" value="季度" />的场地租金。乙方每逾期一日，甲方有权将按照应交款总额的0.5%收取乙方的滞纳金，逾期超过15日，甲方有权单方面解除合同，并向乙方追缴所欠租金和滞纳金。</p>
 			<p>&nbsp;&nbsp;六、甲方收取的费用仅限于乙方车辆停放所占用场地的租金，不包含车辆外观及车内物品保管。甲方只负责乙方的整车安全，即：乙方车辆不被偷盗。</p>
@@ -34,7 +34,7 @@
 			<p>&nbsp;&nbsp;十二、本协议一式肆份，甲方执<u> 叁 </u>份，乙方执<u> 壹 </u>份。具有同等法律效力。</p>
 			<p>&nbsp;&nbsp;十三、本协议自甲、乙双方法定代表人或其授权代理人签字并盖章后生效。</p>
 			<p>&nbsp;&nbsp;十四、备注</p>
-			<p><textarea rows="5" cols="100%" name="remark" /></textarea></p>
+			<p><textarea rows="5" cols="100%" name="remark" />/</textarea></p>
 			<br />
 			<p>&nbsp;&nbsp;十五、租金打款帐号</p>
 			<br />

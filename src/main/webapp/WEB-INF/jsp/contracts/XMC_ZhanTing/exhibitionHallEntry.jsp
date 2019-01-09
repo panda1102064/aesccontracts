@@ -194,22 +194,22 @@
 		laydate.render({
   			elem: '#accept_year',
   			type:'year',
-  			value:/* new Date().getFullYear() */'2019'
+  			value:new Date().getFullYear()
 		});
 		laydate.render({
   			elem: '#year_start',
   			type:'year',
-  			value:'2019'
+  			value:new Date().getFullYear()
 		});
 		laydate.render({
   			elem: '#year_end',
   			type:'year',
-  			value:'2020'
+  			value:new Date().getFullYear()
 		});
 		laydate.render({
   			elem: '#year_str',
   			type:'year',
-  			value:'2019'
+  			value:new Date().getFullYear()
 		});
 		laydate.render({
   			elem: '#year_ed',
@@ -219,17 +219,17 @@
 		laydate.render({
   			elem: '#transfer_year',
   			type:'year',
-  			value:'2019'
+  			value:new Date().getFullYear()
 		});
 		laydate.render({
   			elem: '#charge_year1',
   			type:'year',
-  			value:'2019'
+  			value:new Date().getFullYear()
 		});
 		laydate.render({
   			elem: '#charge_year2',
   			type:'year',
-  			value:'2019'
+  			value:new Date().getFullYear()
 		});
 		</script>
 	</body>

@@ -17,7 +17,7 @@
 			<p>承租方[以下简称乙方]:<input required="required" class="dtkz" name="merchant_name"/></p><br />
 			<p>甲乙双方本着平等自愿，协商一致原则，就乙方租赁甲方汽博大厦地上停车位一事达成如下协议：</p>
 			<p>一、甲方向乙方提供停车位<input required="required" class="dtkzNum" name="carport_number"/>个。该车位用于<input required="required" class="dtkz" name="purpose" value="自用车"/>停放。车牌号为 <input required="required" class="dtkzNum" name="plate" value="渝"/>，该停车区位于汽博大厦室外停车场内。</p>
-			<p>二、租赁期限及场地使用服务费：自<input required="required" class="dtkzNum" name="year_start" value="2019"/>年<input required="required" class="dtkzNum" name="month_start" value="1"/>月<input required="required" class="dtkzNum" name="day_start" value="1"/>日至<input required="required" class="dtkzNum" name="year_end" value="2019"/>年<input required="required" class="dtkzNum" name="month_end" value="12"/>月<input required="required" class="dtkzNum" name="day_end" value="31"/>日止。服务费：<input required="required" class="dtkzNum" name="service_charge"/>元/个/月，共计<input required="required" class="dtkzNum" name="total"/>元/月（大写：<input required="required" class="dtkz" name="upper"/>元整）。</p>
+			<p>二、租赁期限及场地使用服务费：自<input required="required" class="dtkzNum" name="year_start" value=""/>年<input required="required" class="dtkzNum" name="month_start" value="1"/>月<input required="required" class="dtkzNum" name="day_start" value="1"/>日至<input required="required" class="dtkzNum" name="year_end" value=""/>年<input required="required" class="dtkzNum" name="month_end" value=""/>月<input required="required" class="dtkzNum" name="day_end" value=""/>日止。服务费：<input required="required" class="dtkzNum" name="service_charge"/>元/个/月，共计<input required="required" class="dtkzNum" name="total"/>元/月（大写：<input required="required" class="dtkz" name="upper"/>元整）。</p>
 			<p>三、乙方须按<input required="required" class="dtkz" name="payment" value="季度"/>向甲方交付车辆停放场地使用服务费，甲方应提供相关正规发票，交款时间为每<input required="required" class="dtkz" name="pay_time" value="季度"/>初第一个月15日前缴纳下季度的服务费。乙方每逾期一日，甲方有权将按照应交款总额的0.5%收取乙方的滞纳金。</p>
 			<p>四、乙方应向甲方支付履约保证金：￥<input required="required" class="dtkzNum" name="cash_deposit"/> 元，在本合同签订时乙方应当立即以一次性付清的方式向甲方支付。合同有效期内若乙方擅自解除合同或有其它违反合同约定行为的，履约保证金和所剩租金不予退还，并纳入违约金范围之内。违约金不足以弥补损失的，另行赔偿。合同到期后，如乙方无违约行为，履约保证金如数退还，但不计算利息。</p>
 			<p>五、甲方收取的费用仅限于乙方车辆停放所占用场地使用服务费，不包含车辆外观及车内物品保管。甲方只负责乙方的整车安全，即：乙方车辆不被偷盗。</p>
@@ -29,7 +29,8 @@
 			<p>十一、乙方需要变更车牌号信息时，应提前七天到甲方招商运营部提交相关变更资料，经甲方同意后方可变更，若乙方未经甲方同意私自变更信息，甲方有权拒绝乙方车辆进场停车。</p>
 			<p>十二、本协议一式肆份，甲方执<u> 叁 </u>份，乙方执<u> 壹 </u>份。具有同等法律效力。</p>
 			<p>十三、本协议自甲、乙双方法定代表人或其授权代理人签字并盖章后生效。</p>
-			<p>十四、备注：<input class="dtkz" name="remark" /></p>
+			<p>十四、备注：</p>
+			<p><textarea rows="5" cols="100%" name="remark" class="form-control" /></textarea></p>
 			<p>十五、租金、合同保证金及物管费及水电空调费交款账号如下：</p>
 			<p>租金、合同保证金打款账号    </p>
 			<p>名称：重庆汽博实业有限公司</p>

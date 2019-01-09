@@ -14,8 +14,8 @@
 	<jsp:include page="../headpart.jsp"></jsp:include>
 	<div id="div1">
 		<br />
-		<div class="titles h3">
-			<b> 请选择你要操作的合同信息</b>
+		<div class="titles h2">
+			<b>请选择要操作的合同</b>
 		</div>
 		<br /> <br />
 		<div id="div2">

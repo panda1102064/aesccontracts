@@ -27,7 +27,7 @@
 			<p>&nbsp;&nbsp;2、乙方若擅自解除合同的，乙方所缴纳的履约保证金和剩余租金作为支付给甲方的违约金。场地造成损坏的，乙方应负责恢复原状或承担赔偿责任。</p>
 			<p>&nbsp;&nbsp;3、甲方在合同期内提前解除合同的。甲方在乙方搬离前向乙方支付履约保证金同等金额的违约金，并退还乙方缴纳的履约保证金及剩余租金（以实际租期按日计算）。</p>
 			<p>&nbsp;&nbsp;4、本合同约定的所有房屋履约保证金在乙方无违约情况下，待本合同期满后不续租的，由甲方不计息退还给乙方。</p>
-			<p>&nbsp;&nbsp;四、房屋租金按<input required="required" class="dtkz"  name="payment1" value="${aesc.payment1}"/>支付。乙方应自本合同签订当日向甲方支付第一个<input required="required" class="dtkz" name="payment2" value="${aesc.payment2}"/>的租金，以后乙方应在每<input required="required" class="dtkz"  name="payment3" value="${aesc.payment3}"/>初第一个月第<input required="required" class="dtkz"  name="payday" value="${aesc.payday}"/>日前支付本<input required="required" class="dtkz"  name="payment4" value="${aesc.payment4}"/>的租金。乙方每逾期一日，甲方有权按照应交款总额的 0.5% 收取乙方的滞纳金，逾期超过15日，甲方有权单方面解除合同，并向乙方追缴所欠租金和滞纳金。（乙方应向甲方提供开具专票的相关证明和信息，如果乙方纳税政策有调整，需提前【30】日通知甲方，并出具相关调整说明。）</p>
+			<p>&nbsp;&nbsp;四、房屋租金按<input required="required" class="dtkz"  name="payment1" value="${aesc.payment1}"/>支付。乙方应自本合同签订当日向甲方支付<input required="required" class="dtkz" name="payment2" value="${aesc.payment2}"/>的租金，以后乙方应在<input required="required" class="dtkz"  name="payment3" value="${aesc.payment3}"/>的租金。乙方每逾期一日，甲方有权按照应交款总额的 0.5% 收取乙方的滞纳金，逾期超过15日，甲方有权单方面解除合同，并向乙方追缴所欠租金和滞纳金。（乙方应向甲方提供开具专票的相关证明和信息，如果乙方纳税政策有调整，需提前【30】日通知甲方，并出具相关调整说明。）</p>
 			<p>&nbsp;&nbsp;五、甲方收取的费用仅限于乙方车辆停放所占用场地的租金，不包含车辆外观及车内物品保管。甲方只负责乙方的整车安全，即：乙方车辆不被偷盗。</p>
 			<p>&nbsp;&nbsp;六、协议期满，乙方若需继续使用，应在协议到期前 30天 到汽博中心招商部运营部办理续租手续；否则，将视为乙方放弃优先续租权，协议自动终止后，甲方有权将该场地转租他人，且不需对乙方另行通知。</p>
 			<p>&nbsp;&nbsp;七、若协议到期后乙方仍未办理续租手续，车辆也未驶离停车场，则甲方将按临时停车位收费(20元/车/天),乙方不得以任何理由拒付停车费。否则，在乙方未完清所有费用之前，甲方有权禁止乙方车辆离场。</p>

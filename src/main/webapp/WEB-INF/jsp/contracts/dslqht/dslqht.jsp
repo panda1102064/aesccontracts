@@ -115,7 +115,7 @@
                 <p>&nbsp;&nbsp;47.1、签收人是受送达本人或者是前款指定的代收人的，签收人应当当场核对邮件内容。签收人发现邮件内容与回执上的文书名称不一致的，应当向邮政机构的投递员提出，否则视为一致。</p>
                 <p>&nbsp;&nbsp;47.2、因受送达人自己提供或者确认的送达地址不准确、拒不提供送达地址、送达地址变更未及时告知人民法院、受送达本人或者指定的代收人拒绝签收，导致诉讼文书未能被受送达人实际接收的，文书退回之日视为送达之日。</p>
                 <p>&nbsp;&nbsp;48、备注：</p>
-				<p><input class="dtkz" name="remark" /></p>
+				<p><textarea rows="5" cols="100%" name="remark" class="form-control" />/</textarea></p>
 				<p>&nbsp;&nbsp;49、租金、合同保证金及物管费及水电空调费交款账号如下：</p>
 				<p>&nbsp;&nbsp;租金、合同保证金打款帐号 </p>
 				<p>&nbsp;&nbsp;&nbsp;&nbsp;名称：重庆汽博实业有限公司</p>
@@ -196,42 +196,42 @@
 		laydate.render({
   			elem: '#accept_year',
   			type:'year',
-  			value:/* new Date().getFullYear() */'2019'
+  			value:new Date().getFullYear() 
 		});
 		laydate.render({
   			elem: '#year_start',
   			type:'year',
-  			value:'2019'
+  			value:new Date().getFullYear()
 		});
 		laydate.render({
   			elem: '#year_end',
   			type:'year',
-  			value:'2020'
+  			value:new Date().getFullYear()
 		});
 		laydate.render({
   			elem: '#year_str',
   			type:'year',
-  			value:'2019'
+  			value:new Date().getFullYear()
 		});
 		laydate.render({
   			elem: '#year_ed',
   			type:'year',
-  			value:'2020'
+  			value:new Date().getFullYear()
 		});
 		laydate.render({
   			elem: '#transfer_year',
   			type:'year',
-  			value:'2019'
+  			value:new Date().getFullYear()
 		});
 		laydate.render({
   			elem: '#charge_year1',
   			type:'year',
-  			value:'2019'
+  			value:new Date().getFullYear()
 		});
 		laydate.render({
   			elem: '#charge_year2',
   			type:'year',
-  			value:'2019'
+  			value:new Date().getFullYear()
 		});
 		</script>
 	</body>

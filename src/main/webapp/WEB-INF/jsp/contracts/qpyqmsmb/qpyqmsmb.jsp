@@ -26,15 +26,15 @@
 				<p>&nbsp;&nbsp;3.1、乙方承租的甲方商业用房（场地），位于：重庆北部新区经开园金渝大道99号（以下简称“汽博中心”）内的<input required="required" class="dtkz" name="lessee_location" value="汽配一期" />，其建筑面积为：<input required="required" class="dtkzNum" name="building_area" />㎡ ，该租赁场地的房屋（场地）租金、物业管理服务费或其它根据场地面积计算的款项均以本款约定的租赁建筑面积计算。</p>
 				<p>&nbsp;&nbsp;3.2、租赁物业的前上述信息与《房屋产权登记证》所载明的信息不一致时，以《房屋产权登记证》为准。</p>
 				<p class="zc">第三章 租赁期限及租赁物业交付</p>
-				<p>&nbsp;&nbsp;4、本合同项下商业用房（场地）租赁期限为<input required="required" class="dtkzNum" name="expires" value="贰" />年，即从自<input required="required" class="dtkzNum" name="year_start" value="2019" />年<input required="required" class="dtkzNum" name="month_start" value="1" />月<input required="required" class="dtkzNum" name="day_start" value="1" />日起至<input required="required" class="dtkzNum" name="year_end" value="2020" />年<input required="required" class="dtkzNum" name="month_end" value="12" />月<input required="required" class="dtkzNum" name="day_end" value="31" />日止。</p>
-				<p>&nbsp;&nbsp;5、甲方于<input required="required" class="dtkzNum" name="transfer_year" value="2019" />年<input required="required" class="dtkzNum" name="transfer_month" value="1" />月<input required="required" class="dtkzNum" name="transfer_day" value="1" />日前将本合同项下的商业用房（场地）移交给乙方使用。若乙方逾期未接收的，视为甲方移交义务完成，同时，开始计收租金。</p>
+				<p>&nbsp;&nbsp;4、本合同项下商业用房（场地）租赁期限为<input required="required" class="dtkzNum" name="expires" value="贰" />年，即从自<input required="required" class="dtkzNum" name="year_start" value="" />年<input required="required" class="dtkzNum" name="month_start" value="1" />月<input required="required" class="dtkzNum" name="day_start" value="1" />日起至<input required="required" class="dtkzNum" name="year_end" value="2020" />年<input required="required" class="dtkzNum" name="month_end" value="12" />月<input required="required" class="dtkzNum" name="day_end" value="31" />日止。</p>
+				<p>&nbsp;&nbsp;5、甲方于<input required="required" class="dtkzNum" name="transfer_year" value="" />年<input required="required" class="dtkzNum" name="transfer_month" value="1" />月<input required="required" class="dtkzNum" name="transfer_day" value="1" />日前将本合同项下的商业用房（场地）移交给乙方使用。若乙方逾期未接收的，视为甲方移交义务完成，同时，开始计收租金。</p>
 				<p>&nbsp;&nbsp;6、交接房时，乙方须对租赁场房屋（场地）内已有的物品及设施逐一进行检查，经双方书面确认物品及设施完好后，甲方交付乙方使用；在合同有效期内，乙方应确保其租赁场地内的物品及设施的完好，租赁期间，租赁房屋及设施、设备（包括乙方增设、添附设施、设备）的维护、维修义务由乙方负责，所产生的费用由乙方承担。如在使用中出现的损耗（如玻璃幕墙破裂，卷帘门损坏，门、窗、门锁损坏等），由乙方负责维修，如出现不能维修的情况，由乙方负责照价赔偿或自行更换。合同期满后，乙方应保证租赁场地内的物品及设施完好无损交付甲方。</p>
 				<p class="zc"> 第四章 乙方应支付费用</p>
 				<p>&nbsp;&nbsp;7、乙方应当向甲方缴纳的房屋租赁费用：</p>
 				<p>&nbsp;&nbsp;7.1、房屋（场地）租金（按乙方实际承租的建筑面积计收）为:<input required="required" class="dtkzNum" name="rent1" value="一楼：元/月/㎡，二楼：元/月/㎡"/>，每月租金合计人民币：<input required="required" class="dtkzNum" name="total" />元(大写)<input required="required" class="dtkz" name="upper1" />元整 。</p>
 				<p>&nbsp;&nbsp;7.2、房屋租金按<input required="required" class="dtkz" name="payment1" value="季度"/>支付。乙方应自本合同签订当日向甲方支付第一个<input required="required" class="dtkz" name="payment2" value="季度"/>的租金，以后乙方应在每<input required="required" class="dtkz" name="payment3" value="季度"/>初第一个月第15日前支付<input required="required" class="dtkz" name="payment4" value="本季度"/>的租金。乙方逾期交纳租金，逾期在15内的，每逾期一日，应按未交纳租金的总额0.5％的标准向甲方支付滞纳金；逾期时间超过15日的，甲方有权单方解除合同，不予退还履约保证金，并可向乙方追收所欠租金及滞纳金。</p>
 				<p>&nbsp;&nbsp;7.3、前述租金的付款方式：现金或转帐支票。</p>
-				<p>&nbsp;&nbsp;7.4、上述收费起算时间：从<input required="required" class="dtkzNum" name="charge_year1" value="2019" />年<input required="required" class="dtkzNum" name="charge_month1" value="1" />月<input required="required" class="dtkzNum" name="charge_day1" value="1" />日起开始计租。</p>
+				<p>&nbsp;&nbsp;7.4、上述收费起算时间：从<input required="required" class="dtkzNum" name="charge_year1" value="" />年<input required="required" class="dtkzNum" name="charge_month1" value="1" />月<input required="required" class="dtkzNum" name="charge_day1" value="1" />日起开始计租。</p>
 				<p>&nbsp;&nbsp;8、乙方应向甲方支付履约保证金：￥<input required="required" class="dtkzNum" name="cash_deposit" />元(大写)<input required="required" class="dtkz" name="upper2" />元整，在本合同签订时乙方应当立即以一次性付清的方式向甲方支付。合同有效期内若乙方擅自解除合同或有其它违反合同约定行为的，履约保证金和所剩租金不予退还，并纳入违约金范围之内。违约金不足以弥补损失的，甲方有权向乙方追讨，另行赔偿。合同到期后，如乙方无违约行为，履约保证金如数退还，但不计算利息。    </p>
 				<p>&nbsp;&nbsp;8.1、前述保证金的付款方式：现金或转帐。</p>
 				<p>&nbsp;&nbsp;9、乙方应当向物业公司缴纳的物业费用：</p>
@@ -45,7 +45,7 @@
 				<p>&nbsp;&nbsp;9.5、前述物业费用按<input required="required" class="dtkz" name="payment5" value="季度"/>支付：在签定合同时，乙方应向物业公司支付<input required="required" class="dtkz" name="payment6" value="第一季度"/>的物业费，以后乙方应在每<input required="required" class="dtkz" name="payment7" value="季度"/>初15日前向物业公司支付<input required="required" class="dtkz" name="payment8" value="本季度"/>的物业费。  </p>
 				<p>&nbsp;&nbsp;9.6、乙方如逾期10天不缴纳物业管理服务费或相关物业费用的，本合同约定物业公司有权按乙方应交付费用总额的每日3‰加收滞纳金；逾期30天者系恶意拖欠的，物业公司除有权按照5‰加收滞纳金还有权停止向乙方提供服务，同时视为乙方对本合同的跟本性违约。</p>
 				<p>&nbsp;&nbsp;10、前述物业费用付款方式：现金或转账。</p>
-				<p>&nbsp;&nbsp;10.1、上述收费起算时间：从<input required="required" class="dtkzNum" name="charge_year2" value="2019" />年<input required="required" class="dtkzNum" name="charge_month2" value="1" />月<input required="required" class="dtkzNum" name="charge_day2" value="1" />日起开始计租。</p>
+				<p>&nbsp;&nbsp;10.1、上述收费起算时间：从<input required="required" class="dtkzNum" name="charge_year2" value="" />年<input required="required" class="dtkzNum" name="charge_month2" value="1" />月<input required="required" class="dtkzNum" name="charge_day2" value="1" />日起开始计租。</p>
 				<p class="zc">第五章 营业资格及乙方经营范围</p>
 				<p>&nbsp;&nbsp;11、乙方应具备在中华人民共和国境内依法取得经营主体资格并符合在汽博中心开业的条件。</p>
 				<p>&nbsp;&nbsp;12、乙方租用甲方的房屋（场地）仅作为<input required="required" class="dtkz" name="purpose" value="汽配经营" />使用。乙方不得超出约定范围经营；如需变更经营范围，须提前二十天以书面形式告知甲方，经甲方书面同意后方可变更。否则，甲方有权单方解除合同，且不退还乙方已缴纳的租金及履约保证金。</p>
@@ -106,8 +106,9 @@
                 <p>&nbsp;&nbsp;&nbsp;&nbsp;电话：<u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </u> </p>
                 <p>&nbsp;&nbsp;42.1、签收人是受送达本人或者是前款指定的代收人的，签收人应当当场核对邮件内容。签收人发现邮件内容与回执上的文书名称不一致的，应当向邮政机构的投递员提出，否则视为一致。</p>
                 <p>&nbsp;&nbsp;42.2、因受送达人自己提供或者确认的送达地址不准确、拒不提供送达地址、送达地址变更未及时告知人民法院、受送达本人或者指定的代收人拒绝签收，导致诉讼文书未能被受送达人实际接收的，文书退回之日视为送达之日。</p>
-				<p>&nbsp;&nbsp;备注：<input class="dtkz" name="remark" /></p>
-				<p>&nbsp;&nbsp;44、租金、合同保证金及物管费及水电空调费交款账号如下：</p>
+				<p>&nbsp;&nbsp;备注：</p>
+				<p><textarea rows="5" cols="100%" name="remark" class="form-control" /></textarea></p>
+				<p>&nbsp;&nbsp;43、租金、合同保证金及物管费及水电空调费交款账号如下：</p>
 				<p>&nbsp;&nbsp;租金、合同保证金打款帐号 </p>
 				<p>&nbsp;&nbsp;&nbsp;&nbsp;名称：重庆汽博实业有限公司</p>
 				<p>&nbsp;&nbsp;&nbsp;&nbsp;开户银行：建行重庆两江汽博支行</p>
