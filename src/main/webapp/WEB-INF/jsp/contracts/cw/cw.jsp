@@ -8,7 +8,7 @@
 <jsp:include page="../../headpart.jsp"></jsp:include>
 	<div id="wrap">
 		<form action="addcw" method="post">
-			<img src="<%=path%>/img/logo.png" width="270px" height="60px"/>
+			<img src="<%=path%>/img/logo.png" width="132px" height="60px"/>
 			<p style="float: right;">合同编号:<input required="required" class="dtkzNum" name="contract_serial"/></p>
 			<br /><br />
 			<p class="h2" style="text-align: center;">车位租赁合同</p>

@@ -21,7 +21,7 @@
 </style>
 </head>
 <body>
-	<img src="<%=path%>/img/logo.png" width="270px" height="60px" style="position:relative ;"/>
+	<img src="<%=path%>/img/logo.png" width="132px" height="60px" style="position:relative ;"/>
 	<img src="<%=path%>/img/wx.jpg" width="100px;" height="100px;"  style="float: right;"/>
 	<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 	<p class="htid" >合同号：<u> ${aesc.contract_serial} 号   </u></p><br />

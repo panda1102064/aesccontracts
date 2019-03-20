@@ -21,7 +21,7 @@ public class CwController {
 	
 /**
  * 方法名称: redirectCw ；
- * 方法描述:  :   ；
+ * 方法描述:  :  ；
  * 返回类型: String ；
  * 作者：Dawn Chen  ；
  * 时间：2017年9月11日 下午2:58:19；

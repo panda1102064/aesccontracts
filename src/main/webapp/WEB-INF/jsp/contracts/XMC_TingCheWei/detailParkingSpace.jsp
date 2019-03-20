@@ -8,7 +8,7 @@
 </head>
 	<body>
 		<div id="wrap">
-			<p><img src="<%=path%>/img/logo.png" width="270px;" height="50px;"/></p>
+			<p><img src="<%=path%>/img/logo.png" width="132px" height="60px"/></p>
 			<p style="position: absolute; right: 80px; top: 20px;">合同编号：${aesc.contract_serial}</p>
 			<p>&nbsp;</p>
 			<h3 style="text-align: center; ">${aesc.contract_title2}</h3>

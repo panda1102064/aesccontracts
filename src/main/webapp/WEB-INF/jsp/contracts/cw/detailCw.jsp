@@ -9,7 +9,7 @@
 </head>
 <body>
 	<div id="wrap">
-			<img src="<%=path%>/img/logo.png" width="270px" height="40px"/>
+			<img src="<%=path%>/img/logo.png" width="132px" height="60px"/>
 			<p style="float: right;">合同编号:${aesc.contract_serial}</p>
 			<br /><br />
 			<p class="h2" style="text-align: center;">车位租赁合同</p>
