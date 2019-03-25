@@ -58,7 +58,7 @@
 				<p>&nbsp;&nbsp;8.2、前述保证金的付款方式：现金或转帐</p>
 				<p>&nbsp;&nbsp;9、乙方应当向物业公司缴纳的物业费用：</p>
 				<p>&nbsp;&nbsp;9.1、物业管理服务费（按乙方承租的物业实际建筑面积计收），汽博中心<input required="required" class="dtkz" name="area3" value="${aesc.area3}" />的用房为商业性质的物业，物业管理服务费的收费标准经重庆市物局审批为：<input required="required" class="dtkzNum" name="management_fee1" value="${aesc.management_fee1}" />元/㎡/月，物业管理服务费：<input required="required" class="dtkzNum" name="management_fee2" value="${aesc.management_fee2}" />元/月。</p>
-				<p>&nbsp;&nbsp;9.2、商业用户水电交费单价分别为：电<input required="required" class="dtkzNum" name="power_rate" value="${aesc.power_rate}" />元人民币/KW/小时，水<input required="required" readonly="readonly" class="dtkzNum" name="water_rate" value="${aesc.water_rate}" />元人民币/T（含公共区域分摊费）。</p>
+				<p>&nbsp;&nbsp;9.2、商业用户水电交费单价分别为：电<input required="required" class="dtkzNum" name="power_rate" value="${aesc.power_rate}" />元人民币/KW/小时，水<input required="required" class="dtkzNum" name="water_rate" value="${aesc.water_rate}" />元人民币/T（含公共区域分摊费）。</p>
 				<p>&nbsp;&nbsp;9.3、公共区域的水电等公摊费用按据实分摊的原则收取。</p>
 				<p>&nbsp;&nbsp;9.4、前述物业费用按<input required="required" class="dtkz" name="payment5" value="${aesc.payment5}" />支付：在签定合同时，乙方应向物业公司支付第一个<input required="required" class="dtkz" name="payment6" value="${aesc.payment6}" />的物业费，以后乙方应在<input required="required" class="dtkz" name="payment7" value="${aesc.payment7}" />的物业费。 </p>
 				<p>&nbsp;&nbsp;9.5、乙方如逾期10天不缴纳物业管理服务费或相关物业费用的，本合同约定物业公司有权按乙方应交付费用总额的每日3‰加收滞纳金；逾期30天者系恶意拖欠的，物业公司除有权按照5‰加收滞纳金还有权停止向乙方提供服务，同时视为乙方对本合同的跟本性违约。</p>
