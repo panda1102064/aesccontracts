@@ -30,9 +30,6 @@ public class Dslqht {
   private String area1;
   private String area2;
   private String rental_location;
-  private String accept_year;
-  private String accept_month;
-  private String accept_day;
   private String lessee_location;
   private String building_area;
   private String expires;
@@ -143,30 +140,6 @@ public class Dslqht {
 
   public void setRental_location(String rental_location) {
     this.rental_location = rental_location;
-  }
-
-  public String getAccept_year() {
-    return accept_year;
-  }
-
-  public void setAccept_year(String accept_year) {
-    this.accept_year = accept_year;
-  }
-
-  public String getAccept_month() {
-    return accept_month;
-  }
-
-  public void setAccept_month(String accept_month) {
-    this.accept_month = accept_month;
-  }
-
-  public String getAccept_day() {
-    return accept_day;
-  }
-
-  public void setAccept_day(String accept_day) {
-    this.accept_day = accept_day;
   }
 
   public String getLessee_location() {
@@ -557,7 +530,6 @@ public class Dslqht {
     return "Dslqht [contract_id=" + contract_id + ", contract_serial=" + contract_serial
         + ", merchant_name=" + merchant_name + ", address=" + address + ", area1=" + area1
         + ", area2=" + area2 + ", rental_location=" + rental_location + ", accept_year="
-        + accept_year + ", accept_month=" + accept_month + ", accept_day=" + accept_day
         + ", lessee_location=" + lessee_location + ", building_area=" + building_area + ", expires="
         + expires + ", year_start=" + year_start + ", month_start=" + month_start + ", day_start="
         + day_start + ", year_end=" + year_end + ", month_end=" + month_end + ", day_end=" + day_end

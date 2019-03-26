@@ -1,4 +1,49 @@
-ALTER TABLE `aesccontracts`.`xescscldtcw_contract` 
-DROP COLUMN `payment4`,
-DROP COLUMN `payday`,
-CHANGE COLUMN `merchant_name` `merchant_name` VARCHAR(200) NULL DEFAULT NULL COMMENT '承租方名称' ;
+ALTER TABLE `aesccontracts`.`dslqht_contract` 
+DROP COLUMN `accept_year`,
+DROP COLUMN `accept_month`,
+DROP COLUMN `accept_day`;
+
+ALTER TABLE `aesccontracts`.`mcgcbgsht_contract` 
+DROP COLUMN `accept_year`,
+DROP COLUMN `accept_month`,
+DROP COLUMN `accept_day`;
+
+ALTER TABLE `aesccontracts`.`mcgcnccdht_contract` 
+DROP COLUMN `accept_year`,
+DROP COLUMN `accept_month`,
+DROP COLUMN `accept_day`;
+
+ALTER TABLE `aesccontracts`.`esc_contract` 
+DROP COLUMN `accept_year`,
+DROP COLUMN `accept_month`,
+DROP COLUMN `accept_day`;
+
+ALTER TABLE `aesccontracts`.`qpyqkfmb_contract` 
+DROP COLUMN `accept_year`,
+DROP COLUMN `accept_month`,
+DROP COLUMN `accept_day`;
+
+ALTER TABLE `aesccontracts`.`qpeqmsmb_contract` 
+DROP COLUMN `accept_year`,
+DROP COLUMN `accept_month`,
+DROP COLUMN `accept_day`;
+
+ALTER TABLE `aesccontracts`.`ssmb_contract` 
+DROP COLUMN `accept_year`,
+DROP COLUMN `accept_month`,
+DROP COLUMN `accept_day`;
+
+ALTER TABLE `aesccontracts`.`qpsqmsmb_contract` 
+DROP COLUMN `accept_year`,
+DROP COLUMN `accept_month`,
+DROP COLUMN `accept_day`;
+
+ALTER TABLE `aesccontracts`.`qpsqkfmb_contract` 
+DROP COLUMN `accept_year`,
+DROP COLUMN `accept_month`,
+DROP COLUMN `accept_day`;
+
+ALTER TABLE `aesccontracts`.`tyht_contract` 
+DROP COLUMN `accept_year`,
+DROP COLUMN `accept_month`,
+DROP COLUMN `accept_day`;

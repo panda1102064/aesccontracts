@@ -20,7 +20,7 @@
 				<p class="zc">第一章 总 则</p>
 				<p>&nbsp;&nbsp;根据《中华人民共和国合同法》及有关法、律法规的相关规定，甲、乙双方本着平等自愿、互惠互利的基本原则，经协商一致，就乙方承租甲方商业用房（场地）及由甲方实行商业用房（场地）租赁所涉相关事宜，订立本合同，以兹双方共同遵守。</p>
 				<p>&nbsp;&nbsp;1、乙方作为入驻汽博中心<input required="required" class="dtkz" name="area1" value="汽配三期库房" />的承租人，承诺自觉遵守物业管理区域的各项使用管理规定，维护汽博中心<input required="required" class="dtkz" name="area2" value="汽配三期库房" />的整体品牌形象及商业信誉。</p>
-				<p>&nbsp;&nbsp;2、乙方作为入驻汽博中心<input required="required" class="dtkz" name="rental_location" value="汽配三期库房" />的承租人，承诺自愿接受甲方于<input type="text" id="accept_year" required="required" name="accept_year"/>年<input required="required" class="dtkzNum" name="accept_month" value="1" /> 月 <input required="required" class="dtkzNum" name="accept_day" value="1" /> 日与重庆博展物业管理有限公司（以下简称“物业公司”）签订的《物业管理委托服务合同》之内容的约束，并按照该合同的约定向物业公司履行相关义务（包括但不限于以物业使用人的身份缴纳物管费、水电费等）。在租赁期间，若物业公司不再担任汽博中心的物业服务企业， 则乙方应当向实际担任汽博中心的物业服务企业缴纳相关费用。 </p>
+				<p>&nbsp;&nbsp;2、乙方作为入驻汽博中心<input required="required" class="dtkz" name="rental_location" value="汽配三期库房" />的承租人，承诺自愿接受甲方与重庆博展物业管理有限公司（以下简称“物业公司”）签订的《物业管理委托服务合同》之内容的约束，并按照该合同的约定向物业公司履行相关义务（包括但不限于以物业使用人的身份缴纳物管费、水电费等）。在租赁期间，若物业公司不再担任汽博中心的物业服务企业， 则乙方应当向实际担任汽博中心的物业服务企业缴纳相关费用。 </p>
 				<p class="zc">第二章 租赁物业概况</p>
 				<p>&nbsp;&nbsp;3、租赁物业基本情况：</p>
 				<p>&nbsp;&nbsp;3.1、乙方承租的甲方商业用房（场地），位于：重庆北部新区经开园金渝大道99号（以下简称“汽博中心”）内的<input required="required" class="dtkz" name="lessee_location" value="汽配三期库房" />，其建筑面积为：<input required="required" class="dtkzNum" name="building_area" />㎡ ，该租赁场地的房屋（场地）租金、物业管理服务费或其它根据场地面积计算的款项均以本款约定的租赁建筑面积计算。</p>

@@ -9,9 +9,6 @@
 		<result column="area1" property="area1" jdbcType="VARCHAR"/>
 		<result column="area2" property="area2" jdbcType="VARCHAR"/>
 		<result column="rental_location" property="rental_location" jdbcType="VARCHAR"/>
-		<result column="accept_year" property="accept_year" jdbcType="VARCHAR"/>
-		<result column="accept_month" property="accept_month" jdbcType="VARCHAR"/>
-		<result column="accept_day" property="accept_day" jdbcType="VARCHAR"/>
 		<result column="lessee_location" property="lessee_location" jdbcType="VARCHAR"/>
 		<result column="building_area" property="building_area" jdbcType="VARCHAR"/>
 		<result column="expires" property="expires" jdbcType="VARCHAR"/>
@@ -75,9 +72,6 @@
 		area1                        ,
 		area2                        ,
 		rental_location              ,
-		accept_year                  ,
-		accept_month                 ,
-		accept_day                   ,
 		lessee_location              ,
 		building_area                ,
 		expires                      ,
@@ -141,9 +135,6 @@
 		#{area1                     ,jdbcType=VARCHAR},
 		#{area2                     ,jdbcType=VARCHAR},
 		#{rental_location           ,jdbcType=VARCHAR},
-		#{accept_year               ,jdbcType=VARCHAR},
-		#{accept_month              ,jdbcType=VARCHAR},
-		#{accept_day                ,jdbcType=VARCHAR},
 		#{lessee_location           ,jdbcType=VARCHAR},
 		#{building_area             ,jdbcType=VARCHAR},
 		#{expires                   ,jdbcType=VARCHAR},
@@ -219,9 +210,6 @@ address                = #{address                   ,jdbcType=VARCHAR},
 area1                  = #{area1                     ,jdbcType=VARCHAR},      
 area2                  = #{area2                     ,jdbcType=VARCHAR},      
 rental_location        = #{rental_location           ,jdbcType=VARCHAR},      
-accept_year            = #{accept_year               ,jdbcType=VARCHAR},      
-accept_month           = #{accept_month              ,jdbcType=VARCHAR},      
-accept_day             = #{accept_day                ,jdbcType=VARCHAR},      
 lessee_location        = #{lessee_location           ,jdbcType=VARCHAR},      
 building_area          = #{building_area             ,jdbcType=VARCHAR},      
 expires                = #{expires                   ,jdbcType=VARCHAR},      

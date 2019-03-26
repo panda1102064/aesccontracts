@@ -30,9 +30,6 @@ public class Tyht {
   private String area1;
   private String area2;
   private String rental_location;
-  private String accept_year;
-  private String accept_month;
-  private String accept_day;
   private String lessee_location;
   private String building_area;
   private String expires;
@@ -146,30 +143,6 @@ public class Tyht {
 
   public void setRental_location(String rental_location) {
     this.rental_location = rental_location;
-  }
-
-  public String getAccept_year() {
-    return accept_year;
-  }
-
-  public void setAccept_year(String accept_year) {
-    this.accept_year = accept_year;
-  }
-
-  public String getAccept_month() {
-    return accept_month;
-  }
-
-  public void setAccept_month(String accept_month) {
-    this.accept_month = accept_month;
-  }
-
-  public String getAccept_day() {
-    return accept_day;
-  }
-
-  public void setAccept_day(String accept_day) {
-    this.accept_day = accept_day;
   }
 
   public String getLessee_location() {
