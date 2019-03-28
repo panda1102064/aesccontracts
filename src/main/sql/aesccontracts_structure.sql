@@ -1,16 +1,16 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : chenchen
-Source Server Version : 80012
+Source Server         : dawn
+Source Server Version : 50722
 Source Host           : localhost:3306
 Source Database       : aesccontracts
 
 Target Server Type    : MYSQL
-Target Server Version : 80012
+Target Server Version : 50722
 File Encoding         : 65001
 
-Date: 2018-12-20 15:44:10
+Date: 2019-03-28 11:07:14
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -113,7 +113,7 @@ CREATE TABLE `dscwcktcw_contract` (
   `status` int(11) NOT NULL DEFAULT '1' COMMENT '有效状态',
   PRIMARY KEY (`contract_id`),
   UNIQUE KEY `contract_serial` (`contract_serial`)
-) ENGINE=InnoDB AUTO_INCREMENT=188 DEFAULT CHARSET=utf8 COMMENT='大厦车位车库停车位合同表';
+) ENGINE=InnoDB AUTO_INCREMENT=189 DEFAULT CHARSET=utf8 COMMENT='大厦车位车库停车位合同表';
 
 -- ----------------------------
 -- Table structure for dscwswtcw_contract
@@ -150,7 +150,7 @@ CREATE TABLE `dscwswtcw_contract` (
   `status` int(11) NOT NULL DEFAULT '1' COMMENT '有效状态',
   PRIMARY KEY (`contract_id`),
   UNIQUE KEY `contract_serial` (`contract_serial`)
-) ENGINE=InnoDB AUTO_INCREMENT=32 DEFAULT CHARSET=utf8 COMMENT='大厦车位室外停车位合同表';
+) ENGINE=InnoDB AUTO_INCREMENT=33 DEFAULT CHARSET=utf8 COMMENT='大厦车位室外停车位合同表';
 
 -- ----------------------------
 -- Table structure for dslqdate
@@ -171,7 +171,7 @@ CREATE TABLE `dslqdate` (
   PRIMARY KEY (`date_id`),
   KEY `FK_Reference_4` (`contract_id`),
   CONSTRAINT `FK_Reference_4` FOREIGN KEY (`contract_id`) REFERENCES `dslqht_contract` (`contract_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=31 DEFAULT CHARSET=utf8 COMMENT='大厦楼群合同日期表';
+) ENGINE=InnoDB AUTO_INCREMENT=43 DEFAULT CHARSET=utf8 COMMENT='大厦楼群合同日期表';
 
 -- ----------------------------
 -- Table structure for dslqht_contract
@@ -185,9 +185,6 @@ CREATE TABLE `dslqht_contract` (
   `area1` varchar(100) NOT NULL COMMENT '区域1',
   `area2` varchar(100) NOT NULL COMMENT '区域2',
   `rental_location` varchar(100) NOT NULL COMMENT '承租地',
-  `accept_year` varchar(100) NOT NULL COMMENT '接受年',
-  `accept_month` varchar(100) NOT NULL COMMENT '接受月',
-  `accept_day` varchar(100) NOT NULL COMMENT '接受日',
   `lessee_location` varchar(100) NOT NULL COMMENT '承租位置',
   `building_area` varchar(100) NOT NULL COMMENT '建面',
   `expires` varchar(100) NOT NULL COMMENT '期限',
@@ -237,7 +234,7 @@ CREATE TABLE `dslqht_contract` (
   `status` varchar(100) NOT NULL DEFAULT '1' COMMENT '状态',
   PRIMARY KEY (`contract_id`),
   UNIQUE KEY `contract_serial` (`contract_serial`)
-) ENGINE=InnoDB AUTO_INCREMENT=34 DEFAULT CHARSET=utf8 COMMENT='大厦裙楼合同表';
+) ENGINE=InnoDB AUTO_INCREMENT=42 DEFAULT CHARSET=utf8 COMMENT='大厦裙楼合同表';
 
 -- ----------------------------
 -- Table structure for escdate
@@ -257,7 +254,7 @@ CREATE TABLE `escdate` (
   PRIMARY KEY (`date_id`),
   KEY `FK_Reference_3` (`contract_id`),
   CONSTRAINT `FK_Reference_3` FOREIGN KEY (`contract_id`) REFERENCES `esc_contract` (`contract_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=137 DEFAULT CHARSET=utf8 COMMENT='二手车合同日期表';
+) ENGINE=InnoDB AUTO_INCREMENT=161 DEFAULT CHARSET=utf8 COMMENT='二手车合同日期表';
 
 -- ----------------------------
 -- Table structure for esc_contract
@@ -271,9 +268,6 @@ CREATE TABLE `esc_contract` (
   `area1` varchar(100) NOT NULL COMMENT '区域1',
   `area2` varchar(100) NOT NULL COMMENT '区域2',
   `rental_location` varchar(100) NOT NULL COMMENT '承租地',
-  `accept_year` varchar(100) NOT NULL COMMENT '接受年',
-  `accept_month` varchar(100) NOT NULL COMMENT '接受月',
-  `accept_day` varchar(100) NOT NULL COMMENT '接受日',
   `lessee_location` varchar(1000) NOT NULL COMMENT '承租位置',
   `building_area` varchar(100) NOT NULL COMMENT '建面',
   `expires` varchar(100) NOT NULL COMMENT '期限',
@@ -329,7 +323,7 @@ CREATE TABLE `esc_contract` (
   `status` varchar(100) NOT NULL DEFAULT '1' COMMENT '状态',
   PRIMARY KEY (`contract_id`),
   UNIQUE KEY `contract_serial` (`contract_serial`)
-) ENGINE=InnoDB AUTO_INCREMENT=122 DEFAULT CHARSET=utf8 COMMENT='二手车合同表';
+) ENGINE=InnoDB AUTO_INCREMENT=151 DEFAULT CHARSET=utf8 COMMENT='二手车合同表';
 
 -- ----------------------------
 -- Table structure for guanggao_contract
@@ -471,7 +465,7 @@ CREATE TABLE `lsyf_xz_contract` (
   `area1` varchar(20) NOT NULL COMMENT '区域1',
   `area2` varchar(20) NOT NULL COMMENT '区域2',
   `area3` varchar(20) NOT NULL COMMENT '区域2',
-  `rental_location` varchar(200) NOT NULL COMMENT '出租房位置',
+  `rental_location` varchar(2000) NOT NULL COMMENT '出租房位置',
   `building_area` varchar(200) NOT NULL COMMENT '面积',
   `expires` varchar(20) NOT NULL COMMENT '租赁期限',
   `year_start` varchar(20) NOT NULL COMMENT '年起',
@@ -517,7 +511,7 @@ CREATE TABLE `lsyf_xz_contract` (
   `username` varchar(10) NOT NULL COMMENT '录入人',
   PRIMARY KEY (`contract_id`),
   UNIQUE KEY `contract_serial` (`contract_serial`)
-) ENGINE=InnoDB AUTO_INCREMENT=28 DEFAULT CHARSET=utf8 COMMENT='临时用房_新增表';
+) ENGINE=InnoDB AUTO_INCREMENT=31 DEFAULT CHARSET=utf8 COMMENT='临时用房_新增表';
 
 -- ----------------------------
 -- Table structure for lsyf_xz_date
@@ -537,7 +531,7 @@ CREATE TABLE `lsyf_xz_date` (
   PRIMARY KEY (`date_id`),
   KEY `FK_Reference` (`contract_id`),
   CONSTRAINT `FK_Reference` FOREIGN KEY (`contract_id`) REFERENCES `lsyf_xz_contract` (`contract_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=28 DEFAULT CHARSET=utf8 COMMENT='临时用房合同日期表';
+) ENGINE=InnoDB AUTO_INCREMENT=29 DEFAULT CHARSET=utf8 COMMENT='临时用房合同日期表';
 
 -- ----------------------------
 -- Table structure for mcgcbgsht_contract
@@ -551,9 +545,6 @@ CREATE TABLE `mcgcbgsht_contract` (
   `area1` varchar(100) NOT NULL COMMENT '区域1',
   `area2` varchar(100) NOT NULL COMMENT '区域2',
   `rental_location` varchar(100) NOT NULL COMMENT '承租地',
-  `accept_year` varchar(100) NOT NULL COMMENT '接受年',
-  `accept_month` varchar(100) NOT NULL COMMENT '接受月',
-  `accept_day` varchar(100) NOT NULL COMMENT '接受日',
   `lessee_location` varchar(100) NOT NULL COMMENT '承租位置',
   `building_area` varchar(100) NOT NULL COMMENT '建面',
   `expires` varchar(100) NOT NULL COMMENT '期限',
@@ -621,9 +612,6 @@ CREATE TABLE `mcgcnccdht_contract` (
   `area1` varchar(100) NOT NULL COMMENT '区域1',
   `area2` varchar(100) NOT NULL COMMENT '区域2',
   `rental_location` varchar(100) NOT NULL COMMENT '承租地',
-  `accept_year` varchar(100) NOT NULL COMMENT '接受年',
-  `accept_month` varchar(100) NOT NULL COMMENT '接受月',
-  `accept_day` varchar(100) NOT NULL COMMENT '接受日',
   `lessee_location` varchar(100) NOT NULL COMMENT '承租位置',
   `building_area` varchar(100) NOT NULL COMMENT '建面',
   `expires` varchar(100) NOT NULL COMMENT '期限',
@@ -812,7 +800,7 @@ CREATE TABLE `pjcw_contract` (
   `status` varchar(100) NOT NULL DEFAULT '1' COMMENT '状态',
   PRIMARY KEY (`contract_id`),
   UNIQUE KEY `contract_serial` (`contract_serial`)
-) ENGINE=InnoDB AUTO_INCREMENT=307 DEFAULT CHARSET=utf8 COMMENT='pjcw';
+) ENGINE=InnoDB AUTO_INCREMENT=319 DEFAULT CHARSET=utf8 COMMENT='pjcw';
 
 -- ----------------------------
 -- Table structure for qpeqmsmb_contract
@@ -826,9 +814,6 @@ CREATE TABLE `qpeqmsmb_contract` (
   `area1` varchar(100) NOT NULL COMMENT '区域1',
   `area2` varchar(100) NOT NULL COMMENT '区域2',
   `rental_location` varchar(300) NOT NULL COMMENT '承租地',
-  `accept_year` varchar(20) DEFAULT NULL COMMENT '接受年',
-  `accept_month` varchar(20) DEFAULT NULL COMMENT '接受月',
-  `accept_day` varchar(20) DEFAULT NULL COMMENT '接受日',
   `lessee_location` varchar(300) NOT NULL COMMENT '承租位置',
   `building_area` varchar(300) NOT NULL COMMENT '建面',
   `expires` varchar(100) NOT NULL COMMENT '期限',
@@ -883,7 +868,7 @@ CREATE TABLE `qpeqmsmb_contract` (
   `status` varchar(100) NOT NULL DEFAULT '1' COMMENT '状态',
   PRIMARY KEY (`contract_id`),
   UNIQUE KEY `contract_serial` (`contract_serial`)
-) ENGINE=InnoDB AUTO_INCREMENT=39 DEFAULT CHARSET=utf8 COMMENT='汽配二期门市模板';
+) ENGINE=InnoDB AUTO_INCREMENT=40 DEFAULT CHARSET=utf8 COMMENT='汽配二期门市模板';
 
 -- ----------------------------
 -- Table structure for qpsqkfmb_contract
@@ -897,9 +882,6 @@ CREATE TABLE `qpsqkfmb_contract` (
   `area1` varchar(100) NOT NULL COMMENT '区域1',
   `area2` varchar(100) NOT NULL COMMENT '区域2',
   `rental_location` varchar(100) NOT NULL COMMENT '承租地',
-  `accept_year` varchar(100) NOT NULL COMMENT '接受年',
-  `accept_month` varchar(100) NOT NULL COMMENT '接受月',
-  `accept_day` varchar(100) NOT NULL COMMENT '接受日',
   `lessee_location` varchar(100) NOT NULL COMMENT '承租位置',
   `building_area` varchar(100) NOT NULL COMMENT '建面',
   `expires` varchar(100) NOT NULL COMMENT '期限',
@@ -969,9 +951,6 @@ CREATE TABLE `qpsqmsmb_contract` (
   `area1` varchar(20) NOT NULL COMMENT '区域1',
   `area2` varchar(20) NOT NULL COMMENT '区域2',
   `rental_location` varchar(20) NOT NULL COMMENT '承租地',
-  `accept_year` varchar(20) DEFAULT NULL COMMENT '接受年',
-  `accept_month` varchar(20) DEFAULT NULL COMMENT '接受月',
-  `accept_day` varchar(20) DEFAULT NULL COMMENT '接受日',
   `lessee_location` varchar(50) NOT NULL COMMENT '承租位置',
   `building_area` varchar(50) NOT NULL COMMENT '建面',
   `expires` varchar(20) NOT NULL COMMENT '期限',
@@ -1026,7 +1005,7 @@ CREATE TABLE `qpsqmsmb_contract` (
   `status` varchar(20) NOT NULL DEFAULT '1' COMMENT '状态',
   PRIMARY KEY (`contract_id`),
   UNIQUE KEY `contract_serial` (`contract_serial`)
-) ENGINE=InnoDB AUTO_INCREMENT=44 DEFAULT CHARSET=utf8 COMMENT='汽配三期门市模板表';
+) ENGINE=InnoDB AUTO_INCREMENT=45 DEFAULT CHARSET=utf8 COMMENT='汽配三期门市模板表';
 
 -- ----------------------------
 -- Table structure for qpyqkfmb_contract
@@ -1040,9 +1019,6 @@ CREATE TABLE `qpyqkfmb_contract` (
   `area1` varchar(100) NOT NULL COMMENT '区域1',
   `area2` varchar(100) NOT NULL COMMENT '区域2',
   `rental_location` varchar(100) NOT NULL COMMENT '承租地',
-  `accept_year` varchar(100) NOT NULL COMMENT '接受年',
-  `accept_month` varchar(100) NOT NULL COMMENT '接受月',
-  `accept_day` varchar(100) NOT NULL COMMENT '接受日',
   `lessee_location` varchar(50) NOT NULL COMMENT '承租位置',
   `building_area` varchar(50) NOT NULL COMMENT '建面',
   `expires` varchar(20) NOT NULL COMMENT '期限',
@@ -1168,7 +1144,7 @@ CREATE TABLE `qpyqmsmb_contract` (
   `status` varchar(20) NOT NULL DEFAULT '1' COMMENT '状态',
   PRIMARY KEY (`contract_id`),
   UNIQUE KEY `contract_serial` (`contract_serial`)
-) ENGINE=InnoDB AUTO_INCREMENT=79 DEFAULT CHARSET=utf8 COMMENT='汽配一期门市模板表';
+) ENGINE=InnoDB AUTO_INCREMENT=84 DEFAULT CHARSET=utf8 COMMENT='汽配一期门市模板表';
 
 -- ----------------------------
 -- Table structure for ssmb_contract
@@ -1182,9 +1158,6 @@ CREATE TABLE `ssmb_contract` (
   `area1` varchar(20) NOT NULL COMMENT '区域1',
   `area2` varchar(100) NOT NULL COMMENT '区域2',
   `rental_location` varchar(100) NOT NULL COMMENT '承租地',
-  `accept_year` varchar(20) NOT NULL COMMENT '接受年',
-  `accept_month` varchar(20) NOT NULL COMMENT '接受月',
-  `accept_day` varchar(20) NOT NULL COMMENT '接受日',
   `lessee_location` varchar(400) NOT NULL COMMENT '承租位置',
   `building_area` varchar(400) NOT NULL COMMENT '建面',
   `expires` varchar(20) NOT NULL COMMENT '期限',
@@ -1237,7 +1210,7 @@ CREATE TABLE `ssmb_contract` (
   `status` varchar(20) NOT NULL DEFAULT '1' COMMENT '状态',
   PRIMARY KEY (`contract_id`),
   UNIQUE KEY `contract_serial` (`contract_serial`)
-) ENGINE=InnoDB AUTO_INCREMENT=303 DEFAULT CHARSET=utf8 COMMENT='宿舍模板表';
+) ENGINE=InnoDB AUTO_INCREMENT=317 DEFAULT CHARSET=utf8 COMMENT='宿舍模板表';
 
 -- ----------------------------
 -- Table structure for tyhtkndate
@@ -1337,11 +1310,8 @@ CREATE TABLE `tyht_contract` (
   `area1` varchar(100) NOT NULL COMMENT '区域1',
   `area2` varchar(100) NOT NULL COMMENT '区域2',
   `rental_location` varchar(100) NOT NULL COMMENT '承租地',
-  `accept_year` varchar(20) CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT NULL COMMENT '接受年',
-  `accept_month` varchar(20) CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT NULL COMMENT '接受月',
-  `accept_day` varchar(20) CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT NULL COMMENT '接受日',
-  `lessee_location` varchar(255) NOT NULL COMMENT '承租位置',
-  `building_area` varchar(255) NOT NULL COMMENT '建面',
+  `lessee_location` varchar(2500) NOT NULL COMMENT '承租位置',
+  `building_area` varchar(2550) NOT NULL COMMENT '建面',
   `expires` varchar(20) NOT NULL COMMENT '期限',
   `year_start` varchar(20) NOT NULL COMMENT '年起',
   `month_start` varchar(20) NOT NULL COMMENT '月起',
@@ -1394,7 +1364,7 @@ CREATE TABLE `tyht_contract` (
   `status` varchar(20) NOT NULL DEFAULT '1' COMMENT '状态',
   PRIMARY KEY (`contract_id`),
   UNIQUE KEY `contract_serial` (`contract_serial`)
-) ENGINE=InnoDB AUTO_INCREMENT=85 DEFAULT CHARSET=utf8 COMMENT='通用合同表';
+) ENGINE=InnoDB AUTO_INCREMENT=90 DEFAULT CHARSET=utf8 COMMENT='通用合同表';
 
 -- ----------------------------
 -- Table structure for users
@@ -1506,7 +1476,7 @@ DROP TABLE IF EXISTS `xescscldtcw_contract`;
 CREATE TABLE `xescscldtcw_contract` (
   `contract_id` int(11) NOT NULL AUTO_INCREMENT COMMENT '合同ID',
   `contract_serial` varchar(20) NOT NULL COMMENT '合同编号',
-  `merchant_name` varchar(20) DEFAULT NULL COMMENT '承租方名称',
+  `merchant_name` varchar(200) DEFAULT NULL COMMENT '承租方名称',
   `place` varchar(20) NOT NULL COMMENT '提供场地',
   `popours` varchar(20) NOT NULL COMMENT '用途',
   `year_start` varchar(20) NOT NULL COMMENT '年起',
@@ -1523,8 +1493,6 @@ CREATE TABLE `xescscldtcw_contract` (
   `payment1` varchar(20) NOT NULL COMMENT '支付方式1',
   `payment2` varchar(20) NOT NULL COMMENT '支付方式2',
   `payment3` varchar(20) NOT NULL COMMENT '支付方式3',
-  `payday` varchar(20) NOT NULL COMMENT '第几日',
-  `payment4` varchar(20) NOT NULL COMMENT '支付方式4',
   `first_agent` varchar(20) DEFAULT NULL COMMENT '甲方代理人',
   `first_date` date DEFAULT NULL COMMENT '甲方日期',
   `second_sign` varchar(20) DEFAULT NULL COMMENT '乙方签章',
