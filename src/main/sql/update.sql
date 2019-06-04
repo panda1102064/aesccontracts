@@ -1,49 +1,10 @@
-ALTER TABLE `aesccontracts`.`dslqht_contract` 
-DROP COLUMN `accept_year`,
-DROP COLUMN `accept_month`,
-DROP COLUMN `accept_day`;
-
-ALTER TABLE `aesccontracts`.`mcgcbgsht_contract` 
-DROP COLUMN `accept_year`,
-DROP COLUMN `accept_month`,
-DROP COLUMN `accept_day`;
-
-ALTER TABLE `aesccontracts`.`mcgcnccdht_contract` 
-DROP COLUMN `accept_year`,
-DROP COLUMN `accept_month`,
-DROP COLUMN `accept_day`;
+ALTER TABLE `aesccontracts`.`escdate` 
+ADD COLUMN `upper2` VARCHAR(45) NULL AFTER `total`,
+ADD COLUMN `offer_rent` VARCHAR(45) NULL AFTER `upper2`,
+ADD COLUMN `upper3` VARCHAR(45) NULL AFTER `offer_rent`;
 
 ALTER TABLE `aesccontracts`.`esc_contract` 
-DROP COLUMN `accept_year`,
-DROP COLUMN `accept_month`,
-DROP COLUMN `accept_day`;
-
-ALTER TABLE `aesccontracts`.`qpyqkfmb_contract` 
-DROP COLUMN `accept_year`,
-DROP COLUMN `accept_month`,
-DROP COLUMN `accept_day`;
-
-ALTER TABLE `aesccontracts`.`qpeqmsmb_contract` 
-DROP COLUMN `accept_year`,
-DROP COLUMN `accept_month`,
-DROP COLUMN `accept_day`;
-
-ALTER TABLE `aesccontracts`.`ssmb_contract` 
-DROP COLUMN `accept_year`,
-DROP COLUMN `accept_month`,
-DROP COLUMN `accept_day`;
-
-ALTER TABLE `aesccontracts`.`qpsqmsmb_contract` 
-DROP COLUMN `accept_year`,
-DROP COLUMN `accept_month`,
-DROP COLUMN `accept_day`;
-
-ALTER TABLE `aesccontracts`.`qpsqkfmb_contract` 
-DROP COLUMN `accept_year`,
-DROP COLUMN `accept_month`,
-DROP COLUMN `accept_day`;
-
-ALTER TABLE `aesccontracts`.`tyht_contract` 
-DROP COLUMN `accept_year`,
-DROP COLUMN `accept_month`,
-DROP COLUMN `accept_day`;
+DROP COLUMN `penetrance`,
+DROP COLUMN `trading_record`,
+DROP COLUMN `car_number`,
+DROP COLUMN `net_fee`;

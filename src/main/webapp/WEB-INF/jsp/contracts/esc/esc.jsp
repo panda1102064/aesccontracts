@@ -24,42 +24,37 @@
 				<p class="zc">第二章 租赁物业概况</p>
 				<p>&nbsp;&nbsp;3、租赁物业基本情况：</p>
 				<p>&nbsp;&nbsp;3.1、乙方承租的甲方商业用房（场地），位于：重庆两江新区金渝大道99号附15号（以下简称“汽博中心”）内的<input required="required" class="dtkz" name="lessee_location" value="新二手车市场" />，其建筑面积为：<input required="required" class="dtkzNum" name="building_area" /> ㎡ 。</p>
-				<p>&nbsp;&nbsp;3.2、租赁物业的前上述信息与《房屋产权登记证》所载明的信息不一致时，以《房屋产权登记证》为准。</p>
+				<p>&nbsp;&nbsp;3.2、租赁物业的前上述信息与《房屋产权登记证》所载明的信息不一致时，以该登记为准。</p>
 				<p class="zc">第三章 租赁期限及租赁物业交付</p>
-				<p>&nbsp;&nbsp;4、本合同项下商业用房（场地）租赁期限为<input required="required" class="dtkzNum" name="expires" value="贰" />年，即从自<input required="required" class="dtkzNum" name="year_start" id="year_start" />年<input required="required" class="dtkzNum" name="month_start" value="1" />月<input required="required" class="dtkzNum" name="day_start" value="1" />日起至<input required="required" class="dtkzNum" name="year_end" id="year_end" />年<input required="required" class="dtkzNum" name="month_end" value="7" />月<input required="required" class="dtkzNum" name="day_end" value="31" />日止。</p>
+				<p>&nbsp;&nbsp;4、本合同项下商业用房（场地）租赁期限为<input required="required" class="dtkzNum" name="expires" value="壹" />年，即从自<input required="required" class="dtkzNum" name="year_start" id="year_start" />年<input required="required" class="dtkzNum" name="month_start" value="1" />月<input required="required" class="dtkzNum" name="day_start" value="1" />日起至<input required="required" class="dtkzNum" name="year_end" id="year_end" />年<input required="required" class="dtkzNum" name="month_end" value="7" />月<input required="required" class="dtkzNum" name="day_end" value="31" />日止。</p>
 				<p>&nbsp;&nbsp;5、甲方于<input required="required" class="dtkzNum" name="transfer_year" id="transfer_year"/>年<input required="required" class="dtkzNum" name="transfer_month" value="1" />月<input required="required" class="dtkzNum" name="transfer_day" value="1" />日前将本合同项下的商业用房（场地）移交给乙方使用。</p>
-				<p>&nbsp;&nbsp;6、交接房时，乙方须对租赁场房屋（场地）内已有的物品及设施逐一进行检查，经双方书面确认物品及设施完好后，甲方交付乙方使用；在合同有效期内，乙方应确保其租赁场地内的物品及设施的完好，租赁期间，租赁房屋及设施、设备（包括乙方增设、添附设施、设备）的维护、维修义务由乙方负责，所产生的费用由乙方承担。如在使用中出现的损耗（如玻璃幕墙破裂，卷帘门损坏，门、窗、门锁损坏等），由乙方负责维修，如出现不能维修的情况，由乙方负责照价赔偿或自行更换。合同期满后，乙方应保证租赁场地内的物品及设施完好无损交付甲方。</p>
+				<p>&nbsp;&nbsp;6、交接房时，乙方须对租赁场房屋（场地）内已有的物品及设施逐一进行检查，经双方书面确认物品清单及设施完好后，甲方交付乙方使用；在合同有效期内，乙方应确保其租赁场地内的物品及设施的完好，租赁期间，租赁房屋及设施、设备（包括乙方增设、添附设施、设备）的维护、维修义务由乙方负责，所产生的费用由乙方承担。如在使用中出现的损耗（如玻璃幕墙破裂，卷帘门损坏，门、窗、门锁损坏等），由乙方负责维修，如出现不能维修的情况，由乙方负责照价赔偿或自行更换。合同期满后，乙方应保证租赁场地内的物品及设施完好无损交付甲方。</p>
 				<p class="zc"> 第四章 乙方应支付费用</p>
 				<p>&nbsp;&nbsp;7、乙方应当向甲方缴纳的房屋租赁费用：</p>
-				<p>&nbsp;&nbsp;7.1、房屋（场地）租金（按乙方实际承租的建筑面积计收）为：</p>
+				<p>&nbsp;&nbsp;7.1、房屋（场地）租金（按乙方租赁合同约定面积计收）为：</p>
 				<div id="main">
 					<ol>
-						<li><p><input required="required" class="dtkzNum" name="year_str" id="year_str" />年<input required="required" class="dtkzNum" name="month_str" value="1" />月<input required="required" class="dtkzNum" name="day_str" value="1" />日至<input required="required" class="dtkzNum" name="year_ed" id="year_ed" />年<input required="required" class="dtkzNum" name="month_ed" value="12" />月<input required="required" class="dtkzNum" name="day_ed" value="31" />日，租金单价为：<input required="required" class="dtkzNum" name="price" />元/㎡/月，每月租金合计为：<input required="required" class="dtkzNum" name="total" />元；</p><input class="btn-danger" type="button" value="添加" id="bt" /></li>
+						<li><p><input required="required" class="dtkzNum" name="year_str" id="year_str" />年<input required="required" class="dtkzNum" name="month_str" value="1" />月<input required="required" class="dtkzNum" name="day_str" value="1" />日至<input required="required" class="dtkzNum" name="year_ed" id="year_ed" />年<input required="required" class="dtkzNum" name="month_ed" value="12" />月<input required="required" class="dtkzNum" name="day_ed" value="31" />日，租金单价为：<input required="required" class="dtkzNum" name="price" />元/㎡/月，每月租金合计为：<input required="required" class="dtkzNum" name="total" />元，大写：<input required="required" class="dtkzNum" name="upper2" />元整。优惠后实际月租金为：<input required="required" class="dtkzNum" name="offer_rent" />元；大写：<input required="required" class="dtkzNum" name="upper3" />元整。</p><input class="btn-danger" type="button" value="添加" id="bt" /></li>
 					</ol>
 				</div>
 				<p>&nbsp;&nbsp;7.2、房屋租金按<input required="required" class="dtkzNum" name="payment1" value="月" />支付。乙方应自本合同签订当日向甲方支付第一个<input required="required" class="dtkzNum" name="payment2" value="月" />的租金，以后乙方应在每<input required="required" class="dtkzNum" name="payment3" value="月" />初15日前支付当<input required="required" class="dtkzNum" name="payment4" value="月" />的租金。乙方逾期交纳租金，逾期在15内的，每逾期一日，应按未交纳租金的总额0.5％的标准向甲方支付滞纳金；逾期时间超过15日的，甲方有权单方解除合同，不予退还履约保证金，并可向乙方追收所欠租金及滞纳金。</p>
-				<p>&nbsp;&nbsp;7.3、前述租金的付款方式：现金或转帐。</p>
-				<p>&nbsp;&nbsp;7.4、上述收费起算时间：从<input required="required" class="dtkzNum" name="charge_year1" id="charge_year1" />年<input required="required" class="dtkzNum" name="charge_month1" value="1" />月<input required="required" class="dtkzNum" name="charge_day1" value="1" />日起算。</p>
-				<p>&nbsp;&nbsp;7.5、此合同到期后，甲方有权对该场地的租金价格保持一定幅度的递增。若乙方选择续签合同，原则上递增幅度将不超过10％。</p>
-				<p>&nbsp;&nbsp;8、乙方应向甲方支付履约保证金：￥<input required="required" class="dtkzNum" name="cash_deposit" />元（大写）<input required="required" class="dtkz" name="upper1" />元整，在本合同签订时乙方应当立即以一次性付清的方式向甲方支付。合同有效期内若乙方擅自解除合同或有其它违反合同约定行为的，履约保证金和所剩租金不予退还，并纳入违约金范围之内。违约金不足以弥补损失的，甲方有权向乙方追讨，另行赔偿。合同到期后，如乙方无违约行为，履约保证金如数退还，但不计算利息。    </p>
-				<p>&nbsp;&nbsp;8.1、前述保证金的付款方式：现金或转帐</p>
+				<p>&nbsp;&nbsp;7.3、上述收费起算时间：从<input required="required" class="dtkzNum" name="charge_year1" id="charge_year1" />年<input required="required" class="dtkzNum" name="charge_month1" value="1" />月<input required="required" class="dtkzNum" name="charge_day1" value="1" />日起算。</p>
+				<p>&nbsp;&nbsp;7.4、乙方应向甲方支付履约保证金：￥<input required="required" class="dtkzNum" name="cash_deposit" />元（大写）<input required="required" class="dtkz" name="upper1" />元整，在本合同签订时乙方应当立即以一次性付清的方式向甲方支付。合同有效期内若乙方擅自解除合同或有其它违反合同约定行为的，履约保证金和所剩租金不予退还，并纳入违约金范围之内。违约金不足以弥补损失的，甲方有权向乙方追讨，另行赔偿。合同到期后，如乙方无违约行为，履约保证金如数退还，但不计算利息。    在本合同签订时乙方应当立即以一次性付清的方式向甲方支付。合同有效期内若乙方擅自解除合同或有其它违反合同约定行为的，履约保证金和所剩租金不予退还，并纳入违约金范围之内。违约金不足以弥补损失的，甲方有权向乙方追讨，另行赔偿。合同到期后，如乙方无违约行为，履约保证金如数退还，但不计算利息。</p>
+				<p>&nbsp;&nbsp;7.5、前述租金及保证金的付款方式：现金或转帐。现金：乙方现金需缴纳至甲方财务部并开具发票式收据，甲方任何非财务人员不能现金收款；转账：乙方向甲方指定账户转账，非指定账户的转款不作为收款依据，乙方转账账户为乙方合同约定单位及公账，非合同约定单位或人转账，需出具垫资证明。</p>
+				<p>&nbsp;&nbsp;8、此合同到期后，甲方有权对该场地的租金价格保持一定幅度的递增。若乙方选择续签合同，原则上递增幅度将不超过10％。</p>
 				<p>&nbsp;&nbsp;9、乙方应当向物业公司缴纳的物业费用：</p>
-				<p>&nbsp;&nbsp;9.1、物业管理服务费（按乙方承租的物业实际建筑面积计收），汽博中心<input required="required" class="dtkz" name="area3" value="新二手车市场" />的用房为商业性质的物业，物业管理服务费的收费标准经重庆市物局审批为：<input required="required" class="dtkzNum" name="management_fee1" value="5"/>元/㎡/月，物业管理服务费：<input required="required" class="dtkzNum" name="management_fee2" />元/月。</p>
-				<p>&nbsp;&nbsp;9.2、商业用户水电交费单价分别为：电<input required="required" class="dtkzNum" name="power_rate" value="1.04" />元人民币/KW/小时，水<input required="required" class="dtkzNum" name="water_rate" value="4.80"/>元人民币/T（含公共区域分摊费），网络服务费为<input required="required" class="dtkzNum" name="net_fee" value="0.5" />元/㎡/月。</p>
+				<p>&nbsp;&nbsp;9.1、物业管理服务费（按乙方租赁合同约定面积计收），汽博中心<input required="required" class="dtkz" name="area3" value="新二手车市场" />的用房为商业性质的物业，物业管理服务费的收费标准经重庆市物局审批为：<input required="required" class="dtkzNum" name="management_fee1" value="5"/>元/㎡/月，物业管理服务费：<input required="required" class="dtkzNum" name="management_fee2" />元/月。</p>
+				<p>&nbsp;&nbsp;9.2、商业用户水电交费单价分别为：电<input required="required" class="dtkzNum" name="power_rate" value="1.04" />元人民币/KW/小时，水<input required="required" class="dtkzNum" name="water_rate" value="4.80"/>元人民币/T（含公共区域分摊费）。</p>
 				<p>&nbsp;&nbsp;9.3、公共区域的水电等公摊费用按据实分摊的原则收取。</p>
 				<p>&nbsp;&nbsp;9.4、前述物业费用按<input required="required" class="dtkz" name="payment5" value="月" />支付；在签定合同时，乙方应向物业公司支付第一个<input required="required" class="dtkz" name="payment6" value="月" />的物业费，以后乙方应在每<input required="required" class="dtkz" name="payment7" value="月"/>初15日前向物业公司支付当<input required="required" class="dtkz" name="payment8" value="月" />的物业费。 </p>
 				<p>&nbsp;&nbsp;9.5、乙方如逾期10天不缴纳物业管理服务费或相关物业费用的，本合同约定物业公司有权按乙方应交付费用总额的每日3‰加收滞纳金；逾期30天者系恶意拖欠的，物业公司除有权按照5‰加收滞纳金还有权停止向乙方提供服务，同时视为乙方对本合同的跟本性违约。</p>
-				<p>&nbsp;&nbsp;10、前述物业费用付款方式：现金或转账支票。</p>
+				<p>&nbsp;&nbsp;10、前述物业费用付款方式：现金或转账。现金：乙方现金需缴纳至甲方财务部并开具发票式收据，甲方任何非财务人员不能现金收款；转账：乙方向甲方指定账户转账，非指定账户的转款不作为收款依据，乙方转账账户为乙方合同约定单位及公账，非合同约定单位或人转账，需出具垫资证明。</p>
 				<p>&nbsp;&nbsp;10.1、上述收费起算时间：从<input required="required" class="dtkzNum" name="charge_year2" id="charge_year2" />年<input required="required" class="dtkzNum" name="charge_month2" value="1" />月<input required="required" class="dtkzNum" name="charge_day2" value="1" />日起算。</p>
 				<p class="zc">第五章 营业资格及乙方经营范围</p>
 				<p>&nbsp;&nbsp;11、乙方应具备在中华人民共和国境内依法取得经营主体资格并符合在汽博中心开业的条件。</p>
 				<p>&nbsp;&nbsp;12、乙方租用甲方的房屋（场地）仅作为<input required="required" class="dtkz" name="purpose" value="二手车经营" />使用。乙方租用的上述房屋（场地）仅供自己使用，未经甲方书面同意，不得转租、转让、许可第三方使用或擅自更改场地用途。乙方不得随意更改店招、门头。乙方不得利用展厅内部空间随意搭建或夹层。乙方不得超出约定范围经营；如需变更以上提及事项，须提前三十天以书面形式告知甲方，经甲方书面同意后方可变更。否则，甲方有权单方解除合同，且不退还乙方已缴纳的租金及履约保证金。</p>
 				<p class="zc"> 第六章 装修要求及乙方在合同期内的经营</p>
-				<p>&nbsp;&nbsp;13、乙方可根据自己的经营特色在甲方现有房屋（场地）的基础上对经营场所进行装修，装修方案必须报甲方审核并通过，装修费用由乙方自行承担。具体装修要求参见“装修管理服务协议”和“消防安全责任书的有关规定”。乙方须在《商业用房（场地）租赁合同》签订后且甲方向其交付租赁房屋（场地）后30天内开门营业，否则甲方可单方面解除合同并不予退还保证金。在租赁期内，乙方须保证正常有序地开展经营，不得擅自停业（若有正当理由或政府要求整改而导致的短期停业除外）。凡擅自停业者，需承担每日 80元的停业违约金。凡连续擅自停业超过20天或累计擅自停业超过20天者，本合同自动解除并终止其法律效力。本合同自动终止后除乙方立即搬出经营场地之外，已交纳的租金及履约保证金不予退还。合同期限届满或因故提前终止，乙方对租赁场地进行的装修无偿向甲方移交，不得故意损坏，甲方无义务向乙方进行任何补偿。</p>
-				<p>&nbsp;&nbsp;13.1、乙方不得对租赁物进行空置而不实际经营，必须确保在租赁物内每日配置经营人员至少1名，确保经营时间为每日的9:00-17:00，乙方在租赁物内配置的二手车数量不得少于<input required="required" class="dtkz" name="car_number" />台。</p>
-				<p>&nbsp;&nbsp;13.2、乙方必须确保每月在甲方指定的公司完成交易记录<input required="required" class="dtkz" name="trading_record" />次。交易记录以甲方确认的数据为准。</p>
-				<p>&nbsp;&nbsp;13.3、凡乙方满足汽博善悦延保条件的入库车辆，其延保渗透率必须完成入库车辆的<input required="required" class="dtkz" name="penetrance" />%（汽博善悦延保产品未覆盖的车辆除外）。</p>
-				<p>&nbsp;&nbsp;13.4、若乙方长期综合考评未达标，甲方有权解除本合同，同时合同解除后除乙方立即搬出经营场地之外，已交纳的租金及履约保证金不予退还。合同期限届满或因故提前终止，乙方对租赁场地进行的装修无偿向甲方移交，不得故意损坏，甲方无义务向乙方进行任何补偿。</p>
+				<p>&nbsp;&nbsp;13、装修入场前，乙方可根据自己的经营特色在甲方现有房屋（场地）的基础上对经营场所进行装修，乙方应提前将装修方案报给甲方及甲方的物业公司审核，装修方案审核通过后，乙方才能对经营场所进行装修，装修费用由乙方自行承担。经营场地所涉及的消防验收等手续，由乙方自行负责。若涉及需甲方配合出具相关证明及资料协助，甲方须积极配合乙方相关的审批工作。具体装修要求参见“装修管理服务协议”和“消防安全责任书的有关规定”。在租赁期内，乙方保证租赁场地正常有序地开展经营。</p>
 				<p class="zc">第七章 甲方权利与义务</p>
 				<p>&nbsp;&nbsp;14、甲方有权依照政府法规和本合同的约定按时收取租金和其他费用。</p>
 				<p>&nbsp;&nbsp;15、甲方有权协助有关部门制止违法、违规行为，对乙方拖欠租金等相关费用以及应当整改而不整改的行为甲方有权单方面采取（包括但不限于）强制中断水、电供给的处理等措施。</p>
@@ -165,33 +160,6 @@
 				<input type="hidden" name="username" value="${user.username}" />
 				<input type="hidden" name="status" value="1" />
 			</form>
-			<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-			<p>附件2</p><br /><br />
-			<p class="zc">商家综合评选细则</p><br /><br />
-			<p>&nbsp;&nbsp;重庆汽博中心新二手车市场自正式营业后，将从多方位树立其优质精品二手车商城的品牌形象，为激励商户良性竞争，提升商户的信誉度，宣传优质商户。我司将从2016年度开始综合评选场内优质经营商家。</p>
-			<p>&nbsp;&nbsp;本次综合评选将结合商家每月的经营情况、交易量、延保业务量、消费者投诉和反映、市场活动参与积极度、租金及相关费用缴纳的及时性等进行综合评选。凡被评为优质商户的，均由市场统一发放优质商家证牌，并在汽博官方渠道及相应的其他宣传渠道做推荐。凡综合考评较低的商家，其以后在合同续签、场地选位，租金价格等方面将不再享有优先、优惠等条件。若长期综合考评分数不达标，甲方将有权单方面终止其租赁合同。</p>
-			<p>&nbsp;&nbsp;考评占比：</p>
-			<p>一、商户经营情况</p>
-			<p>&nbsp;&nbsp;1、达标完成合同约定的每月最低二手车交易量。（30分）</p>
-			<p>&nbsp;&nbsp;若超过最低月交易量的20%，则加3分。</p>
-			<p>&nbsp;&nbsp;2、达标完成合同约定的每月最低延保业务渗透率。（40分）</p>
-			<p>&nbsp;&nbsp;离每月最低延保业务量差1个，扣5分。超出1个加2分。</p>
-			<p>&nbsp;&nbsp;3、若成功完成一次交易按揭，则加2分。10分封顶。</p>
-			<p>二、缴纳费用相关情况</p>
-			<p>&nbsp;&nbsp;1、每月或每季度按时缴纳租金及物管等相关费用，无费用拖欠（5分）</p>
-			<p>三、市场活动参与配合度</p>
-			<p>&nbsp;&nbsp;1、积极主动配合市场方的相关市场活动，能积极提出有利于市场发展的合理化建议。（5分）</p>
-			<p>&nbsp;&nbsp;2、若主动进行品牌营销及广告投放，则加5分。</p>
-			<p>四、消费者投诉及市场日常管理</p>
-			<p>&nbsp;&nbsp;1、商户在实际经营过程中无消费者投诉案例。（5分）</p>
-			<p>&nbsp;&nbsp;2、遵守市场内相关的管理条例，禁止占用公共通道，禁止在经营场所进行汽车的整备及美容，禁止私自乱搭线路，服从市场管理方的相关管理条例。（10分）</p>
-			<p>&nbsp;&nbsp;3、经营展场内车辆摆放有序规范，车辆信息有无市场统一的公开展示证。（5分）</p>
-			<p>&nbsp;&nbsp;4、若扰乱市场正常经营秩序，打架斗殴，聚众赌博，扣5分。</p>
-			<p>&nbsp;&nbsp;5、若发现对消费者隐瞒欺诈，水泡车，火烧车，重大事故车。一经查证，将列入不诚信商家名单，取消星级商家评选。</p>
-			<p>&nbsp;&nbsp;此综合考核评选，我市场将每季度考评一次，于次季度公布结果，具体标准如下：</p>
-			<p>&nbsp;&nbsp;★★★★★&nbsp;90分以上&nbsp;&nbsp;市场推荐商户（金牌商户）</p>
-			<p>&nbsp;&nbsp;★★★★&nbsp;&nbsp;70—80分&nbsp;&nbsp;优质商户</p>
-			<p>&nbsp;&nbsp;综合考核评分低于50分的商家，将列入不达标备选商家名单中。</p>
 		</div>
 		<jsp:include page="../../footpart.jsp"></jsp:include>
 		<script type="text/javascript" src="<%=path%>/js/inputExtend.js"></script>
@@ -205,7 +173,7 @@
 			var oli = document.createElement("li");
 			var button = document.createElement("input");
 
-			oli.innerHTML = "<p><input required='required' class='dtkzNum' name='year_str' />年<input required='required' class='dtkzNum' name='month_str' />月<input required='required' class='dtkzNum' name='day_str' />日至<input required='required' class='dtkzNum' name='year_ed' />年<input required='required' class='dtkzNum' name='month_ed' />月<input required='required' class='dtkzNum' name='day_ed' />日，租金单价为：<input required='required' class='dtkzNum' name='price' />元/㎡/月，每月租金合计为：<input required='required' class='dtkzNum' name='total' />元；</p>";
+			oli.innerHTML = "<p><input required='required' class='dtkzNum' name='year_str' />年<input required='required' class='dtkzNum' name='month_str' />月<input required='required' class='dtkzNum' name='day_str' />日至<input required='required' class='dtkzNum' name='year_ed' />年<input required='required' class='dtkzNum' name='month_ed' />月<input required='required' class='dtkzNum' name='day_ed' />日，租金单价为：<input required='required' class='dtkzNum' name='price' />元/㎡/月，每月租金合计为：<input required='required' class='dtkzNum' name='total' />元；大写：<input required='required' class='dtkzNum' name='upper2' />元整。优惠后实际月租金为：<input required='required' class='dtkzNum' name='offer_rent' />元；大写：<input required='required' class='dtkzNum' name='upper3' />元整。</p>";
 			button.type = "button";
 			button.id = "bt" + len;
 			button.value = "删除";

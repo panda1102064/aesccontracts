@@ -35,7 +35,6 @@
 		<result column="management_fee2" property="management_fee2" jdbcType="VARCHAR"/>
 		<result column="power_rate" property="power_rate" jdbcType="VARCHAR"/>
 		<result column="water_rate" property="water_rate" jdbcType="VARCHAR"/>
-		<result column="net_fee" property="net_fee" jdbcType="VARCHAR"/>
 		<result column="payment5" property="payment5" jdbcType="VARCHAR"/>
 		<result column="payment6" property="payment6" jdbcType="VARCHAR"/>
 		<result column="payment7" property="payment7" jdbcType="VARCHAR"/>
@@ -44,9 +43,6 @@
 		<result column="charge_month2" property="charge_month2" jdbcType="VARCHAR"/>
 		<result column="charge_day2" property="charge_day2" jdbcType="VARCHAR"/>
 		<result column="purpose" property="purpose" jdbcType="VARCHAR"/>
-		<result column="car_number" property="car_number" jdbcType="VARCHAR"/>
-		<result column="trading_record" property="trading_record" jdbcType="VARCHAR"/>
-		<result column="penetrance" property="penetrance" jdbcType="VARCHAR"/>
 		<result column="remark" property="remark" jdbcType="VARCHAR"/>
 		<result column="first_legal_person" property="first_legal_person" jdbcType="VARCHAR"/>
 		<result column="first_agent" property="first_agent" jdbcType="VARCHAR"/>
@@ -98,7 +94,6 @@
 		management_fee2              ,
 		power_rate                   ,
 		water_rate                   ,
-		net_fee                      ,
 		payment5                     ,
 		payment6                     ,
 		payment7                     ,
@@ -107,9 +102,6 @@
 		charge_month2                ,
 		charge_day2                  ,
 		purpose                      ,
-		car_number                   ,
-		trading_record               ,
-		penetrance                   ,
 		remark                       ,
 		first_legal_person           ,
 		first_agent                  ,
@@ -161,7 +153,6 @@
 		#{management_fee2           ,jdbcType=VARCHAR},
 		#{power_rate                ,jdbcType=VARCHAR},
 		#{water_rate                ,jdbcType=VARCHAR},
-		#{net_fee                   ,jdbcType=VARCHAR},
 		#{payment5                  ,jdbcType=VARCHAR},
 		#{payment6                  ,jdbcType=VARCHAR},
 		#{payment7                  ,jdbcType=VARCHAR},
@@ -170,9 +161,6 @@
 		#{charge_month2             ,jdbcType=VARCHAR},
 		#{charge_day2               ,jdbcType=VARCHAR},
 		#{purpose                   ,jdbcType=VARCHAR},
-		#{car_number                ,jdbcType=VARCHAR},
-		#{trading_record            ,jdbcType=VARCHAR},
-		#{penetrance                ,jdbcType=VARCHAR},
 		#{remark                    ,jdbcType=VARCHAR},
 		#{first_legal_person        ,jdbcType=VARCHAR},
 		#{first_agent               ,jdbcType=VARCHAR},
@@ -236,7 +224,6 @@ management_fee1        = #{management_fee1           ,jdbcType=VARCHAR},
 management_fee2        = #{management_fee2           ,jdbcType=VARCHAR},      
 power_rate             = #{power_rate                ,jdbcType=VARCHAR},      
 water_rate             = #{water_rate                ,jdbcType=VARCHAR},      
-net_fee                = #{net_fee                   ,jdbcType=VARCHAR},      
 payment5               = #{payment5                  ,jdbcType=VARCHAR},      
 payment6               = #{payment6                  ,jdbcType=VARCHAR},      
 payment7               = #{payment7                  ,jdbcType=VARCHAR},      
@@ -245,9 +232,6 @@ charge_year2           = #{charge_year2              ,jdbcType=VARCHAR},
 charge_month2          = #{charge_month2             ,jdbcType=VARCHAR},      
 charge_day2            = #{charge_day2               ,jdbcType=VARCHAR},      
 purpose                = #{purpose                   ,jdbcType=VARCHAR},      
-car_number             = #{car_number                ,jdbcType=VARCHAR},      
-trading_record         = #{trading_record            ,jdbcType=VARCHAR},      
-penetrance             = #{penetrance                ,jdbcType=VARCHAR},      
 remark                 = #{remark                    ,jdbcType=VARCHAR},      
 first_legal_person     = #{first_legal_person        ,jdbcType=VARCHAR},      
 first_agent            = #{first_agent               ,jdbcType=VARCHAR},      

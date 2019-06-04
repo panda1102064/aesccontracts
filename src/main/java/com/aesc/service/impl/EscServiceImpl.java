@@ -91,6 +91,9 @@ public class EscServiceImpl implements EscService {
       String[] dayEnd = escDate.getDay_ed().split(",");
       String[] price = escDate.getPrice().split(",");
       String[] total = escDate.getTotal().split(",");
+      String[] upper2 = escDate.getUpper2().split(",");
+      String[] offer_rent = escDate.getOffer_rent().split(",");
+      String[] upper3 = escDate.getUpper3().split(",");
       for (int i = 0; i < yearStr.length; i++) {
         EscDate esc = new EscDate();
         esc.setContract_id(escId);
@@ -102,6 +105,9 @@ public class EscServiceImpl implements EscService {
         esc.setDay_ed(dayEnd[i]);
         esc.setPrice(price[i]);
         esc.setTotal(total[i]);
+        esc.setUpper2(upper2[i]);
+        esc.setOffer_rent(offer_rent[i]);
+        esc.setUpper3(upper3[i]);
         list.add(esc);
       }
     }
@@ -133,6 +139,9 @@ public class EscServiceImpl implements EscService {
       String[] dayEnd = escDate.getDay_ed().split(",");
       String[] price = escDate.getPrice().split(",");
       String[] total = escDate.getTotal().split(",");
+      String[] upper2 = escDate.getUpper2().split(",");
+      String[] offer_rent = escDate.getOffer_rent().split(",");
+      String[] upper3 = escDate.getUpper3().split(",");
       for (int i = 0; i < yearStr.length; i++) {
         EscDate esc = new EscDate();
         esc.setDate_id(date_id[i]);
@@ -144,6 +153,9 @@ public class EscServiceImpl implements EscService {
         esc.setDay_ed(dayEnd[i]);
         esc.setPrice(price[i]);
         esc.setTotal(total[i]);
+        esc.setUpper2(upper2[i]);
+        esc.setOffer_rent(offer_rent[i]);
+        esc.setUpper3(upper3[i]);
         escDao.updateEscDate(esc);
       }
     }

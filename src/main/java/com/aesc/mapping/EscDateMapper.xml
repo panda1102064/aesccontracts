@@ -11,6 +11,9 @@
 		<result column="day_ed" property="day_ed" jdbcType="VARCHAR"/>
 		<result column="price" property="price" jdbcType="VARCHAR"/>
 		<result column="total" property="total" jdbcType="VARCHAR"/>
+		<result column="upper2" property="upper2" jdbcType="VARCHAR"/>
+		<result column="offer_rent" property="offer_rent" jdbcType="VARCHAR"/>
+		<result column="upper3" property="upper3" jdbcType="VARCHAR"/>
 		<result column="contract_id" property="contract_id" jdbcType="INTEGER"/>
 	</resultMap>
 	
@@ -24,6 +27,9 @@
 	day_ed,
 	price,
 	total,
+	upper2,
+	offer_rent,
+	upper3,
 	contract_id          
 	)                  
 	values     
@@ -37,6 +43,9 @@
 		#{item.day_ed,jdbcType=VARCHAR},
 		#{item.price,jdbcType=VARCHAR},
 		#{item.total,jdbcType=VARCHAR},
+		#{item.upper2,jdbcType=VARCHAR},
+		#{item.offer_rent,jdbcType=VARCHAR},
+		#{item.upper3,jdbcType=VARCHAR},
 		#{item.contract_id,jdbcType=INTEGER}
 	)
 		</foreach> 
@@ -55,7 +64,10 @@
 	`month_ed`	 =  #{month_ed,jdbcType=VARCHAR}, 
 	`day_ed`	 =  #{day_ed,jdbcType=VARCHAR},   
 	`price`		 =  #{price,jdbcType=VARCHAR},    
-	`total`		 =  #{total,jdbcType=VARCHAR}     
+	`total`		 =  #{total,jdbcType=VARCHAR},     
+	`upper2`	 =  #{upper2,jdbcType=VARCHAR},     
+	`offer_rent` =  #{offer_rent,jdbcType=VARCHAR},     
+	`upper3`     =  #{upper3,jdbcType=VARCHAR}     
 	WHERE 
 	`date_id`	 =  #{date_id,jdbcType=INTEGER};
 	</update>

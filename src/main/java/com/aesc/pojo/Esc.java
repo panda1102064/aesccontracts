@@ -55,7 +55,6 @@ public class Esc {
   private String management_fee2;
   private String power_rate;
   private String water_rate;
-  private String net_fee;
   private String payment5;
   private String payment6;
   private String payment7;
@@ -64,9 +63,6 @@ public class Esc {
   private String charge_month2;
   private String charge_day2;
   private String purpose;
-  private String car_number;
-  private String trading_record;
-  private String penetrance;
   private String remark;
   private String first_legal_person;
   private String first_agent;
@@ -351,13 +347,6 @@ public class Esc {
     this.water_rate = water_rate;
   }
 
-  public String getNet_fee() {
-    return net_fee;
-  }
-
-  public void setNet_fee(String net_fee) {
-    this.net_fee = net_fee;
-  }
 
   public String getPayment5() {
     return payment5;
@@ -421,30 +410,6 @@ public class Esc {
 
   public void setPurpose(String purpose) {
     this.purpose = purpose;
-  }
-
-  public String getCar_number() {
-    return car_number;
-  }
-
-  public void setCar_number(String car_number) {
-    this.car_number = car_number;
-  }
-
-  public String getTrading_record() {
-    return trading_record;
-  }
-
-  public void setTrading_record(String trading_record) {
-    this.trading_record = trading_record;
-  }
-
-  public String getPenetrance() {
-    return penetrance;
-  }
-
-  public void setPenetrance(String penetrance) {
-    this.penetrance = penetrance;
   }
 
   public String getRemark() {

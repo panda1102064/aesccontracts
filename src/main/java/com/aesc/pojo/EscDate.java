@@ -31,6 +31,9 @@ public class EscDate {
   private String day_ed;
   private String price;
   private String total;
+  private String upper2;
+  private String offer_rent;
+  private String upper3;
   private int contract_id;
   
   public String getDate_id() {
@@ -86,6 +89,24 @@ public class EscDate {
   }
   public void setTotal(String total) {
     this.total = total;
+  }
+  public String getUpper2() {
+    return upper2;
+  }
+  public void setUpper2(String upper2) {
+    this.upper2 = upper2;
+  }
+  public String getOffer_rent() {
+    return offer_rent;
+  }
+  public void setOffer_rent(String offer_rent) {
+    this.offer_rent = offer_rent;
+  }
+  public String getUpper3() {
+    return upper3;
+  }
+  public void setUpper3(String upper3) {
+    this.upper3 = upper3;
   }
   public int getContract_id() {
     return contract_id;
